@@ -1460,3 +1460,107 @@ En esta sección, se identificó las fases que podría presentar a nuestros User
     <td colspan="2">3 horas</td>
   </tr>
 </table>
+
+## 3.3. Impact Mapping
+
+<img src="https://cdn.discordapp.com/attachments/1143747947322941440/1149842997651968061/Untitled_5.jpg" alt="" width="" height="" />
+
+## 3.4. Product Backlog
+
+<table>
+  <tr>
+    <th>#Orden</th>
+    <th>User Story ID</th>
+    <th>Titulo</th>
+    <th>Descripcion</th>
+    <th>Story Points (1/2/3/4/5/8)</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>US01</td>
+    <td>Búsqueda de asesores</td>
+    <td>Como estudiante, quiero buscar asesores disponibles para estudiar el curso que necesito.</td>
+    <td>8</td>
+  </tr>
+  
+  <tr>
+    <td>2</td>
+    <td>US02</td>
+    <td>Recibir notificaciones de solicitudes</td>
+    <td>Como asesor, quiero recibir notificaciones para que un estudiante me envíe una solicitud de tutoría.</td>
+    <td>5</td>
+  </tr>
+
+  <tr>
+    <td>3</td>
+    <td>US03</td>
+    <td>Reserva de tutoría</td>
+    <td>Como estudiante, quiero reservar sesiones de tutoría con los asesores seleccionados para recibir confirmaciones de reserva.</td>
+    <td>8</td>
+  </tr>
+
+  <tr>
+    <td>4</td>
+    <td>US04</td>
+    <td>Pago a los asesores</td>
+    <td>Como asesor, quiero recibir pagos de manera segura por las sesiones de tutoría que he realizado.</td>
+    <td>5</td>
+  </tr>
+  
+  <tr>
+    <td>5</td>
+    <td>US05</td>
+    <td>Configuración de cursos</td>
+    <td>Como asesor, quiero especificar los cursos para enseñar y mis horarios de disponibilidad.</td>
+    <td>8</td>
+  </tr>
+
+  <tr>
+    <td>6</td>
+    <td>US06</td>
+    <td>Historial de sesiones y comentarios</td>
+    <td>Como estudiante, quiero tener un historial de mis sesiones de tutoría anteriores para la opción de dejar comentarios y calificaciones.</td>
+    <td>5</td>
+  </tr>
+
+  <tr>
+    <td>7</td>
+    <td>US07</td>
+    <td>Traslado en la landing page</td>
+    <td>Como usuario, quiero tener una opción para poder trasladarme en la landing page</td>
+    <td>5</td>
+  </tr>
+
+  <tr>
+    <td>8</td>
+    <td>US08</td>
+    <td>Direccionamiento a la aplicación web</td>
+    <td>Como usuario, quiero tener una opción para poder ingresar a la página web por medio de la landing page</td>
+    <td>3</td>
+  </tr>
+
+  <tr>
+    <td>9</td>
+    <td>US09</td>
+    <td>Registro de cuenta</td>
+    <td>Como usuario, quiero tener la capacidad de crear una nueva cuenta para ingresar a la plataforma</td>
+    <td>5</td>
+  </tr>
+
+  <tr>
+    <td>10</td>
+    <td>US10</td>
+    <td>Inicio de sesión</td>
+    <td>Como usuario, quiero tener la capacidad de ingresar a la plataforma con mi cuenta creada para tener mis credenciales guardadas.</td>
+    <td>5</td>
+  </tr>
+
+  <tr>
+    <td>11</td>
+    <td>US11</td>
+    <td>Visualización de la landing page</td>
+    <td>Como usuario, quiero que se visualicen los servicios de la plataforma  para poder conocer más sobre la aplicación.</td>
+    <td>5</td>
+  </tr
+
+</table>
