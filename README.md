@@ -132,3 +132,67 @@ Open Developers
 |Comunica oralmente con efectividad a diferentes rangos de audiencia|Tareas| Conclusion de Student Outcome|
 |Comunica por escrito con efectividad a diferentes rangos de audiencia|Tareas|Conclusion de Student Outcome|
 <br><br>
+
+# Capitulo 1: Introducción
+
+## 1.1 Startup Profile
+
+A continuación, procederemos a informar sobre a lo que se dedica nuestra producto “StudyMentor”, así como la presentación del equipo de desarrollo del producto, software presentado anteriormente, “Evosoft”
+
+### 1.1.1 Descripción de la Startup
+
+En la actualidad hay mucha gente que sufre en sus carreras ya sea por que no entienden los temas que se están abordando en sus respectivas carreras como también por que quieran tener un repaso antes de un examen, como también cómo buscar alguna ayuda al momento de realizar un trabajo y no saben por dónde empezar. Uno de los problemas de por que varios alumnos busquen un asesoramiento para varios temas de su carrera se debe a la pandemia, ya que en esta varias de las clases se dieron de manera virtual y gracias a esto había varios alumnos que no prestan atención a las clases y por consecuencia no entendían lo que estaban enseñando haciendo que los alumnos se estresen por no entender los temas.
+Por estas razones y otras más, hemos decidido en crear este producto llamado “StudyMentor”. Somos una empresa emergente con posibilidades bastante óptimas con respecto al crecimiento de esta. En una primera instancia, no contamos con mucha clientela, pero estamos enfocados y decididos a crecer como empresa usando el potencial de las tecnologías móviles.
+Nuestra misión como empresa actualmente es encontrar una manera fácil para poder ayudar a los estudiantes que tienen problemas con sus estudios para que puedan nivelarse y poder estar a la par de las expectativas de los estudios. Crearemos un software que pueda apoyar a los alumnos a poder encontrar profesores o asesores en los ámbitos que están buscando aprender y mejorar, de igual manera nuestra visión es convertirnos en una gran opción cuando se trata de poder ayudar a los alumnos.
+
+
+### 1.1.2 Perfiles de integrantes del equipo
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Foto</th>
+    <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Miembro</th>
+    <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Habilidades</th>
+    <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Codigo</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #dddddd; padding: 8px;">
+      <img src="" alt="" width="60" height="50" style="border-radius: 25%;">
+    </td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #dddddd; padding: 8px;">
+      <img src="https://cdn.discordapp.com/attachments/1149190528756363337/1149207235973632050/foto.jpg" alt="##" width="50" height="50" style="border-radius: 25%;">
+    </td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Kurt Puican Salas</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Soy Kurt Puican Soy un estudiante de la carrera de ingeniería de software y a lo largo de toda la carrera he ido aprendiendo diversos temas como los lenguajes de programación, los patrones de diseño entre varias otras cosas y es una carrera que me gusta bastante ya que desde pequeño siempre me ha gustado lo que tiene que ver con la tecnología.</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">U202016643</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #dddddd; padding: 8px;">
+      <img src="https://cdn.discordapp.com/attachments/1149190528756363338/1149190749762637884/FotoRafaelLuyo.jpg" alt="FotoRafaelLuyo" width="50" height="50" style="border-radius: 25%;">
+    </td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Luyo Ramirez, Rafael Arturo</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Mi nombre es Rafael Luyo, tengo 21 años. Me considero una persona agradable, puntual y respetuosa. Elegí mi profesión actual porque disfruto haciendo varios ejercicios o problemas relacionados con el uso de la programación, además de interesarme mucho la malla curricular. Me motiva aprender cosas nuevas y también la futura estabilidad económica.  </td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">u201919295</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #dddddd; padding: 8px;">
+      <img src="##" alt="##" width="50" height="50" style="border-radius: 25%;">
+    </td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #dddddd; padding: 8px;">
+      <img src="##" alt="##" width="50" height="50" style="border-radius: 25%;">
+    </td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
+  </tr>
+</table>
