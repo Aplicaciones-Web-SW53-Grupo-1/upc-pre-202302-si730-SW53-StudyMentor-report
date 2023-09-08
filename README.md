@@ -913,3 +913,12 @@ En esta sección, se identificó las fases que podría presentar a nuestros User
 
 
 <img src="https://cdn.discordapp.com/attachments/1149190528756363337/1149488074343055441/image.png" alt="" width="" height="" />
+
+# Chapter 03: REQUIREMENTS SPECIFICATION
+## 3.1. To-Be Scenario Mapping
+## 3.1.1 Segmento Estudiante:
+<img src="https://cdn.discordapp.com/attachments/1143747947322941440/1149837196380098620/Blank_board_2.png" alt="" width="" height="" />
+
+## 3.1.2 Segmento Asesor:
+
+<img src="https://cdn.discordapp.com/attachments/1143747947322941440/1149835913585762394/Blank_board_3.png" alt="" width="" height="" />
