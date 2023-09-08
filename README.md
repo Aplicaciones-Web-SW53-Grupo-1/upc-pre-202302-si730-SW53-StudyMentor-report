@@ -913,3 +913,654 @@ En esta sección, se identificó las fases que podría presentar a nuestros User
 
 
 <img src="https://cdn.discordapp.com/attachments/1149190528756363337/1149488074343055441/image.png" alt="" width="" height="" />
+
+# Chapter 03: REQUIREMENTS SPECIFICATION
+## 3.1. To-Be Scenario Mapping
+## 3.1.1 Segmento Estudiante:
+<img src="https://cdn.discordapp.com/attachments/1143747947322941440/1149837196380098620/Blank_board_2.png" alt="" width="" height="" />
+
+## 3.1.2 Segmento Asesor:
+
+<img src="https://cdn.discordapp.com/attachments/1143747947322941440/1149835913585762394/Blank_board_3.png" alt="" width="" height="" />
+
+## 3.2. User Stories:
+### User Story: US01
+
+  <table>
+  <tr>
+    <td style = "text-align:center;" colspan="4">User Story: US01 </b> </td>
+    
+  </tr>
+  <tr>
+    <td>Usuario:</td>
+    <td>Estudiante</td>
+    <td>Titulo:</td>
+    <td>Búsqueda de asesores</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Descripcion:</td>
+    <td colspan="2">Como estudiante, quiero buscar asesores disponibles para estudiar el curso que necesito.</td>
+  </tr>
+
+  <tr>
+    <td style = "text-align:center;" colspan="2">Criterios de aceptación</td>
+    <td colspan="2">
+
+    Escenario 01: Búsqueda Exitosa
+    Dado que soy un estudiante registrado en la plataforma.
+    y he iniciado sesión,
+    Cuando ingresó a la página de búsqueda de asesores.
+    Entonces, debo ver un formulario de búsqueda que incluya campos para seleccionar la materia deseada.
+
+    Escenario 02: Búsqueda sin Resultados
+
+    Dado que soy un estudiante registrado en la plataforma.
+    y he iniciado sesión.
+    Cuando ingresó a la página de búsqueda de asesores.
+    Entonces, debo ver un formulario de búsqueda que incluya campos para seleccionar la materia deseada.
+    Y no encuentra resultados de asesores en este caso. 
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2">Prioridad</td>
+    <td colspan="2">Alta</td>
+  </tr>
+  <tr>
+    <td colspan="2">Tiempo estimado</td>
+    <td colspan="2">6 horas</td>
+  </tr>
+
+</table>
+
+  <table>
+  <tr>
+    <td style = "text-align:center;" colspan="4">User Story: US02 </b> </td>
+  </tr>
+  <tr>
+    <td>Usuario:</td>
+    <td>Asesor</td>
+    <td>Titulo:</td>
+    <td>Recibir notificaciones de solicitudes</td>
+  </tr>
+  <tr>
+    <td colspan="2">Descripcion:</td>
+    <td colspan="2">Como asesor, quiero recibir notificaciones para que un estudiante me envíe una solicitud de tutoría.</td>
+  </tr>
+  <tr>
+    <td style = "text-align:center;" colspan="2">Criterios de aceptación</td>
+    <td colspan="2">
+
+    Escenario 01: Notificación Exitosa
+
+    Dado que soy un tutor registrado en la plataforma 
+    y he iniciado sesión,
+    Cuando un estudiante me envía una solicitud de tutoría.
+    Entonces, debo recibir una notificación en tiempo real en la aplicación que indique que tengo una nueva solicitud.
+    Además, debo recibir un correo electrónico de notificación sobre la nueva solicitud.
+
+    Escenario 02: Sin Notificación
+
+    Dado que soy un tutor registrado en la plataforma 
+    y he iniciado sesión,
+    Cuando un estudiante me envía una solicitud de tutoría,
+    Entonces, si no estoy en línea en ese momento,
+    Debo recibir un correo electrónico de notificación sobre la nueva solicitud sin leer.
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2">Prioridad</td>
+    <td colspan="2">Media</td>
+  </tr>
+  <tr>
+    <td colspan="2">Tiempo estimado</td>
+    <td colspan="2">4 horas</td>
+  </tr>
+</table>
+
+</table>
+
+  <table>
+  <tr>
+    <td style = "text-align:center;" colspan="4">User Story: US03 </b> </td>
+    
+  </tr>
+  <tr>
+    <td>Usuario:</td>
+    <td>Estudiante</td>
+    <td>Titulo:</td>
+    <td>Reserva de tutoría</td>
+  </tr>
+  <tr>
+    <td colspan="2">Descripcion:</td>
+    <td colspan="2">Como estudiante, quiero reservar sesiones de tutoría con los asesores seleccionados para recibir confirmaciones de reserva.</td>
+  </tr>
+  <tr>
+    <td style = "text-align:center;" colspan="2">Criterios de aceptación</td>
+    <td colspan="2">
+
+    Escenario 01: Reserva Exitosa
+
+    Dado que soy un estudiante registrado en la plataforma 
+    y he iniciado sesión,
+    Cuando encuentro un asesor adecuado 
+    y hago clic en "Reservar sesión",
+    Entonces, debo poder seleccionar una fecha y hora disponibles en el calendario del asesor.
+    Cuando selecciono una fecha y hora y confirmó la reserva,
+    Debo recibir una confirmación inmediata en la aplicación que indique que la reserva fue exitosa.
+
+    Escenario 2 - Reserva Cancelada
+
+    Dado que soy un estudiante registrado en la plataforma 
+    y he iniciado sesión,
+    Cuando hago una reserva de sesión con un asesor,
+    Entonces, si necesito cancelar la reserva antes de la fecha programada,
+    Y tener la opción de cancelar la reserva.
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2">Prioridad</td>
+    <td colspan="2">Alta</td>
+  </tr>
+  <tr>
+    <td colspan="2">Tiempo estimado</td>
+    <td colspan="2">6 horas</td>
+  </tr>
+</table>
+
+</table>
+
+  <table>
+  <tr>
+    <td style = "text-align:center;" colspan="4">User Story: US04 </b> </td>
+    
+  </tr>
+  <tr>
+    <td>Usuario:</td>
+    <td>Asesor</td>
+    <td>Titulo:</td>
+    <td>Pago a los asesores</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Descripcion:</td>
+    <td colspan="2">Como asesor, quiero recibir pagos de manera segura por las sesiones de tutoría que he realizado.</td>
+  </tr>
+  
+  <tr>
+    <td style = "text-align:center;" colspan="2">Criterios de aceptación</td>
+    <td colspan="2">
+
+    Escenario 01: Pago Exitoso
+
+    Dado que soy un tutor registrado en la plataforma 
+    y he iniciado sesión,
+    Cuando un estudiante reserva y completa una sesión de tutoría conmigo,
+    Entonces, el sistema debe procesar el pago de manera automática y segura utilizando un método de pago registrado por el estudiante.
+    Debo recibir una notificación de confirmación de pago una vez que se complete con éxito.
+
+    Escenario 02: Pagó con Problemas
+
+    Dado que soy un asesor registrado en la plataforma y he iniciado sesión,
+    Cuando un estudiante reserva 
+    y completa una sesión de tutoría conmigo,
+    Entonces, si hay algún problema con el procesamiento del pago (por ejemplo, tarjeta de crédito rechazada),
+    Debo recibir una notificación que describa el problema y proporcione instrucciones sobre cómo solucionarlo.
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2">Prioridad</td>
+    <td colspan="2">Media</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Tiempo estimado</td>
+    <td colspan="2">5 horas</td>
+  </tr>
+</table>
+
+</table>
+
+  <table>
+  <tr>
+    <td style = "text-align:center;" colspan="4">User Story: US05</b> </td>
+    
+  </tr>
+  <tr>
+    <td>Usuario:</td>
+    <td>Asesor</td>
+    <td>Titulo:</td>
+    <td>Configuración de cursos</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Descripcion:</td>
+    <td colspan="2">Como asesor, quiero especificar los cursos para enseñar y mis horarios de disponibilidad.</td>
+  </tr>
+  
+  <tr>
+    <td style = "text-align:center;" colspan="2">Criterios de aceptación</td>
+    <td colspan="2">
+
+    Escenario 01: Configuración Exitosa
+
+    Dado que soy un asesor registrado en la plataforma 
+    y he iniciado sesión,
+    Cuando accedo a mi perfil de tutor,
+    Entonces, debo tener una sección de "Materias que Enseño" donde puedo seleccionar las materias que estoy dispuesto a enseñar.
+    Debe poder establecer mis horarios de disponibilidad en un calendario y marcar los bloques de tiempo en los que estoy disponible para sesiones de tutoría.
+
+    Escenario 02: Sin Materias ni Horarios Configurados
+
+    Dado que soy un asesor registrado en la plataforma
+    Y he iniciado sesión,
+    Cuando accedo a mi perfil de tutor,
+    Entonces, si no he especificado las materias que enseño ni mis horarios de disponibilidad,
+    Debo ver un mensaje que me indique que necesito completar mi perfil para aparecer en las búsquedas de estudiantes.
+    Y recibir recordatorios y sugerencias para completar esta información.
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2">Prioridad</td>
+    <td colspan="2">Alta</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Tiempo estimado</td>
+    <td colspan="2">6 horas</td>
+  </tr>
+</table>
+
+</table>
+
+  <table>
+  <tr>
+    <td style = "text-align:center;" colspan="4">User Story: US06</b> </td>
+    
+  </tr>
+  <tr>
+    <td>Usuario:</td>
+    <td>Estudiante</td>
+    <td>Titulo:</td>
+    <td>Historial de sesiones y comentarios</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Descripcion:</td>
+    <td colspan="2">Como estudiante, quiero tener un historial de mis sesiones de tutoría anteriores para la opción de dejar comentarios y calificaciones.
+
+</td>
+  </tr>
+  
+  <tr>
+    <td style = "text-align:center;" colspan="2">Criterios de aceptación</td>
+    <td colspan="2">
+
+    Escenario 01: Historial y Calificaciones Exitosos
+
+    Dado que soy un estudiante registrado en la plataforma 
+    y he iniciado sesión,
+    Cuando accedo a mi perfil,Entonces, debo tener una sección de "Historial de Sesiones" que muestre todas las sesiones de tutoría que he completado.
+    Debo tener la opción de dejar una calificación (por ejemplo, de 1 a 5 estrellas) y un comentario después de cada sesión.
+    Y mis calificaciones y comentarios deben estar visibles en el perfil del tutor correspondiente.
+
+    Escenario 02: Sin Calificaciones y Comentarios
+
+    Dado que soy un estudiante registrado en la plataforma 
+    y he iniciado sesión,
+    Cuando accedo a mi perfil,
+    Entonces, si no he completado ninguna sesión de tutoría,
+    Debo ver un mensaje que indique que mi historial de sesiones está vacío.
+    
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2">Prioridad</td>
+    <td colspan="2">Media</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Tiempo estimado</td>
+    <td colspan="2">6 horas</td>
+  </tr>
+</table>
+
+</table>
+
+  <table>
+  <tr>
+    <td style = "text-align:center;" colspan="4">User Story: US07</b> </td>
+    
+  </tr>
+  <tr>
+    <td>Usuario:</td>
+    <td>Estudiante/Tutor</td>
+    <td>Titulo:</td>
+    <td>Traslado en la landing page</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Descripcion:</td>
+    <td colspan="2">Como estudiante, quiero tener un historial de mis sesiones de tutoría anteriores para la opción de dejar comentarios y calificaciones.
+
+</td>
+  </tr>
+  
+  <tr>
+    <td style = "text-align:center;" colspan="2">Criterios de aceptación</td>
+    <td colspan="2">
+
+    Escenario 01: Selección de opciones del menú de traslación
+
+    Dado que el usuario se encuentra en el 
+    Landing Page
+    Cuando clickee en HOME
+    Entonces se traslada al inicio de la página
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2">Prioridad</td>
+    <td colspan="2">Baja</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Tiempo estimado</td>
+    <td colspan="2">3 horas</td>
+  </tr>
+</table>
+
+</table>
+
+  <table>
+  <tr>
+    <td style = "text-align:center;" colspan="4">User Story: US08</b> </td>
+    
+  </tr>
+  <tr>
+    <td>Usuario:</td>
+    <td>Estudiante/Tutor</td>
+    <td>Titulo:</td>
+    <td>Direccionamiento a la aplicación web</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Descripcion:</td>
+    <td colspan="2">Como usuario, quiero tener una opción para poder ingresar a la página web por medio de la landing page.
+  </td>
+  </tr>
+  
+  <tr>
+    <td style = "text-align:center;" colspan="2">Criterios de aceptación</td>
+    <td colspan="2">
+
+    Escenario 01: Ingreso desde el buscador
+
+    Dado que el usuario se encuentra en un 
+    navegador
+    Cuando ingrese en el buscador StudyMentor 
+    Entonces podrá acceder a la aplicación web
+
+    Escenario 02: Ingreso desde el Menú de Inicio
+
+    Dado que el usuario se encuentra en la landing page
+    Cuando presiona el botón de descargar app web
+    Entonces se dirigirá a la aplicación web
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2">Prioridad</td>
+    <td colspan="2">Baja</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Tiempo estimado</td>
+    <td colspan="2">2 horas</td>
+  </tr>
+</table>
+
+</table>
+
+  <table>
+  <tr>
+    <td style = "text-align:center;" colspan="4">User Story: US09</b> </td>
+    
+  </tr>
+  <tr>
+    <td>Usuario:</td>
+    <td>Estudiante/Tutor</td>
+    <td>Titulo:</td>
+    <td>Registro de cuenta</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Descripcion:</td>
+    <td colspan="2">Como usuario, quiero tener la capacidad de crear una nueva cuenta para ingresar a la plataforma.
+  </td>
+  </tr>
+  
+  <tr>
+    <td style = "text-align:center;" colspan="2">Criterios de aceptación</td>
+    <td colspan="2">
+
+    Escenario 01: Ingreso correcto de datos
+
+    Dado que el usuario se encuentra con el formulario para registrarse
+    Cuando ingresa sus credenciales correctamente
+    Entonces se registra una nueva cuenta
+
+    Escenario 02: Ingreso incorrecto de datos
+
+    Dado que el usuario se encuentra en el 
+    formulario para registrarse
+    Cuando ingresa sus credenciales 
+    incorrectamente
+    Entonces no podrá registrarse y tendrá que cambiar las credenciales incorrectas.
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2">Prioridad</td>
+    <td colspan="2">Media</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Tiempo estimado</td>
+    <td colspan="2">1 hora</td>
+  </tr>
+</table>
+
+</table>
+
+  <table>
+  <tr>
+    <td style = "text-align:center;" colspan="4">User Story: US10</b> </td>
+    
+  </tr>
+  <tr>
+    <td>Usuario:</td>
+    <td>Estudiante/Tutor</td>
+    <td>Titulo:</td>
+    <td>Inicio de sesión</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Descripcion:</td>
+    <td colspan="2">Como usuario, quiero tener la capacidad de ingresar a la plataforma con mi cuenta creada para tener mis credenciales guardadas.
+  </td>
+  </tr>
+  
+  <tr>
+    <td style = "text-align:center;" colspan="2">Criterios de aceptación</td>
+    <td colspan="2">
+
+    Escenario 01: Ingreso correcto de datos
+
+    Dado que el usuario ya registró su cuenta
+    Cuando ingresa sus credenciales correctamente
+    Entonces ingresa a la plataforma.
+
+    Escenario 02: Ingreso incorrecto de datos
+
+    Dado que el usuario ya registró su cuenta anteriormente
+    Cuando ingresa sus credenciales 
+    incorrectamente
+    Entonces no podrá ingresar a la plataforma
+    Y tendrá que digitar correctamente sus credenciales
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2">Prioridad</td>
+    <td colspan="2">Media</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Tiempo estimado</td>
+    <td colspan="2">2 horas</td>
+  </tr>
+</table>
+
+</table>
+
+  <table>
+  <tr>
+    <td style = "text-align:center;" colspan="4">User Story: US11</b> </td>
+    
+  </tr>
+  <tr>
+    <td>Usuario:</td>
+    <td>Estudiante/Tutor</td>
+    <td>Titulo:</td>
+    <td>Visualización de la landing page</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Descripcion:</td>
+    <td colspan="2">Como usuario, quiero que se visualice los servicios de la plataforma  para poder conocer más sobre la aplicación.
+  </td>
+  </tr>
+  
+  <tr>
+    <td style = "text-align:center;" colspan="2">Criterios de aceptación</td>
+    <td colspan="2">
+
+    Escenario 01: Vista de secciones
+
+    Dado que el usuario se encuentra en el 
+    Landing Page
+    Cuando quiera saber sobre los servicios que ofrecemos
+    Entonces se traslada a la sección de Servicios.
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2">Prioridad</td>
+    <td colspan="2">Baja</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Tiempo estimado</td>
+    <td colspan="2">3 horas</td>
+  </tr>
+</table>
+
+## 3.3. Impact Mapping
+
+<img src="https://cdn.discordapp.com/attachments/1143747947322941440/1149842997651968061/Untitled_5.jpg" alt="" width="" height="" />
+
+## 3.4. Product Backlog
+
+<table>
+  <tr>
+    <th>#Orden</th>
+    <th>User Story ID</th>
+    <th>Titulo</th>
+    <th>Descripcion</th>
+    <th>Story Points (1/2/3/4/5/8)</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>US01</td>
+    <td>Búsqueda de asesores</td>
+    <td>Como estudiante, quiero buscar asesores disponibles para estudiar el curso que necesito.</td>
+    <td>8</td>
+  </tr>
+  
+  <tr>
+    <td>2</td>
+    <td>US02</td>
+    <td>Recibir notificaciones de solicitudes</td>
+    <td>Como asesor, quiero recibir notificaciones para que un estudiante me envíe una solicitud de tutoría.</td>
+    <td>5</td>
+  </tr>
+
+  <tr>
+    <td>3</td>
+    <td>US03</td>
+    <td>Reserva de tutoría</td>
+    <td>Como estudiante, quiero reservar sesiones de tutoría con los asesores seleccionados para recibir confirmaciones de reserva.</td>
+    <td>8</td>
+  </tr>
+
+  <tr>
+    <td>4</td>
+    <td>US04</td>
+    <td>Pago a los asesores</td>
+    <td>Como asesor, quiero recibir pagos de manera segura por las sesiones de tutoría que he realizado.</td>
+    <td>5</td>
+  </tr>
+  
+  <tr>
+    <td>5</td>
+    <td>US05</td>
+    <td>Configuración de cursos</td>
+    <td>Como asesor, quiero especificar los cursos para enseñar y mis horarios de disponibilidad.</td>
+    <td>8</td>
+  </tr>
+
+  <tr>
+    <td>6</td>
+    <td>US06</td>
+    <td>Historial de sesiones y comentarios</td>
+    <td>Como estudiante, quiero tener un historial de mis sesiones de tutoría anteriores para la opción de dejar comentarios y calificaciones.</td>
+    <td>5</td>
+  </tr>
+
+  <tr>
+    <td>7</td>
+    <td>US07</td>
+    <td>Traslado en la landing page</td>
+    <td>Como usuario, quiero tener una opción para poder trasladarme en la landing page</td>
+    <td>5</td>
+  </tr>
+
+  <tr>
+    <td>8</td>
+    <td>US08</td>
+    <td>Direccionamiento a la aplicación web</td>
+    <td>Como usuario, quiero tener una opción para poder ingresar a la página web por medio de la landing page</td>
+    <td>3</td>
+  </tr>
+
+  <tr>
+    <td>9</td>
+    <td>US09</td>
+    <td>Registro de cuenta</td>
+    <td>Como usuario, quiero tener la capacidad de crear una nueva cuenta para ingresar a la plataforma</td>
+    <td>5</td>
+  </tr>
+
+  <tr>
+    <td>10</td>
+    <td>US10</td>
+    <td>Inicio de sesión</td>
+    <td>Como usuario, quiero tener la capacidad de ingresar a la plataforma con mi cuenta creada para tener mis credenciales guardadas.</td>
+    <td>5</td>
+  </tr>
+
+  <tr>
+    <td>11</td>
+    <td>US11</td>
+    <td>Visualización de la landing page</td>
+    <td>Como usuario, quiero que se visualicen los servicios de la plataforma  para poder conocer más sobre la aplicación.</td>
+    <td>5</td>
+  </tr
+
+</table>
