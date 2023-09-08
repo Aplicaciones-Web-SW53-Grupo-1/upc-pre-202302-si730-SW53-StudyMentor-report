@@ -439,3 +439,4 @@ Cada profesor en nuestra plataforma tiene una amplia experiencia en su campo aca
 
 Flexibilidad y Personalización:
 Nuestros profesores comprenden las diversas necesidades de los estudiantes y pueden adaptar su enfoque de enseñanza según el estilo de aprendizaje y los objetivos individuales de cada estudiante.
+
