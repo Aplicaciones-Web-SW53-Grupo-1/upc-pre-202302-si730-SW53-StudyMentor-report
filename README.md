@@ -420,3 +420,22 @@ inspeccionar la actividad de la plataforma para identificar errores en ella para
   </tr>
     
 </table>
+
+## 1.3 Segmento Objetivo
+Nuestra plataforma StudyMentor se dirige a un amplio segmento de estudiantes que buscan asesoramiento educativo en diversas áreas para mejorar su rendimiento académico y alcanzar sus objetivos educativos. Este segmento incluye:
+
+**Estudiantes en Diferentes Niveles Educativos:**
+Nuestro público objetivo abarca estudiantes de todos los niveles educativos, desde secundaria hasta universidad. Esto incluye estudiantes universitarios que buscan destacar en sus estudios, estudiantes de secundaria que se preparan para exámenes cruciales, y aquellos que buscan especialización en campos particulares.
+
+**Profesionales Jóvenes en Búsqueda de Desarrollo Continuo:**
+
+También nos dirigimos a profesionales jóvenes que desean mejorar sus habilidades y conocimientos para avanzar en sus carreras. Esta categoría incluye a aquellos que buscan adquirir nuevas habilidades relevantes para su campo laboral.
+
+**Perfil de Profesores en StudyMentor:**
+
+Nuestra comunidad de profesores en StudyMentor está formada por profesionales altamente calificados y comprometidos con el éxito educativo de los estudiantes. El perfil de nuestros profesores se caracteriza por:
+
+Cada profesor en nuestra plataforma tiene una amplia experiencia en su campo académico o profesional. Muchos de ellos poseen títulos avanzados y han demostrado un historial sólido de éxito en la enseñanza y/o en su industria.
+
+Flexibilidad y Personalización:
+Nuestros profesores comprenden las diversas necesidades de los estudiantes y pueden adaptar su enfoque de enseñanza según el estilo de aprendizaje y los objetivos individuales de cada estudiante.
