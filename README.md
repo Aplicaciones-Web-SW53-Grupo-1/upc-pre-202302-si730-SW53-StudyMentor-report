@@ -13,13 +13,13 @@
 Open Developers
 ### Team Members
 
-|   Members     |   User    |
-|:-------------:|:---------:|
-|Curi Montero, Jonatan Omar         |u201912404|
-|Puican Salas, Kurt Matthews        |U202016643|
-|Luyo Ramirez, Rafael Arturo        |u202115348|
-|----, ----                         |u202110458|
-|--, ---                            |u20201b895|
+|             Members             |    User    |
+|:-------------------------------:|:----------:|
+|   Curi Montero, Jonatan Omar    | u201912404 |
+|   Puican Salas, Kurt Matthews   | U202016643 |
+|   Luyo Ramirez, Rafael Arturo   | u202115348 |
+| Ramos Calderon, Giovanni Andres | u202122512 |
+|             --, ---             | u20201b895 |
 
 #### Ciclo 2023 - 02
 
@@ -2094,6 +2094,46 @@ Prueba del prototipo
 
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201912404_upc_edu_pe/EZaLPK6wlUpOgfLV-oBVAyUBULxzF1O9hDPXO1VkDAF43g?e=zY8noL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
 
+## 4.6 Domain -Driven Software Architecture
+Los diagramas de arquitectura de software nos ayudan a plantear el sistema de nuestro software, basándonos en el enfoque de desarrollo de Domain Driven Design.
+## 4.6.1 Software Architecture Context Diagram.
+A continuación presentamos el diagrama de contexto de nuestra arquitectura, el cual muestra como encaja en el mundo con los usuarios que lo usa y con los sistemas de software externo que interactúa.
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149875602850058261/structurizr-85920-SystemContext-001.png?width=1037&height=676">
+## 4.6.2 Software Architecture Container Diagrams.
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149875604380979300/structurizr-85920-Container-001.png?width=993&height=676">
+En esta sección indicamos los contenedores de nuestro diagrama de contexto. Donde se muestan los elementos tecnológicos de alto nivel.
+## 4.6.3 Software Architecture Components Diagrams.
+En este apartado se presenta el diagrama de componentes, donde se detallan los componentes que pertencen a cada uno de nuestros contenedores relacionados a los bounded context de nuestro proyecto.
+
+Asesoría Component Diagram :
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149875603089129562/structurizr-85920-Component-001.png?width=652&height=676">
+Monitoreo Component Diagram :
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149875603466620938/structurizr-85920-Component-002.png?width=741&height=676">
+Seguridad Component Diagram :
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149875603827327057/structurizr-85920-Component-003.png?width=964&height=676">
+Calficación Component Diagram :
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149875604104167505/structurizr-85920-Component-004.png?width=1127&height=676">
+
+## 4.7 Software Object-Oriented Design.
+
+### 4.7.1. Class Diagrams.
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149876455581417602/Class_Diagram_StudyMentor_2.png?width=1061&height=676">
+
+[<center>LucidChart</center>](https://lucid.app/lucidchart/7e91ac6c-c547-4c10-b791-3165dcb90830/edit?viewport_loc=73%2C-255%2C2978%2C1461%2C0_0&invitationId=inv_3efd66ee-8857-42da-a3e7-09b2bfed885e)
+
+### 4.7.2. Class Dictionary.
+
+En este apartado se presenta la definición de los términos usados en el diagrama de clases para el desarrollo de nuestro proyecto.
++ User: Esta clase representa a los usuarios de nuestra aplicación sin importar el rol que desempeñan dentro del app. Es padre de las clases que representan nuestros segmentos objetivos.
++ Student: Esta clase representa al segmento objetivo de estudiantes que buscan una asesoría en línea respecto a un curso. Se encuentran los métodos relacionados a las necesidades del estudiante como añadir una asesoría y cambiar sus datos sobre su educación.
++ Asesor: Esta clase representa al segmento objetivo de asesores que buscan generar ingresos a través de su conocimiento, en sus atributos se encuentran objetos de otras clases que sirven para las necesidades del asesor como el manejo de cursos y un horario.
++ TimeBlock: Esta clase representa los bloques de tiempo disponibles por el asesor, el cual se encuentra en modo de un arreglo dentro de la clase Asesor, esta clase indica las fechas y horas en las que el asesor tiene bloques de tiempo disponibles para los estudiantes que requieran de su servicio.
++ Course: Esta clase representa el curso impartido por los asesores, para que los estudiantes puedan seleccionar la especialidad y temas de las asesorías que necesitan.
++ Advisory: Esta clase representa las asesorías ya registradas por parte de los estudiantes en un bloque de tiempo libre del asesor. Se encuentran métodos para modificar los datos de la asesoría como la fecha, el tiempo que se va a impartir y finalmente un método para cancelar la asesoría.
++ Review: Esta clase representa la reseña de la asesoría por parte del estudiante, incluye atributos para que el estudiante deje un comentario y un puntaje. Tiene métodos por si el estudiante desea modificar la calificación a la asesoría brindada.
+
+
+
 ## 4.8 Database Design
 ### 4.8.1 Database Diagram
 <img src="https://cdn.discordapp.com/attachments/1149190528756363340/1149751856625627146/image.png" alt="database-diagram">
@@ -2235,3 +2275,148 @@ Contiene información sobre los estudiantes registrados en la plataforma.
 - **LastName: Apellido del estudiante.**
 
 - **Age: Edad del estudiante.**
+## 5.1 Software Configuration Management.
+En este apartado se presentan las convenciones decididas en grupo, las cuales nos permiten mantener consistencia y legibilidad en el desarrollo de la solución.
+## 5.1.1 Software Development Environment Configuration.
+En esta primera parte damos a conocer las aplicaciones y software utilizados en el desarrollo del proyecto. A continuación se enlista dichos elementos en sus respectivas clasificaciones:
++ Project Management: Esta doctrina basada en la organización de las tareas del proyecto tiene como objetivo mejorar el éxito de uno o más proyectos. Para la asignación de responsabilidades se usaron herramientas de chat, sin embargo estas asignaciones quedan reflejadas en el siguiente software:
+  <br>a) Trello: Esta herramienta permite a nuestro equipo gestionar nuestro proyecto y flujo de trabajo, así mismo nos permite asignarnos tareas y personalizar según nuestras necesidades.
+  <br><br>
++ Requirements Management: Este proceso nos ayudó a identificar las necesidades y requisitos de nuestros usuarios, poniéndonos en el lugar de la persona que necesita una solución a la problemática que tratamos de resolver. Para esto se usó:
+  <br>a)Pivotal Tracker: Este software de gestión de proyectos es de gran ayuda por su manejo de user stories, agrupación de estas en epics y su calificación de dificultad o tiempo por puntaje. Otra de las razones del uso de este programa es la vista en tiempo real del proyecto.
+  <br><br>
++ Product UX/UI Design: El diseño UX se centra en satisfacer las necesidades de los usuario en la experiencia que tienen con nuestro software. Por otro lado, el diseño UI busca diseñar la interfaz que usarán los usuarios, en este caso la aplicación web que desarrollamos. Para este apartado se usaron las siguientes herramientas:
+  <br>a) Uxpressia: Para el uso de esta herramienta, primero se recopiló información de los usuarios y sus necesidades. Con este software se desarrollaron los User Persona, Empathy Map, Journey Map y Impact Map.
+  <br>b) MIRO: El principal uso de esta herramienta fue para la lluvia de ideas gracias a la flexibilidad de su pizarra colaborativa. Aquí se formularon ideas primerizas sobre los problemas y necesidades de los clientes, así mismo para la identificación de los Bounded Context de nuestro proyecto.
+  <br>c) Figma: Este editor de gráficos y herramienta de generador de prototipos nos ayudó a desarrollar los artefactos correspondientes al diseño UI, considerando desde la creación de wireframes y mockups hasta la presentación del prototipo.
+  <br>d) LucidChart: Con esta herramienta desarrollamos los diseños UML, la principal razón del uso de esta herramienta fue el poder colaborar en tiempo real la creación del diagrama.
+  <br><br>
++ Software Development: Este concepto abarca el conjunto de actividades dedicadas al proceso de creación, diseño y despliegue del software. Para el cumplimiento de estas actividades usamos lo siguiente:
+  <br>a) Github: En esta plataforma alojamos el código que desarrollamos en conjunto para su posterior despliegue.
+  <br>b) Webstorm: Este IDE nos ofrece un entorno de desarrollo integrado para JavaScript y otras tecnologías relacionadas como HTML y CSS
+  <br>c) Rider: Este IDE nos ofrece herramientas para el desarrollo web y su compatibilidad con bases de datos, lo cual abarca gran parte de las necesidades para desarrollar aplicaciones ASP.NET Core.
+  <br><br>
++ Software Testing: Para este primer hito todos los integrantes realizaron pruebas del landing page antes de realizar una modificación en sus propias máquinas en sus respectivas IDE de uso preferido personal.
+  <br><br>
++ Software Documentation: Para la documentación de software hemos utilizado dos herramientas, Github y Google Drive:
+  <br>a) Github: En esta herramienta colaborativa hemos añadido toda la documentación relacionada en esta entrega en el formato MarkDown.
+  <br>b) Google Drive: Hemos usado Google Docs para las tareas que requieren desarrollar un artefacto entre dos o más personas en tiempo real para posteriormente pasarlo a nuestro repositorio en formato MarkDown.
+
+
+## 5.1.2 Source Code Management.
+El medio y esquema de organización que se aplicó para el seguimiento de las modificaciones en el desarrollo de nuestro proyecto se realizó en Github con repositores respectivos para cada elemento de la arquitectura de desarrollo. Para esta primera entrega compartimos el repositorio de nuestra Landing Page.
+<br>
+
+URL Repositorio Landing Page:
+https://github.com/Aplicaciones-Web-SW53-Grupo-1/Landing-Page
+
+Para los commits de nuestro repositorio se tomó en cuenta el modelo concebido en 2010, Git Flow:
+
+La manera que se plantea usar git flow es seguir su concepto de crear ramas a parte de la principal (main branch). Las ramas que se planea crear:
++ Main Branches
+
++ Support Branches
+
++ Feature Branches
+
+
+Cada feature debe tener su propia rama y deben tener una convención que se usarán en todas las branches. La convención a usar:
+
+Feature/name:
+
+Por ejemplo :
++ feature/registro
++ feature/studentClass
++ feature/advisoryTransaction
+
+Para el nombre de commit se usará “Conventional Commits”, este indica la estructura que deben tener los commit de  nuestras ramas.
+
++ tipo(Alcance opcional): descripción del commit
+
+Para especificar el tipo se encuentran la siguientes definiciones:
++ feat: cuando se añade un feature
++ fix: cuando se soluciona un error.
++ build: cuando se modifican las herramientas de compilación
++ chore: modificaciones privadas
++ refactor: cuando solo se modifica la documentación
++ perf: cuando se mejora el rendimiento
++ style: commits relacionados al estilo, no afectan la lógica
++ test: commits para la creación de pruebas
+
+El alcance da información que da contexto al commit, para que los demás desarrolladores entiendan el entorno del commit.
+
+La descripción del commit es una parte fundamental y obligatoria del commit, se debe usar imperativo y el texto debe ser en minúsculas.
+
+
+## 5.1.3 Source Code Style Guide & Conventions.
+En este apartado se especifica las convenciones para nombrar elementos y programar en los lenguajes de esta primera entrega.
+
+HTML:
+No omitir las etiquetas html y body, aunque no den error, la falta de body puede causar problemas en navegadores antiguos y la falta de la etiqueta html puede corromper a DOM y XML software.
+<!DOCTYPE html>
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1149882178235273346/image.png?width=506&height=676">
+
+
+CSS:
+Utilizar nombres de clases que sean posiblemente cortas pero largas si es necesario, para la comprensión de los demás desarrolladores:
++ .nav {}
++ .author {}
+
+Separar los nombres de las clases con guión:
++ .video-id {}
++ .error-status{}
+
+El orden de declaración de los elementos dentro de una clase deben ir en orden alfabético:
++ background: fuchsia;
++ border: 1px solid;
++ -moz-border-radius: 4px;
++ -webkit-border-radius: 4px;
++ border-radius: 4px;
++ color: black;
++ text-align: center;
++ text-indent: 2em;
+
+Aplica sangría en todos los atributos de una clase para representar la jerarquía y mejorar la comprensión:
+@media pantalla , proyección {
+
++ html {
++ fondo : #fff;
++ color : #444; } }
+
+Poner una línea en blanco entre las reglas:
++ html {
++ background: #fff;
++ }
+
++ body {
++ margin: auto;
++ width: 50%;
++ }
+
+JavaScript:
+Usar const and let, la mayoría de veces usar variables const a no ser que necesite ser reasignado su valor, evitar el uso de var.
+
++ Una variable por declaración:
+  No hacer let a = 1, b = 2
+
++ No usar el constructor Objeto, usar un constructor literal {name: ‘gio, …}
+
++ Utilizar CamelCase para nombres de variables y funciones:
+  const mySchedule = {};
+  func transferMoney(a,b) {}
+
++ Utilizar Pascal para nombres de clases y constructores:
+  MiClase{
+  MiClase(){}
+  }
+
+Utilizar punto y coma al final de una sentencia, aunque javaScript permite omitir el uso de estas se considera buena práctica incluirlo para evitar posibles errores.
+
+## 5.1.4 Software Deployment Configuration.
+
+Para el despliegue de nuestra Landing Page, accedemos al repositorio donde tenemos nuestro proyecto:
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149881395603325050/image.png?width=1149&height=676">
+Nos dirigimos a la sección Settings de nuestro repositorio, nos dirigimos en el apartado Pages:
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149881460409511936/image.png?width=1195&height=676">
+Definimos la rama desde donde vamos despegar nuestro proyecto y guardamos. Con esto se genera el URL del despliegue de nuestra landing page.
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149881524825624687/image.png?width=1441&height=640">
