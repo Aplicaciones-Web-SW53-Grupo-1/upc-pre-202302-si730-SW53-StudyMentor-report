@@ -2093,3 +2093,145 @@ Prueba del prototipo
 <img src="https://media.discordapp.net/attachments/783068752958717972/1149844351669784706/image.png">
 
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201912404_upc_edu_pe/EZaLPK6wlUpOgfLV-oBVAyUBULxzF1O9hDPXO1VkDAF43g?e=zY8noL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
+
+## 4.8 Database Design
+### 4.8.1 Database Diagram
+<img src="https://cdn.discordapp.com/attachments/1149190528756363340/1149751856625627146/image.png" alt="database-diagram">
+
+
+
+## Entidades de la base de datos:
+
+### Tabla: Appointment (Cita)
+
+Almacena información sobre las citas programadas entre estudiantes y mentores.
+
+**Atributos:**
+
+- **Id: Identificador único de la cita.**
+
+- **StudentId: Identificador del estudiante que solicita la cita.**
+
+- **MentorId: Identificador del mentor o asesor de arquitectura asignado a la cita.**
+
+- **Date: Fecha de la cita.**
+
+- **Time: Hora de la cita.**
+
+- **Description: Descripción detallada de la cita.**
+
+- **MaterialId: Identificador del material asociado a la cita (si aplica).**
+
+- **PaymentId: Identificador del detalle de pago asociado a la cita.**
+
+
+### Tabla: Mentor (Mentor o Asesor)
+
+Contiene información sobre los mentores registrados en la plataforma.
+
+**Atributos:**
+
+- **Id: Identificador único del mentor o asesor.**
+
+- **FirstName: Nombre del mentor.**
+
+- **LastName: Apellido del mentor.**
+
+- **Specialty: Especialidad o área de expertise del mentor.**
+
+### Tabla: Payment (Pago)
+
+Almacena detalles de los pagos realizados por los estudiantes.
+
+**Atributos:**
+
+- **Id: Identificador único del registro de pago.**
+
+- **PaymentDetailId: Identificador del detalle de pago.**
+
+- **AppointmentId: Identificador de la cita asociada al pago.**
+
+### Tabla: PaymentDetail (Detalle de Pago)
+
+Guarda información detallada sobre los pagos, como subtotal, descuento y retención.
+
+**Atributos:**
+
+- **Id: Identificador único del detalle de pago.**
+
+- **Subtotal: Monto subtotal del pago.**
+
+- **Discount: Descuento aplicado al pago.**
+
+- **RetentionPercentage: Porcentaje de retención en el pago.**
+
+- **RetentionAmount: Monto retenido.**
+
+
+### Tabla: Record (Registro de Proyecto)
+
+Registra eventos o actividades, como proyectos, en la plataforma.
+
+**Atributos:**
+
+- **Id: Identificador único del registro de proyecto.**
+
+- **Date: Fecha del registro.**
+
+- **Time: Hora del registro.**
+
+- **Description: Descripción detallada del proyecto o trabajo.**
+
+- **StudentId: Identificador del estudiante relacionado con el registro.**
+
+### Tabla: Score (Puntaje)
+
+Contiene las puntuaciones y comentarios proporcionados por los estudiantes sobre las citas.
+
+**Atributos:**
+
+- **Id: Identificador único del puntaje.**
+
+- **Score: Puntuación otorgada.**
+
+- **Comment: Comentario relacionado con el puntaje.**
+
+- **Date: Fecha del puntaje.**
+
+- **AppointmentId: Identificador de la cita asociada al puntaje.**
+
+### Tabla: Service (Servicio)
+
+Almacena información sobre los servicios ofrecidos en la plataforma, como tutorías o clases particulares.
+
+**Atributos:**
+- **Id: Identificador único del servicio.**
+
+- **Name: Nombre o título del servicio.**
+
+- **Description: Descripción del servicio.**
+
+- **Price: Precio del servicio.**
+
+### ServiceByAppointment (Servicio por Cita)
+
+ServiceByAppointment (Servicio por Cita)
+
+**Atributos:**
+- **AppointmentId: Identificador de la cita.**
+
+- **ServiceId: Identificador del servicio.**
+
+
+### Tabla: Student(Estudiante)
+
+Contiene información sobre los estudiantes registrados en la plataforma.
+
+**Atributos:**
+- **Id: Identificador único del estudiante**
+
+- **FirstName: Nombre del estudiante.**
+
+- **LastName: Apellido del estudiante.**
+
+- **Age: Edad del estudiante.**
