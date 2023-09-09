@@ -15,7 +15,7 @@ Open Developers
 
 |   Members     |   User    |
 |:-------------:|:---------:|
-|---, ---                           |u202112936|
+|Curi Montero, Jonatan Omar         |u201912404|
 |Puican Salas, Kurt Matthews        |U202016643|
 |Luyo Ramirez, Rafael Arturo        |u202115348|
 |----, ----                         |u202110458|
@@ -30,8 +30,8 @@ Open Developers
 |   Version     |   Fecha   |   Autor   |   Descripción de la modificación|
 |:-------------:|:---------:|:---------|:------------------------|
 |1              |           |----|- Implementó  |
-|1              |  08/09/2023         |Puican,Kurt|- Implementó 1 y 2 |
-|1              | 08/09/23  |Luyo,Rafael |- Implementó 4.1, 4.2, 4.3, 4.8  |
+|1              | 7/09/23   |Curi Montero|- Implementó Mockups, landing page, prototipo y Sprint 1 |
+|1              | 31/08/23  |Luyo Ramirez |- Implementó 4.1, 4.2, 4.3, 4.8  |
 |1              |           |--|- Implementó  |
 |1              |           |--|- Implementó  |
 
@@ -181,11 +181,11 @@ Nuestra misión como empresa actualmente es encontrar una manera fácil para pod
   </tr>
   <tr>
     <td style="border: 1px solid #dddddd; padding: 8px;">
-      <img src="##" alt="##" width="50" height="50" style="border-radius: 25%;">
+      <img src="https://media.discordapp.net/attachments/783068752958717972/1149867780959637645/image.png" alt="FotoJonatanCuri" width="50" height="50" style="border-radius: 25%;">
     </td>
-    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
-    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
-    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Curi Montero, Jonatan Omar</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Mi nombre es Jonatan Curi, soy un estudiante de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Tengo 21 años, soy una persona responsable, amable y con la iniciativa de trabajar. Poseo conocimientos en los lenguajes TypeScript y Javascript. También, en frameworks como NestJS y Angular. Considero que la comunicación es una característica fundamental en el equipo de trabajo.</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">U201912404</td>
   </tr>
   <tr>
     <td style="border: 1px solid #dddddd; padding: 8px;">
@@ -1907,3 +1907,189 @@ Se muestra como último bloque de la plataforma, un resumen breve de informació
 <img src="https://cdn.discordapp.com/attachments/1149190528756363340/1149751691672039557/image.png" alt="mobile-web-browser-contact-us" height="540">
 
 Link: https://www.figma.com/file/rbo4oMtSGbvfsV14pq8Xde/Mockup-Landing-Page-(StudyMentor)?type=design&node-id=0%3A1&mode=design&t=12wH2Nbv9DxmtQ2v-1
+
+## 4.4 Web Applications UX/UI Design
+## 4.4.1 Web Applications Wireframes
+
+<h3 font-style=bold>Segmento Objetivo Estudiante</h3>
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149839871914037318/image.png" width="" height="" />
+
+Link: https://www.figma.com/file/xPAYcj8uHxGyNjtZntlNNK/Wireframes-Studymentor?type=design&node-id=19-116&mode=design&t=BIq6W3P0wE3qJZz2-0
+
+<h3 font-style=bold>Segmento Objetivo Tutor</h3>
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149840626154741932/image.png?width=938&height=559" width="" height="" />
+
+## 4.4.2 Web Applications Wireflows Diagrams
+
+<h3 font-style=bold>Segmento Objetivo Estudiante</h3>
+
+User Goal: Como estudiante, deseo iniciar sesión para ingresar a la aplicación.<br>
+Descripción:
+En este wireflow, se evidencia el flujo que el estudiante seguirá para poder iniciar sesión. Primero clickeará la opción de “Student” e ingresará su email, contraseña y tendrá que pasar por un captcha. De no tener una cuenta, clickea en sign up y tendrá que ingresar su información personal para registrarse.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149842093339054130/image.png" width="" height="" />
+
+User Goal: Como estudiante, deseo registrarme para ingresar a la aplicación.<br>
+Descripción:
+En este wireflow, se evidencia el flujo que el estudiante seguirá para poder iniciar sesión. Primero clickeará la opción de “Student” y luego seleccionará la opción de Sign Up, finalmente ingresará sus datos necesarios para poder registrarse exitosamente.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149842290760745051/image.png" width="" height="" />
+
+
+User Goal: Como estudiante, deseo poder cambiar mis datos.<br>
+Descripción:
+En este wireflow se evidencia el flujo que el estudiante seguirá. Despues de ingresar a la aplicación, estará en la pantalla de inicio, al darle a la opción “Profile”, irá a la sección la cual puede ver sus datos personales, ahí mismo tendrá una opción para editar sus datos. Finalmente, en la vista de editar, podrá actualizar los datos personales que el estudiante desee, se guardará cuando le de click al botón “Save”.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149842653748408330/image.png">
+
+User Goal: Como estudiante, deseo ver a todos los tutores libres.<br>
+Descripción:
+En este wireflow se evidencia el flujo que el estudiante seguirá. Después de ingresar a la aplicación, estará en la pantalla de inicio, al darle a la opción “Tutors”, irá a la sección la cual todos los tutores libres y sus especialidades, ahí mismo tendrá una opción para visualizar más sobre ese tutor. Al clickar este botón, podrá visualizar información detallada del tutor, así como sus estudios, pudiendo descargar estos documentos.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149842654092329030/image.png?width=1200&height=308">
+
+User Goal: Como estudiante, deseo contratar a un tutor.<br>
+Descripción:
+En este wireflow se evidencia el flujo que el estudiante seguirá. Luego de seleccionar al tutor que desee, verá su información completa y un botón para realizar una clase, al clickar ese botón, podrá visualizar los horarios en los que está disponible el profesor y el costo de las clases. Finalmente, habiendo ya escogido el horario preferido, podrá pagarle al profesor ingresando los datos de su tarjeta y confirmando la transacción .
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149842681732800602/image.png?width=1200&height=311">
+
+User Goal: Como estudiante, deseo visualizar los días que tengo clase.<br>
+Descripción:
+En este wireflow se evidencia el flujo que el estudiante seguirá. Luego de ingresar a la aplicación, en la pantalla de inicio, podrá visualizar el botón “Schedule”, el cual permite la visualización de un horario en el que verá que días tiene clases, para no perderse ninguna.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149842745930817607/image.png?width=1200&height=426">
+
+User Goal: Como estudiante, deseo visualizar las calificaciones con el tutor contratado.<br>
+Descripción:
+En este wireflow se evidencia el flujo que el estudiante seguirá. Luego de ingresar a la aplicación, en la pantalla de inicio, podrá visualizar el botón “Califications”, el cual permite la visualización de las calificaciones, lo cual le sirve para verificar su avance. Asimismo, las evaluaciones que aún no han sido calificadas le saldrán como “No Calificada”.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149842746182467695/image.png?width=1200&height=453">
+
+User Goal: Como estudiante, deseo visualizar las reseñas de otros estudiantes a cierto tutor.<br>
+Descripción:
+En este wireflow se evidencia el flujo que el estudiante seguirá. Luego de ingresar a la aplicación y seleccionar a un tutor en la lista de tutores, tendremos un botón de “See review”, el cual nos permitirá visualizar las reseñas de otros estudiantes sobre ese tutor. Asimismo, podremos publicar una reseña sobre el tutor al cual hemos contratado.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149842745930817607/image.png?width=1200&height=426">
+
+## 4.4.3 Web Applications Mockups
+
+<h3 font-style=bold>Segmento Objetivo Estudiante</h3>
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149842808652451961/image.png?width=1200&height=511">
+
+Link: https://www.figma.com/file/xYHRwXtAQhBYRZGyrciRHk/Mockups-Web-Application?type=design&node-id=0-1&mode=design&t=oZQZa5UKYVU4nEeg-0
+
+
+<h3 font-style=bold>Segmento Objetivo Tutor</h3>
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149842840743059516/image.png?width=1015&height=559">
+
+Link: https://www.figma.com/file/xYHRwXtAQhBYRZGyrciRHk/Mockups-Web-Application?type=design&node-id=1-901&mode=design&t=oZQZa5UKYVU4nEeg-0
+
+## 4.4.4 Web Applications User Flow Diagrams
+
+Segmento Objetivo Estudiantes
+User Goal: Como estudiante, deseo iniciar sesión para ingresar a la aplicación.<br>
+Descripción:
+En este wireflow, se evidencia el flujo que el estudiante seguirá para poder iniciar sesión. Primero clickeará la opción de “Student” e ingresará su email, contraseña y tendrá que pasar por un captcha. De no tener una cuenta, clickea en sign up y tendrá que ingresar su información personal para registrarse.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149842875874562218/image.png?width=1200&height=522">
+
+User Goal: Como estudiante, deseo registrarme para ingresar a la aplicación.<br>
+Descripción: En este wireflow, se evidencia el flujo que el estudiante seguirá para poder iniciar sesión. Primero clickeará la opción de “Student” y luego seleccionará la opción de Sign Up, finalmente ingresará sus datos necesarios para poder registrarse exitosamente.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149842900990042202/image.png?width=1200&height=326">
+
+User Goal: Como estudiante, deseo poder cambiar mis datos.<br>
+Descripción: En este wireflow se evidencia el flujo que el estudiante seguirá. Despues de ingresar a la aplicación, estará en la pantalla de inicio, al darle a la opcion “Profile”, irá a la sección la cual puede ver sus datos personales, ahí mismo tendrá una opción para editar sus datos. Finalmente, en la vista de editar, podrá actualizar los datos personales que el estudiante desee, se guardará cuando le de click al botón “Save”.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149843132163313756/image.png?width=1200&height=299">
+
+User Goal: Como estudiante, deseo ver a todos los tutores libres.<br>
+Descripción:
+En este wireflow se evidencia el flujo que el estudiante seguirá. Después de ingresar a la aplicación, estará en la pantalla de inicio, al darle a la opción “Tutors”, irá a la sección la cual todos los tutores libres y sus especialidades, ahí mismo tendrá una opción para visualizar más sobre ese tutor. Al clickar este botón, podrá visualizar información detallada del tutor, así como sus estudios, pudiendo descargar estos documentos.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149844039072501790/image.png?width=1200&height=331">
+
+User Goal: Como estudiante, deseo contratar a un tutor.<br>
+Descripción: En este wireflow se evidencia el flujo que el estudiante seguirá. Luego de seleccionar al tutor que desee, verá su información completa y un botón para realizar una clase, al clickar ese botón, podrá visualizar los horarios en los que está disponible el profesor y el costo de las clases. Finalmente, habiendo ya escogido el horario preferido, podrá pagarle al profesor ingresando los datos de su tarjeta y confirmando la transacción .
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149844121452806274/image.png?width=1200&height=299">
+
+User Goal: Como estudiante, deseo visualizar los días que tengo clase.<br>
+Descripción: En este wireflow se evidencia el flujo que el estudiante seguirá. Luego de ingresar a la aplicación, en la pantalla de inicio, podrá visualizar el botón “Schedule”, el cual permite la visualización de un horario en el que verá que días tiene clases, para no perderse ninguna.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149844121759006740/image.png?width=1200&height=481">
+
+User Goal: Como estudiante, deseo visualizar las calificaciones con el tutor contratado.<br>
+Descripción: En este wireflow se evidencia el flujo que el estudiante seguirá. Luego de ingresar a la aplicación, en la pantalla de inicio, podrá visualizar el botón “Califications”, el cual permite la visualización de las calificaciones, lo cual le sirve para verificar su avance. Asimismo, las evaluaciones que aún no han sido calificadas le saldrán como “No Calificada”.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149844122027438090/image.png?width=1200&height=423">
+
+User Goal: Como estudiante, deseo visualizar las reseñas de otros estudiantes a cierto tutor.<br>
+Descripción: En este wireflow se evidencia el flujo que el estudiante seguirá. Luego de ingresar a la aplicación y seleccionar a un tutor en la lista de tutores, tendremos un botón de “See review”, el cual nos permitirá visualizar las reseñas de otros estudiantes sobre ese tutor. Asimismo, podremos publicar una reseña sobre el tutor al cual hemos contratado.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149844197319393280/image.png?width=1200&height=443">
+
+## 4.4.5 Web Applications Prototyping
+
+A continuación, se detallarán los principales criterios para las decisiones de interacción (elementos de la interfaz y los principios aplicados a ellos) relacionados con la Arquitectura de información para nuestra aplicación web. Asimismo, se adjuntará un video evidenciando lo propuesto para una mejor comprensión.
+
+**Botones/Tarjetas del menú principal**
+
+Cada segmento objetivo tiene su propio menú principal con sus propios botones. Asimismo, incluimos unas tarjetas con las principales noticias. Para ello nos hemos basado en los siguientes principios: 
+
+•	Principio de los objetos: Agrupamos el contenido relacionado dentro de sus botones y tarjetas respectivas, los cuales se comportarán de una forma determinada. Asimismo, cada botón tendrá sus propios atributos respecto a cómo visualizar la información contenida en ellos.
+
+**Listas**
+
+Distintas secciones dentro de nuestra aplicación utilizan las listas, tales como: lista de estudiantes, lista de tutores, valoraciones, etc. Para ello nos hemos basado en los siguientes principios: 
+•	Principio de las elecciones: Darle al usuario final demasiadas opciones puede ser abrumador, así que nuestras listas tienen un límite de muestra, es decir, si tenemos muchos elementos en nuestra lista, entonces solo mostraremos diez de ellos, el usuario podrá decidir si le es necesario ver el resto a través de un botón (ver más). 
+
+•	Principio del crecimiento: Al utilizar las listas, no nos vemos afectados por el crecimiento, ya que, cualquier información nueva adicionada se colocará al final de la lista.
+
+**Resúmenes de contenido** 
+
+Estos resúmenes están estrechamente relacionados con las listas de estudiantes o tutores, ya que, ambos necesitan información de la otra parte, ya sea para separar una clase o visualizar los estudiantes. Es por ello, por lo que se sigue el siguiente principio: 
+
+    •   Principio de divulgación: Solo mostramos la información suficiente para ayudar a nuestros usuarios a comprender con qué tipo de tutor o estudiante van a tratar. Si deciden profundizar más a detalle, lo seleccionarán y serán redirigidos a su perfil. 
+
+**Menús** 
+
+Nuestra aplicación consta de 2 menús, uno se encuentra en la parte inferior de forma horizontal (secciones principales) y el otro en la parte lateral derecha de forma vertical (secciones secundarias). Esto debido al siguiente principio: 
+
+•   Principio de navegación enfocada: Debemos tener en cuenta cómo nuestros usuarios navegan por el contenido de nuestra aplicación, por lo que se implementaron estos dos menús. El objetivo fue tener dos diferentes menús para los dos tipos de información. Introducción de los flujos de interacción mostrados en el video: 
+
+•   Principales:
+
+    o   Chat: El estudiante o el tutor, se comunica por medio de un chat con su tutor o su estudiante respectivamente, en el cual pueden establecer la plataforma en la cual tendrán la clase, etc. 
+
+    o   Verificar tu horario: Tanto el estudiante como el tutor pueden visualizar los días que tiene clase. En el caso del tutor, visualiza todas sus clases y las horas. Por el lado del estudiante puede visualizar la clase con el profesor al cual está inscrito. 
+
+    o   Verificar tus calificaciones: El estudiante puede visualizar las notas de su curso de tutoría.
+
+    o   Verificar tus valoraciones: El tutor puede visualizar las valoraciones que los estudiantes le ponen junto con las estrellas y un comentario.
+
+•   Secundarios: 
+
+    o   Ver perfil de usuario: El usuario navega hacia su perfil a través del menú principal de la parte lateral. 
+
+    o   Ver lista de tutores: El estudiante revisa la lista de tutores para luego poder ver información más detallada sobre él.
+
+    o   Ver lista de estudiantes: El tutor revisa la lista de sus estudiantes  para luego poder ver información más detallada sobre él .
+
+
+**Segmento Estudiante**
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149844234426404885/image.png">
+
+**Segmento Tutor**
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149844268588990625/image.png?width=969&height=559">
+
+Prueba del prototipo
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149844351669784706/image.png">
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201912404_upc_edu_pe/EZaLPK6wlUpOgfLV-oBVAyUBULxzF1O9hDPXO1VkDAF43g?e=zY8noL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
