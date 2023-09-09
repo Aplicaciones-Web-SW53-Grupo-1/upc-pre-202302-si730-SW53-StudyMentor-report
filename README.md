@@ -2093,3 +2093,42 @@ Prueba del prototipo
 <img src="https://media.discordapp.net/attachments/783068752958717972/1149844351669784706/image.png">
 
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201912404_upc_edu_pe/EZaLPK6wlUpOgfLV-oBVAyUBULxzF1O9hDPXO1VkDAF43g?e=zY8noL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
+
+# 4. Capítulo IV: Product Design
+## 4.6 Domain -Driven Software Architecture
+Los diagramas de arquitectura de software nos ayudan a plantear el sistema de nuestro software, basándonos en el enfoque de desarrollo de Domain Driven Design.
+## 4.6.1 Software Architecture Context Diagram.
+A continuación presentamos el diagrama de contexto de nuestra arquitectura, el cual muestra como encaja en el mundo con los usuarios que lo usa y con los sistemas de software externo que interactúa.
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149875602850058261/structurizr-85920-SystemContext-001.png?width=1037&height=676">
+## 4.6.2 Software Architecture Container Diagrams.
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149875604380979300/structurizr-85920-Container-001.png?width=993&height=676">
+En esta sección indicamos los contenedores de nuestro diagrama de contexto. Donde se muestan los elementos tecnológicos de alto nivel.
+## 4.6.3 Software Architecture Components Diagrams.
+En este apartado se presenta el diagrama de componentes, donde se detallan los componentes que pertencen a cada uno de nuestros contenedores relacionados a los bounded context de nuestro proyecto.
+
+Asesoría Component Diagram :
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149875603089129562/structurizr-85920-Component-001.png?width=652&height=676">
+Monitoreo Component Diagram :
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149875603466620938/structurizr-85920-Component-002.png?width=741&height=676">
+Seguridad Component Diagram :
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149875603827327057/structurizr-85920-Component-003.png?width=964&height=676">
+Calficación Component Diagram :
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149875604104167505/structurizr-85920-Component-004.png?width=1127&height=676">
+
+## 4.7 Software Object-Oriented Design.
+
+### 4.7.1. Class Diagrams.
+<img src = "https://media.discordapp.net/attachments/1143747947322941440/1149876455581417602/Class_Diagram_StudyMentor_2.png?width=1061&height=676">
+
+[<center>LucidChart</center>](https://lucid.app/lucidchart/7e91ac6c-c547-4c10-b791-3165dcb90830/edit?viewport_loc=73%2C-255%2C2978%2C1461%2C0_0&invitationId=inv_3efd66ee-8857-42da-a3e7-09b2bfed885e)
+
+### 4.7.2. Class Dictionary.
+
+En este apartado se presenta la definición de los términos usados en el diagrama de clases para el desarrollo de nuestro proyecto.
++ User: Esta clase representa a los usuarios de nuestra aplicación sin importar el rol que desempeñan dentro del app. Es padre de las clases que representan nuestros segmentos objetivos.
++ Student: Esta clase representa al segmento objetivo de estudiantes que buscan una asesoría en línea respecto a un curso. Se encuentran los métodos relacionados a las necesidades del estudiante como añadir una asesoría y cambiar sus datos sobre su educación.
++ Asesor: Esta clase representa al segmento objetivo de asesores que buscan generar ingresos a través de su conocimiento, en sus atributos se encuentran objetos de otras clases que sirven para las necesidades del asesor como el manejo de cursos y un horario.
++ TimeBlock: Esta clase representa los bloques de tiempo disponibles por el asesor, el cual se encuentra en modo de un arreglo dentro de la clase Asesor, esta clase indica las fechas y horas en las que el asesor tiene bloques de tiempo disponibles para los estudiantes que requieran de su servicio.
++ Course: Esta clase representa el curso impartido por los asesores, para que los estudiantes puedan seleccionar la especialidad y temas de las asesorías que necesitan.
++ Advisory: Esta clase representa las asesorías ya registradas por parte de los estudiantes en un bloque de tiempo libre del asesor. Se encuentran métodos para modificar los datos de la asesoría como la fecha, el tiempo que se va a impartir y finalmente un método para cancelar la asesoría.
++ Review: Esta clase representa la reseña de la asesoría por parte del estudiante, incluye atributos para que el estudiante deje un comentario y un puntaje. Tiene métodos por si el estudiante desea modificar la calificación a la asesoría brindada.
