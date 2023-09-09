@@ -19,7 +19,7 @@ Open Developers
 |   Puican Salas, Kurt Matthews   | U202016643 |
 |   Luyo Ramirez, Rafael Arturo   | u202115348 |
 | Ramos Calderon, Giovanni Andres | u202122512 |
-|             --, ---             | u20201b895 |
+| Ramirez Alfaro, Miguel Angel    | u20201b895 |
 
 #### Ciclo 2023 - 02
 
@@ -29,11 +29,11 @@ Open Developers
 
 |   Version     |   Fecha   |   Autor   |   Descripción de la modificación|
 |:-------------:|:---------:|:---------|:------------------------|
-|1              |           |----|- Implementó  |
+|1              | 7/09/23   |Ramirez Miguel|- Implementó  capitulo 3|
 |1              | 7/09/23   |Curi Montero|- Implementó Mockups, landing page, prototipo y Sprint 1 |
 |1              | 31/08/23  |Luyo Ramirez |- Implementó 4.1, 4.2, 4.3, 4.8  |
-|1              |           |--|- Implementó  |
-|1              |           |--|- Implementó  |
+|1              | 7/09/23   |Puican Kurt|- Implementó  capitulo 1 y 2|
+|1              | 8/09/23   |Ramor Giovanni|- Implementó  5.1, 4.6 y 4.7|
 
 <br><br>
 
@@ -2420,3 +2420,148 @@ Nos dirigimos a la sección Settings de nuestro repositorio, nos dirigimos en el
 <img src = "https://media.discordapp.net/attachments/1143747947322941440/1149881460409511936/image.png?width=1195&height=676">
 Definimos la rama desde donde vamos despegar nuestro proyecto y guardamos. Con esto se genera el URL del despliegue de nuestra landing page.
 <img src = "https://media.discordapp.net/attachments/1143747947322941440/1149881524825624687/image.png?width=1441&height=640">
+
+## 5.2 Landing Page, Services & Applications Implementation
+## 5.2.1. Sprint 1
+## 5.2.1.1. Sprint Planning 1
+
+| **Sprint #** | **Sprint 1** |
+| --- | --- |
+| **Sprint Planning Background** |
+| **Date** | 30-08-2023 |
+| **Time** | 10:00 PM |
+| **Location** | Servidor de Discord del Equipo |
+| **Prepared By** | Curi Montero Jonatan Omar |
+| **Attendees** | Curi Montero Jonatan Omar/Rafael Arturo Luyo Ramirez/Kurt Matthews Puican Salas/Miguel Angel Ramirez Alfaro/Giovanni Andres Ramos Calderon|
+| **Sprint n Review Summary** | En esta entrega no hay un Sprint anterior, por lo tanto, no hay resúmen de Sprint |
+| **Sprint n Retrospective Summary** | En esta entrega no hay un Sprint anterior, por lo tanto, no hay resúmen de Sprint |
+| **Sprint Goal & User Stories**|
+| **Sprint 1 Goal** | La meta de este Sprint es la investigación y desarrollo de nuestro proyecto. Asimismo, consiste en el funcionamiento de la Landing Page, tanto su visualización, el traslado y la visualización de todo lo estipulado. |
+| **Sprint 1 Velocity** | 10 Velocity |
+| **Sum of Story Points** | 10 Story Points. |
+
+
+## 5.2.1.2. Sprint Backlog 1
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879572330991646/image.png?width=561&height=559">
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879592434286633/image.png">
+
+
+## 5.2.1.3. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances de implementación con relación a los productos desarrollados en el presente Sprint. La implementación que se desarrolló fue la primera version del Landing Page, se implementaron las distintas secciones para conocer más sobre nuestra plataforma. Con ello completamos el primer sprint de implementación. 
+
+Integrantes:
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879638244479046/image.png">
+
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879668774817822/image.png?width=461&height=559">
+
+
+## 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+No se desarrolló en este sprint, pues en esta parte se presentarán los Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services.
+
+## 5.2.1.5. Execution Evidence for Sprint Review
+
+Las vistas implementadas son el navbar con las secciones Home, Knos Us, Services, Contact Us. Esa barra de navegación es fija y mientras el usuario se desplace se mueve junto con la pantalla.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879754636410991/image.png">
+
+Podemos ver la sección de inicio con la información y un botón que para el siguiente sprint direccionará al usuario a la aplicación web.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879797036621874/image.png">
+
+En esta sección pueden conocer más sobre la plataforma y las caracteristicas de esta.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879797338619966/image.png">
+
+Aquí tenemos datos de studymentor.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879816133287966/image.png">
+
+Aqui pasamos a ver los servicios tanto de estudiantes.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879842645483570/image.png">
+
+Como el servicio para tutores como se puede observar aquí. Además, contará con un botón el cual direccionará a la aplicación web.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879866712408094/image.png">
+
+La sección nosotros contiene 2 videos, los cuales por el momento son videos genéricos, pero se reemplazarán con el video about the product y el video about the team.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879886538870935/image.png>
+
+Esta es la última sección, la cual contiene nuestros datos de contacto, y un poco sobre nosotros como empresa.
+
+## 5.2.1.6 Services Documentation Evidence for Sprint Review
+
+No se desarrolló en este sprint, pues en esta sección presentaremos la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint y con Web Applications.
+
+## 5.2.1.7 Software Deployment Evidence for Sprint Review
+
+Como ya se ha mencionado, la gestión de nuestro código fuente se realizará a través de GitHub. Asimismo, se utilizará Github Pages para la publicación y despliegue de la página. Cada sección del Landing Page que se ha creado deberá aparecer en el siguiente vínculo: https://aplicaciones-web-sw53-grupo-1.github.io/Landing-Page/public/
+
+Para el desarrollo del Landing Page de StudyMentor se han utilizado las siguientes herramientas:
+
+•   Html: Es el lenguaje de marcado que estructuró nuestro Landing Page.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879923033505853/image.png">
+
+•   Css: Es aquel que nos ayudó con el diseño gráfico para que el Landing Page sea agradable e interactuable. 
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879942834827264/image.png">
+
+JavaScript: Nos ayudó a desarrollar la lógica de la integración del navbar, para su uso adecuado en un dispositivo móvil.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149879968663359599/image.png">
+
+El despliegue del Landing Page de StudyMentor se realizó gracias a: 
+
+• Git: Sistema de control de versiones que está pensado en la eficiencia y compatibilidad de versiones. El cual nos ayudó a trabajar en equipo durante el desarrollo del Landing Page.
+
+• GitHub: Plataforma de desarrollo colaborativo. 
+
+• Git Flow: Nos permitió controlar el avance de cada uno de nuestros integrantes con respecto al desarrollo del Landing Page
+
+• Git Hub Pages: Servicio de Github que nos permitió alojar nuestra lading page. 
+
+Los pasos que se realizaron fueron:
+
+-   Como utilizamos Github, nos dirigimos al repositorio donde se encuentra nuestra landing page. Luego a la sección “Settings”.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149880000514887760/image.png">
+
+-   Cuando nos encontramos en la configuración, tenemos que darle click a la sección pages.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149880025374539796/image.png">
+
+-   Luego, dentro de la sección “pages” tenemos que seleccionar la rama que se va a deployear, en nuestro caso es la rama “main”. Asimismo, tenemos que elegir una carpeta para localizar la publicación, que en nuestro caso será root. Finalmente tendremos el link en la parte superior, agregandole “public” al final del link nos dirigirá a la landing page.
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149880047201689703/image.png">
+
+Este es el enlace final:
+https://aplicaciones-web-sw53-grupo-1.github.io/Landing-Page/public/ 
+
+## 5.2.1.8 Team Collaboration Insights for Sprint Review
+
+Creamos una organización en Github, donde tendremos todos nuestros repositorios de manera pública.
+
+Link de la organización: https://github.com/Aplicaciones-Web-SW53-Grupo-1 
+Link del repositorio con la landing page: https://github.com/Aplicaciones-Web-SW53-Grupo-1/Landing-Page 
+
+Podemos visualizar todos los commits y probamos que todos participamos en la landing page:
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149880091267039342/image.png">
+
+Integrantes:
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149880070501056542/image.png">
+
+
+## Conclusiones
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149880117959610441/image.png?width=596&height=559">
+
+<img src="https://media.discordapp.net/attachments/783068752958717972/1149880189598322729/image.png?width=694&height=559">
