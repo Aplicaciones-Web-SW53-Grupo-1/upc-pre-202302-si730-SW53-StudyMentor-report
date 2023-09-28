@@ -2559,16 +2559,6 @@ Integrantes:
 
 <img src="https://media.discordapp.net/attachments/783068752958717972/1149880070501056542/image.png">
 
-## 5.2.2.7 Team Collaboration Insights for Sprint Review
-
-Para el despliegue de nuestra aplicación web se usó Firebase. Nuestro proyecto se encuentra en el siguiente enlace:
-https://studymentor-aplicattionweb-v1.web.app 
-Para vincular nuestro proyecto con el servicio en nube que ofrece Firebase se siguió la instalación de dependencias que nos indica la herramienta:
-<img src="https://media.discordapp.net/attachments/1143747947322941440/1157082321367879712/image.png?ex=65175062&is=6515fee2&hm=90521d19de7294704bff14b376fa39b84d43401cb513b15cfce58bf839b3fd17&=&width=1277&height=676">
-
-<img src="https://media.discordapp.net/attachments/1143747947322941440/1157082501999763456/image.png?ex=6517508e&is=6515ff0e&hm=2c758d2312f09ddfe7b43a9cac964bec4c4a830d54d6bdddb22bb21e91d1954d&=&width=1061&height=93">
-Posteriormente escogemos el directorio dist como la directorio de recursos para nuestro proyecto en Firebase:
-<img src="https://media.discordapp.net/attachments/1143747947322941440/1157082583784493176/image.png?ex=651750a1&is=6515ff21&hm=3299fe88415815f1b1e689170cc94e5b0d01303f26395e8916d6a58295c561ba&=&width=1189&height=244">
 
 
 ## 5.2.2.3 Development Evidence for Sprint Review
@@ -2607,6 +2597,20 @@ Posteriormente escogemos el directorio dist como la directorio de recursos para 
 | Aplicaciones-Web-SW53-Grupo-1/Web-Application     | master                    | dc7ddbe7eddb256eebfb91a3d3e4ed5dc0c93db9 | chore: added dependencies                  | Adición de las dependencias necesarias     | 27/09/2023     |
 | Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 415699da160b5866a76d775df1d768db3e6a0c29 | fix(routes)::add fixed routes            | Corrección de las rutas.                  | 28/09/2023     |
 | Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 7edaa5132ff6ae86736705292a3b8f40e57265e0 | fix(routes)::add fixed routes            | Corrección de las rutas                   | 28/09/2023     |
+
+
+
+## 5.2.2.7 Team Collaboration Insights for Sprint Review
+
+Para el despliegue de nuestra aplicación web se usó Firebase. Nuestro proyecto se encuentra en el siguiente enlace:
+https://studymentor-aplicattionweb-v1.web.app 
+Para vincular nuestro proyecto con el servicio en nube que ofrece Firebase se siguió la instalación de dependencias que nos indica la herramienta:
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1157082321367879712/image.png?ex=65175062&is=6515fee2&hm=90521d19de7294704bff14b376fa39b84d43401cb513b15cfce58bf839b3fd17&=&width=1277&height=676">
+
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1157082501999763456/image.png?ex=6517508e&is=6515ff0e&hm=2c758d2312f09ddfe7b43a9cac964bec4c4a830d54d6bdddb22bb21e91d1954d&=&width=1061&height=93">
+Posteriormente escogemos el directorio dist como la directorio de recursos para nuestro proyecto en Firebase:
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1157082583784493176/image.png?ex=651750a1&is=6515ff21&hm=3299fe88415815f1b1e689170cc94e5b0d01303f26395e8916d6a58295c561ba&=&width=1189&height=244">
+
 
 ## Conclusiones
 
