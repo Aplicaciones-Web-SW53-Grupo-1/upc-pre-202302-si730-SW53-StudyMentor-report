@@ -189,11 +189,11 @@ Nuestra misión como empresa actualmente es encontrar una manera fácil para pod
   </tr>
   <tr>
     <td style="border: 1px solid #dddddd; padding: 8px;">
-      <img src="##" alt="##" width="50" height="50" style="border-radius: 25%;">
+      <img src="https://media.discordapp.net/attachments/736250121276096522/1157086857516040222/foto_TP.png?ex=6517549c&is=6516031c&hm=9ce15fd917e4c5a0f33a0131de254967a3bdfb4eb391ec436d52e9a1c0407c61&=&width=558&height=676" alt="FotoGiovanniRamos" width="50" height="50" style="border-radius: 25%;">
     </td>
-    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
-    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
-    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Ramos Calderon, Giovanni Andres</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Mi nombre es Giovanni Ramos, tengo 19 años y soy estudiante de la carrera Ingeniería de Software. Me interesan los temas relacionados a la arquitectura de una aplicación web. Así mismo me gusta aportar con la programación de un proyecto. Considero que puedo aportar con ideas y cooperar con los integrantes del equipo para los avances del trabajo.</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">u202122512</td>
   </tr>
 </table>
 
