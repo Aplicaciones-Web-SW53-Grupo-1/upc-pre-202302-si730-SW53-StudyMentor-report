@@ -2570,6 +2570,44 @@ Para vincular nuestro proyecto con el servicio en nube que ofrece Firebase se si
 Posteriormente escogemos el directorio dist como la directorio de recursos para nuestro proyecto en Firebase:
 <img src="https://media.discordapp.net/attachments/1143747947322941440/1157082583784493176/image.png?ex=651750a1&is=6515ff21&hm=3299fe88415815f1b1e689170cc94e5b0d01303f26395e8916d6a58295c561ba&=&width=1189&height=244">
 
+
+## 5.2.2.3 Development Evidence for Sprint Review
+
+| Repository                                          | Branch                    | Commit Id                                   | Commit Message                              | Commit message body                       | Committed On   |
+|----------------------------------------------------|---------------------------|---------------------------------------------|---------------------------------------------|------------------------------------------|----------------|
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/welcome           | 5d9b45d2781e3d81ff11d2a732f804a4af8f364a | feature(welcome)::add Welcome view and Toolbar added | Se agrego el welcome view y el Toolbar   | 22/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | beff9d223ba8a060ec78113d02468bfe762b7ca4 | build(develop):add Develop branch created | Se creo la rama develop                   | 22/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 27aedac587a517182f87c109403010b1a57d9cc6 | fx(develop)::add project name fixed        | Se corrigió el nombre del proyecto        | 22/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/registerStudent   | f195e362d221fc419fcce02f82efcc3847047e20 | feature(registerStudent::add Register Student Added | Se agrego register Student                | 24/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/loginStudent      | f195e362d221fc419fcce02f82efcc3847047e20 | feature(loginStudent)::add Login Student Added | Se agregó Login Student                   | 24/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feat/chooseSchedule       | 611cf34ab35be3497282a1508674f7990d989c92 | feat(chooseSchedule9:added schedule component | Se agrego el componente de schedule        | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feat/chooseSchedule       | c2ba10dd825323962928b68abf74408dabbca4da | feat(chooseSchedule9:padding component changed | Se cambió el padding del componente       | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feat/db                   | 99d49e413a83c13f2365a2a3c4f1f4b04268aff1 | feat(db; added schedules data              | Se agregaron datos de Schedule             | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/selected-tutor    | 389ac4cb64ca744751322a4d53e048d4198f0206 | feature(selected-tutor):Add selected tutor component | Se agrego el componente de selected tutor | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/selected-tutor    | 902f6ae73908ae39651cc218b69622ae8d0e233e | feature(selected-tutor):Add selected tutor view | Se agregó la vista del componente selected-tutor | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/selected-tutor    | a1926fa6d93cb9a97dc1924db916f029050ddf5f | feature(selected-tutor): add routes       | Se agrego las rutas de los componentes     | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/chat              | 7f9dc3395c38310e33180d5d148b5385e75ff27f | feature(chat):Add chat component           | Se agrego el componente de chat            | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feat/payment              | 7c66f0b8613a7344f5782064c64cfb093d80ea74 | feat(payment): added payment component and service for fake api | Se agrego el componente de pago y los servicios de la fake api | 25/09/2023 |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/chat              | d4506720c7d89fe7dddc4eb5335eff5a120c5ee8 | feature(chat):Add chat view                | Se agrego la vista del componente de chat  | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/ratings           | 4b0edb05af2d9115a89bbad8fccbf01bbef84b84 | feature(ratings):Add ratings component     | Se agrego el componente de ratings         | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/ratings           | 74255d90a38468928525d6817c5ed6189d689f40 | feature(ratings):Add rating view          | Se agrego la vista del componente ratings  | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feat/calendar             | ce3292e081fe3c9c7c8e0a64e97a4f35079115b7 | feat(calendar): add calendar component    | Se agrego el componente de calendar        | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/score             | 8f30389ca0e9eb86e3cb38cfd6147df7647a8a8c | feat(score): add score component          | Adición del componente de puntaje         | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/tutorlist         | 203451192e591ec2cf4a0fa399e1520d8858a62f | feat(tutor-list): add tutorlist component | Adición del componente de lista de tutores | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/calendarservice   | d737fa9c4886e26716f0ff98143847f8edea5fdb | feat(calendar): add calendar service      | Adición de el servicio de calendario      | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/score-view        | d112f93ea2e4689706ef3ff08a873df5247ff5f8 | feat(score): add score view               | Adición de la vista de puntuación         | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/tutorlist-view    | 0b50de82c47197fef7625bf605343c9537afdb25 | feat(tutor-list): add tutor-list-view and enhancement of router.js, db.json | Adición de la vista de tutor y se realizaron mejoras en 'router.js' y 'db.json' | 26/09/2023 |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | component/studentProfile  | c6a3c31a141b8f932988d9de076956de5999ab9c | feature(edit-home-profile)::add users.vue in components | Adición de users.vue a los componentes de edición de perfil de inicio | 26/09/2023 |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | component/studentProfile  | 0266f0f8b9bf6258e357bc34fcacbe47433a7423 | feature(update)::update components user  | Actualización de componente usuario        | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | component/studentProfile  | 809262cbf007b838c95c645ec29ff5e9815ffcbc | fix(update)::add fixed errors             | Adición de corrección de errores           | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 00a19beb18b3f8eef375bd3b24ea3362cf53a2a9 | fix(routes): :add fixed routes            | Adición de las rutas corregidas           | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 22485a8896e02987764c73873d367919f0c3fef5 | fix(routes)::add fixed routes and styles | Corrección de las rutas añadidas y los estilos | 27/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | d1c743764741aa0c03f6086c93b0ba44a6337f02 | fixe(routes)::add routes fixed           | Corrección de las rutas añadidas          | 27/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | master                    | 5ce6a355dd938d7e741c411a5b95542144eb884d | fix(routes): :fixed tutor route           | Corrección de la ruta de tutor            | 27/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | master                    | dc7ddbe7eddb256eebfb91a3d3e4ed5dc0c93db9 | chore: added dependencies                  | Adición de las dependencias necesarias     | 27/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 415699da160b5866a76d775df1d768db3e6a0c29 | fix(routes)::add fixed routes            | Corrección de las rutas.                  | 28/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 7edaa5132ff6ae86736705292a3b8f40e57265e0 | fix(routes)::add fixed routes            | Corrección de las rutas                   | 28/09/2023     |
+
 ## Conclusiones
 
 <img src="https://media.discordapp.net/attachments/783068752958717972/1149880117959610441/image.png?width=596&height=559">
