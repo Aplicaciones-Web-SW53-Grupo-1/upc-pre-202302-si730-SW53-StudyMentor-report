@@ -2559,7 +2559,35 @@ Integrantes:
 
 <img src="https://media.discordapp.net/attachments/783068752958717972/1149880070501056542/image.png">
 
+## 5.2.2. Sprint 2
+## 5.2.2.1. Sprint Planning 2
 
+| **Sprint #** | **Sprint 2** |
+| --- | --- |
+| **Sprint Planning Background** |
+| **Date** | 22-09-2023 |
+| **Time** | 09:02 PM |
+| **Location** | Servidor de Discord del Equipo |
+| **Prepared By** | Curi Montero Jonatan Omar |
+| **Attendees** | Curi Montero Jonatan Omar/Rafael Arturo Luyo Ramirez/Kurt Matthews Puican Salas/Miguel Angel Ramirez Alfaro/Giovanni Andres Ramos Calderon|
+| **Sprint 1 Review Summary** | En el sprint anterior nos enfocamos en la realización de la landing page y todas sus vistas |
+| **Sprint 1 Retrospective Summary** | En el sprint anterior implementamos las vistas de la landing page y desarrollamos las mockups para el Web Application. |
+| **Sprint Goal & User Stories**|
+| **Sprint 2 Goal** | La meta de este Sprint es el desarrollo del Web Application en su primera versión. Asimismo, realizamos las vistas para el paciente para esta primera entrega |
+| **Sprint 2 Velocity** | 15 Velocity |
+| **Sum of Story Points** | 15 Story Points. |
+
+
+<img src="https://cdn.discordapp.com/attachments/1143747947322941440/1157049626818519080/Screenshot_1.png?ex=651731ef&is=6515e06f&hm=09ad8ecb3dc57e2b001ab0d6bb30a8e8b453b58751576938ab1509182ea3829f&">
+
+
+## 5.2.2.2. Sprint Backlog 2
+
+En este primer Sprint, tuvimos como objetivo implementar el diseño de nuestro Landing Page vanilla, utilizando VSCode. Es decir, todas las secciones deben estar terminadas al finalizar el Sprint, ya sea inicio, conócenos, servicios o contáctanos. 
+
+<img src="https://cdn.discordapp.com/attachments/650181610951671828/1157099763267809342/image.png?ex=651760a1&is=65160f21&hm=268a0728c851fba58ec681496710032023dc2b7c62f64b42687f8357b4e13034&">
+
+<img src="https://cdn.discordapp.com/attachments/650181610951671828/1157099799414317146/image.png?ex=651760aa&is=65160f2a&hm=3380925090e10fed8c5cfd68868d54464b056035b93457cd1bdbe1f620b722b7&">
 
 ## 5.2.2.3 Development Evidence for Sprint Review
 
