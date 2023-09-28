@@ -2628,7 +2628,7 @@ En este primer Sprint, tuvimos como objetivo implementar el diseño de nuestro L
 
 
 
-## 5.2.2.7 Team Collaboration Insights for Sprint Review
+## 5.2.2.7 Software Deployment Evidence for Sprint Review
 
 Para el despliegue de nuestra aplicación web se usó Firebase. Nuestro proyecto se encuentra en el siguiente enlace:
 https://studymentor-aplicattionweb-v1.web.app 
@@ -2639,6 +2639,13 @@ Para vincular nuestro proyecto con el servicio en nube que ofrece Firebase se si
 Posteriormente escogemos el directorio dist como la directorio de recursos para nuestro proyecto en Firebase:
 <img src="https://media.discordapp.net/attachments/1143747947322941440/1157082583784493176/image.png?ex=651750a1&is=6515ff21&hm=3299fe88415815f1b1e689170cc94e5b0d01303f26395e8916d6a58295c561ba&=&width=1189&height=244">
 
+## 5.2.2.8 Team Collaboration insights during Sprint.
+
+Por otro lado, para el desarrollo del front-end de la aplicación, hemos usado un repositorio en GitHub en el cual, con la ayuda del flujo de trabajo Gitflow, hemos implementado en de manera grupal el desarrollo de nuestro front-end. Esto se evidencia en los diferentes commits realizados en el repositorio los cuales se pueden ver en las siguientes capturas de pantalla.
+
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1157103112876728380/12312323.png?ex=651763c0&is=65161240&hm=973a66177a5c4d0740737da751d47d1a9a4941f6c892892ddd5b5c8230239c4e&=">
+
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1157103174163906630/123123315.png?ex=651763ce&is=6516124e&hm=5a0aea30190aa434e39c451f3fc7d45e93dcd1565417735e6919d6a5d086bac2&=">
 
 ## Conclusiones
 
