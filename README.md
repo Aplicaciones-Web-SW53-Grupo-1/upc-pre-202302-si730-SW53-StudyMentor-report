@@ -189,11 +189,11 @@ Nuestra misión como empresa actualmente es encontrar una manera fácil para pod
   </tr>
   <tr>
     <td style="border: 1px solid #dddddd; padding: 8px;">
-      <img src="##" alt="##" width="50" height="50" style="border-radius: 25%;">
+      <img src="https://media.discordapp.net/attachments/736250121276096522/1157086857516040222/foto_TP.png?ex=6517549c&is=6516031c&hm=9ce15fd917e4c5a0f33a0131de254967a3bdfb4eb391ec436d52e9a1c0407c61&=&width=558&height=676" alt="FotoGiovanniRamos" width="50" height="50" style="border-radius: 25%;">
     </td>
-    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
-    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
-    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">##</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Ramos Calderon, Giovanni Andres</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Mi nombre es Giovanni Ramos, tengo 19 años y soy estudiante de la carrera Ingeniería de Software. Me interesan los temas relacionados a la arquitectura de una aplicación web. Así mismo me gusta aportar con la programación de un proyecto. Considero que puedo aportar con ideas y cooperar con los integrantes del equipo para los avances del trabajo.</td>
+    <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">u202122512</td>
   </tr>
 </table>
 
@@ -2559,9 +2559,190 @@ Integrantes:
 
 <img src="https://media.discordapp.net/attachments/783068752958717972/1149880070501056542/image.png">
 
+## 5.2.2. Sprint 2
+## 5.2.2.1. Sprint Planning 2
+
+| **Sprint #** | **Sprint 2** |
+| --- | --- |
+| **Sprint Planning Background** |
+| **Date** | 22-09-2023 |
+| **Time** | 09:02 PM |
+| **Location** | Servidor de Discord del Equipo |
+| **Prepared By** | Curi Montero Jonatan Omar |
+| **Attendees** | Curi Montero Jonatan Omar/Rafael Arturo Luyo Ramirez/Kurt Matthews Puican Salas/Miguel Angel Ramirez Alfaro/Giovanni Andres Ramos Calderon|
+| **Sprint 1 Review Summary** | En el sprint anterior nos enfocamos en la realización de la landing page y todas sus vistas |
+| **Sprint 1 Retrospective Summary** | En el sprint anterior implementamos las vistas de la landing page y desarrollamos las mockups para el Web Application. |
+| **Sprint Goal & User Stories**|
+| **Sprint 2 Goal** | La meta de este Sprint es el desarrollo del Web Application en su primera versión. Asimismo, realizamos las vistas para el paciente para esta primera entrega |
+| **Sprint 2 Velocity** | 15 Velocity |
+| **Sum of Story Points** | 15 Story Points. |
+
+
+<img src="https://cdn.discordapp.com/attachments/1143747947322941440/1157049626818519080/Screenshot_1.png?ex=651731ef&is=6515e06f&hm=09ad8ecb3dc57e2b001ab0d6bb30a8e8b453b58751576938ab1509182ea3829f&">
+
+
+## 5.2.2.2. Sprint Backlog 2
+
+En este primer Sprint, tuvimos como objetivo implementar el diseño de nuestro Landing Page vanilla, utilizando VSCode. Es decir, todas las secciones deben estar terminadas al finalizar el Sprint, ya sea inicio, conócenos, servicios o contáctanos. 
+
+<img src="https://cdn.discordapp.com/attachments/650181610951671828/1157099763267809342/image.png?ex=651760a1&is=65160f21&hm=268a0728c851fba58ec681496710032023dc2b7c62f64b42687f8357b4e13034&">
+
+<img src="https://cdn.discordapp.com/attachments/650181610951671828/1157099799414317146/image.png?ex=651760aa&is=65160f2a&hm=3380925090e10fed8c5cfd68868d54464b056035b93457cd1bdbe1f620b722b7&">
+
+## 5.2.2.3 Development Evidence for Sprint Review
+
+| Repository                                          | Branch                    | Commit Id                                   | Commit Message                              | Commit message body                       | Committed On   |
+|----------------------------------------------------|---------------------------|---------------------------------------------|---------------------------------------------|------------------------------------------|----------------|
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/welcome           | 5d9b45d2781e3d81ff11d2a732f804a4af8f364a | feature(welcome)::add Welcome view and Toolbar added | Se agrego el welcome view y el Toolbar   | 22/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | beff9d223ba8a060ec78113d02468bfe762b7ca4 | build(develop):add Develop branch created | Se creo la rama develop                   | 22/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 27aedac587a517182f87c109403010b1a57d9cc6 | fx(develop)::add project name fixed        | Se corrigió el nombre del proyecto        | 22/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/registerStudent   | f195e362d221fc419fcce02f82efcc3847047e20 | feature(registerStudent::add Register Student Added | Se agrego register Student                | 24/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/loginStudent      | f195e362d221fc419fcce02f82efcc3847047e20 | feature(loginStudent)::add Login Student Added | Se agregó Login Student                   | 24/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feat/chooseSchedule       | 611cf34ab35be3497282a1508674f7990d989c92 | feat(chooseSchedule9:added schedule component | Se agrego el componente de schedule        | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feat/chooseSchedule       | c2ba10dd825323962928b68abf74408dabbca4da | feat(chooseSchedule9:padding component changed | Se cambió el padding del componente       | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feat/db                   | 99d49e413a83c13f2365a2a3c4f1f4b04268aff1 | feat(db; added schedules data              | Se agregaron datos de Schedule             | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/selected-tutor    | 389ac4cb64ca744751322a4d53e048d4198f0206 | feature(selected-tutor):Add selected tutor component | Se agrego el componente de selected tutor | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/selected-tutor    | 902f6ae73908ae39651cc218b69622ae8d0e233e | feature(selected-tutor):Add selected tutor view | Se agregó la vista del componente selected-tutor | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/selected-tutor    | a1926fa6d93cb9a97dc1924db916f029050ddf5f | feature(selected-tutor): add routes       | Se agrego las rutas de los componentes     | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/chat              | 7f9dc3395c38310e33180d5d148b5385e75ff27f | feature(chat):Add chat component           | Se agrego el componente de chat            | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feat/payment              | 7c66f0b8613a7344f5782064c64cfb093d80ea74 | feat(payment): added payment component and service for fake api | Se agrego el componente de pago y los servicios de la fake api | 25/09/2023 |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/chat              | d4506720c7d89fe7dddc4eb5335eff5a120c5ee8 | feature(chat):Add chat view                | Se agrego la vista del componente de chat  | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/ratings           | 4b0edb05af2d9115a89bbad8fccbf01bbef84b84 | feature(ratings):Add ratings component     | Se agrego el componente de ratings         | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/ratings           | 74255d90a38468928525d6817c5ed6189d689f40 | feature(ratings):Add rating view          | Se agrego la vista del componente ratings  | 25/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feat/calendar             | ce3292e081fe3c9c7c8e0a64e97a4f35079115b7 | feat(calendar): add calendar component    | Se agrego el componente de calendar        | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/score             | 8f30389ca0e9eb86e3cb38cfd6147df7647a8a8c | feat(score): add score component          | Adición del componente de puntaje         | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/tutorlist         | 203451192e591ec2cf4a0fa399e1520d8858a62f | feat(tutor-list): add tutorlist component | Adición del componente de lista de tutores | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/calendarservice   | d737fa9c4886e26716f0ff98143847f8edea5fdb | feat(calendar): add calendar service      | Adición de el servicio de calendario      | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/score-view        | d112f93ea2e4689706ef3ff08a873df5247ff5f8 | feat(score): add score view               | Adición de la vista de puntuación         | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | feature/tutorlist-view    | 0b50de82c47197fef7625bf605343c9537afdb25 | feat(tutor-list): add tutor-list-view and enhancement of router.js, db.json | Adición de la vista de tutor y se realizaron mejoras en 'router.js' y 'db.json' | 26/09/2023 |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | component/studentProfile  | c6a3c31a141b8f932988d9de076956de5999ab9c | feature(edit-home-profile)::add users.vue in components | Adición de users.vue a los componentes de edición de perfil de inicio | 26/09/2023 |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | component/studentProfile  | 0266f0f8b9bf6258e357bc34fcacbe47433a7423 | feature(update)::update components user  | Actualización de componente usuario        | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | component/studentProfile  | 809262cbf007b838c95c645ec29ff5e9815ffcbc | fix(update)::add fixed errors             | Adición de corrección de errores           | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 00a19beb18b3f8eef375bd3b24ea3362cf53a2a9 | fix(routes): :add fixed routes            | Adición de las rutas corregidas           | 26/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 22485a8896e02987764c73873d367919f0c3fef5 | fix(routes)::add fixed routes and styles | Corrección de las rutas añadidas y los estilos | 27/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | d1c743764741aa0c03f6086c93b0ba44a6337f02 | fixe(routes)::add routes fixed           | Corrección de las rutas añadidas          | 27/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | master                    | 5ce6a355dd938d7e741c411a5b95542144eb884d | fix(routes): :fixed tutor route           | Corrección de la ruta de tutor            | 27/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | master                    | dc7ddbe7eddb256eebfb91a3d3e4ed5dc0c93db9 | chore: added dependencies                  | Adición de las dependencias necesarias     | 27/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 415699da160b5866a76d775df1d768db3e6a0c29 | fix(routes)::add fixed routes            | Corrección de las rutas.                  | 28/09/2023     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 7edaa5132ff6ae86736705292a3b8f40e57265e0 | fix(routes)::add fixed routes            | Corrección de las rutas                   | 28/09/2023     |
+
+## 5.2.2.4. Testing Suite Evidence for Sprint Review
+
+No se desarrolló en este sprint, pues en esta parte se presentarán los Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services.
+
+## 5.2.2.5. Execution Evidence for Sprint Review
+
+A continuación mostraremos las vistas implementadas:
+
+### Vista de Inicio:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157103206992711752/image.png?ex=651763d6&is=65161256&hm=1b457d95bd83dfadce02e0a381609cf080274cf56c0c9ab8ea8c1deb59e85caf&">
+
+### Vista de login:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157103233572012032/image.png?ex=651763dc&is=6516125c&hm=d069eeb65b07c08ea534aceced1a4da425809b928ead6d0d1330c5f94550e36b&">
+
+### Vista de registro:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157103264358215750/image.png?ex=651763e4&is=65161264&hm=30c94339147d7069b28bb80d739e9d98299e98957ff50a7483348953b39559c7&">
+
+### Vista de home:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157103321413333002/image.png?ex=651763f1&is=65161271&hm=be2ccea4365eabf3fc9d138111827d413110dded5fb2b0ae81596936ee7aba0d&">
+
+### Vista de perfil:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107289078116372/image.png?ex=651767a3&is=65161623&hm=b470c4cba3b133a99da6984c60ca5732c5016d6f8402e879482245fc57dac09f&">
+
+### Vista de Lista de tutores:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157105413477646336/image.png?ex=651765e4&is=65161464&hm=6e9a536fdaa78a6d92ff247a67f1722a976977feaf313e513f9eeca9857a9167&">
+
+### Vista de Tutor Seleccionado:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157105455437451385/image.png?ex=651765ee&is=6516146e&hm=0ea21d3e53427dd92c48de57efc1d1f0ccfcdd354c06376a91160d3fc26db2bd&">
+
+### Vista de Seleccionar horario de estudio:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107903258435604/image.png?ex=65176836&is=651616b6&hm=1cadf431dfa17bc839c60ace464e1063b2975dfea03edac373344e1de9af8ddb&">
+
+### Vista de Pago:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107480191586395/image.png?ex=651767d1&is=65161651&hm=56a147d28d38f81207f0845d550374fe4cbf1400d156c2fd6b940eb48b36bdba&">
+
+### Vista de Reviews:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107231934926910/image.png?ex=65176796&is=65161616&hm=545961f995f89d39918ea343761359d768b001ff841700b1ec2a40f30e57be97&">
+
+### Vista de Chat:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107325195255808/image.png?ex=651767ac&is=6516162c&hm=c7d397ee278e8b51e5bf0e023866d096b453d5e9d389939c7cf2f2f86fa59c7e&">
+
+### Vista de Calificaciones:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107360230293554/image.png?ex=651767b4&is=65161634&hm=453fdc74a3a0b3518741956ea7c6be84966c6fecd86aba2f4ca386695593cde0&">
+
+### Vista de Editar Perfil:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107390412505088/image.png?ex=651767bb&is=6516163b&hm=c17e0cb815ac73fef0a88e30255de88e7de0b54b9124ffc1ade6b1629c2babd8&">
+
+### Vista de Calendario:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107427209117818/image.png?ex=651767c4&is=65161644&hm=d2881019b0a227af6f0d0f07d70da69304471de98ef2ae569d48beeac8f33a7d&">
+
+
+## 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Para este sprint se desarrolló diferentes servicios, los cuales se pueden visualizar corriendo el json-server en el puerto 3000. Para ello se debe ejecutar el siguiente comando:
+
+json-server --watch db.json
+
+Y se podrá visualizar los siguientes endpoints:
+
+
+Endpoint: http://localhost:3000/students
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157115539408310413/image.png?ex=65176f52&is=65161dd2&hm=1152b7045faed2fc557d4b51c2151cd97c75c289ec37daca92af30fa42909453&">
+
+Endpoint: http://localhost:3000/tutores
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157116311541919754/image.png?ex=6517700a&is=65161e8a&hm=150275e4de46a17d9ceee335f222fe2545afa5244c79330822e11c537e135534&">
+
+Endpoint: http://localhost:3000/schedules
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157116756003921960/image.png?ex=65177074&is=65161ef4&hm=d0166930bbcc448fe861c134c167c595530aac8afa6f060f9d9d64d03951eefe&">
+
+Endpoint: http://localhost:3000/creditCards
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157116883615617074/image.png?ex=65177093&is=65161f13&hm=1f48418ce3e4285c6461c342c29da5ee2d1278ea00be834c37e9e27d76de0802&">
+
+
+## 5.2.2.7 Software Deployment Evidence for Sprint Review
+
+Para el despliegue de nuestra aplicación web se usó Firebase. Nuestro proyecto se encuentra en el siguiente enlace:
+https://studymentor-aplicattionweb-v1.web.app 
+Para vincular nuestro proyecto con el servicio en nube que ofrece Firebase se siguió la instalación de dependencias que nos indica la herramienta:
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1157082321367879712/image.png?ex=65175062&is=6515fee2&hm=90521d19de7294704bff14b376fa39b84d43401cb513b15cfce58bf839b3fd17&=&width=1277&height=676">
+
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1157082501999763456/image.png?ex=6517508e&is=6515ff0e&hm=2c758d2312f09ddfe7b43a9cac964bec4c4a830d54d6bdddb22bb21e91d1954d&=&width=1061&height=93">
+Posteriormente escogemos el directorio dist como la directorio de recursos para nuestro proyecto en Firebase:
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1157082583784493176/image.png?ex=651750a1&is=6515ff21&hm=3299fe88415815f1b1e689170cc94e5b0d01303f26395e8916d6a58295c561ba&=&width=1189&height=244">
+
+## 5.2.2.8 Team Collaboration insights during Sprint.
+
+Por otro lado, para el desarrollo del front-end de la aplicación, hemos usado un repositorio en GitHub en el cual, con la ayuda del flujo de trabajo Gitflow, hemos implementado en de manera grupal el desarrollo de nuestro front-end. Esto se evidencia en los diferentes commits realizados en el repositorio los cuales se pueden ver en las siguientes capturas de pantalla.
+
+Link del repositorio con la web application: https://github.com/Aplicaciones-Web-SW53-Grupo-1/Web-Application 
+
+
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1157103112876728380/12312323.png?ex=651763c0&is=65161240&hm=973a66177a5c4d0740737da751d47d1a9a4941f6c892892ddd5b5c8230239c4e&=">
+
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1157103174163906630/123123315.png?ex=651763ce&is=6516124e&hm=5a0aea30190aa434e39c451f3fc7d45e93dcd1565417735e6919d6a5d086bac2&=">
 
 ## Conclusiones
 
-<img src="https://media.discordapp.net/attachments/783068752958717972/1149880117959610441/image.png?width=596&height=559">
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117580025278474/image.png?ex=65177139&is=65161fb9&hm=16132f2cda32bc9277bd13f3cf815a9e2d2d6ad877549af447af01bc3cccf527&">
 
-<img src="https://media.discordapp.net/attachments/783068752958717972/1149880189598322729/image.png?width=694&height=559">
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117732307882055/image.png?ex=6517715d&is=65161fdd&hm=25b1a25d76ec9f049267c0d9f8164801231d38808c1fe75bc2a2447317214338&">
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117758476136599/image.png?ex=65177163&is=65161fe3&hm=7e783f9e8b5335a3565263b51ccdfa87dbb535e0e4551730cfa8121cb2e00bcc&">
