@@ -2626,6 +2626,95 @@ En este primer Sprint, tuvimos como objetivo implementar el diseño de nuestro L
 | Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 415699da160b5866a76d775df1d768db3e6a0c29 | fix(routes)::add fixed routes            | Corrección de las rutas.                  | 28/09/2023     |
 | Aplicaciones-Web-SW53-Grupo-1/Web-Application     | develop                   | 7edaa5132ff6ae86736705292a3b8f40e57265e0 | fix(routes)::add fixed routes            | Corrección de las rutas                   | 28/09/2023     |
 
+## 5.2.2.4. Testing Suite Evidence for Sprint Review
+
+No se desarrolló en este sprint, pues en esta parte se presentarán los Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services.
+
+## 5.2.2.5. Execution Evidence for Sprint Review
+
+A continuación mostraremos las vistas implementadas:
+
+### Vista de Inicio:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157103206992711752/image.png?ex=651763d6&is=65161256&hm=1b457d95bd83dfadce02e0a381609cf080274cf56c0c9ab8ea8c1deb59e85caf&">
+
+### Vista de login:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157103233572012032/image.png?ex=651763dc&is=6516125c&hm=d069eeb65b07c08ea534aceced1a4da425809b928ead6d0d1330c5f94550e36b&">
+
+### Vista de registro:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157103264358215750/image.png?ex=651763e4&is=65161264&hm=30c94339147d7069b28bb80d739e9d98299e98957ff50a7483348953b39559c7&">
+
+### Vista de home:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157103321413333002/image.png?ex=651763f1&is=65161271&hm=be2ccea4365eabf3fc9d138111827d413110dded5fb2b0ae81596936ee7aba0d&">
+
+### Vista de perfil:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107289078116372/image.png?ex=651767a3&is=65161623&hm=b470c4cba3b133a99da6984c60ca5732c5016d6f8402e879482245fc57dac09f&">
+
+### Vista de Lista de tutores:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157105413477646336/image.png?ex=651765e4&is=65161464&hm=6e9a536fdaa78a6d92ff247a67f1722a976977feaf313e513f9eeca9857a9167&">
+
+### Vista de Tutor Seleccionado:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157105455437451385/image.png?ex=651765ee&is=6516146e&hm=0ea21d3e53427dd92c48de57efc1d1f0ccfcdd354c06376a91160d3fc26db2bd&">
+
+### Vista de Seleccionar horario de estudio:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107903258435604/image.png?ex=65176836&is=651616b6&hm=1cadf431dfa17bc839c60ace464e1063b2975dfea03edac373344e1de9af8ddb&">
+
+### Vista de Pago:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107480191586395/image.png?ex=651767d1&is=65161651&hm=56a147d28d38f81207f0845d550374fe4cbf1400d156c2fd6b940eb48b36bdba&">
+
+### Vista de Reviews:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107231934926910/image.png?ex=65176796&is=65161616&hm=545961f995f89d39918ea343761359d768b001ff841700b1ec2a40f30e57be97&">
+
+### Vista de Chat:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107325195255808/image.png?ex=651767ac&is=6516162c&hm=c7d397ee278e8b51e5bf0e023866d096b453d5e9d389939c7cf2f2f86fa59c7e&">
+
+### Vista de Calificaciones:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107360230293554/image.png?ex=651767b4&is=65161634&hm=453fdc74a3a0b3518741956ea7c6be84966c6fecd86aba2f4ca386695593cde0&">
+
+### Vista de Editar Perfil:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107390412505088/image.png?ex=651767bb&is=6516163b&hm=c17e0cb815ac73fef0a88e30255de88e7de0b54b9124ffc1ade6b1629c2babd8&">
+
+### Vista de Calendario:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157107427209117818/image.png?ex=651767c4&is=65161644&hm=d2881019b0a227af6f0d0f07d70da69304471de98ef2ae569d48beeac8f33a7d&">
+
+
+## 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Para este sprint se desarrolló diferentes servicios, los cuales se pueden visualizar corriendo el json-server en el puerto 3000. Para ello se debe ejecutar el siguiente comando:
+
+json-server --watch db.json
+
+Y se podrá visualizar los siguientes endpoints:
+
+
+Endpoint: http://localhost:3000/students
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157115539408310413/image.png?ex=65176f52&is=65161dd2&hm=1152b7045faed2fc557d4b51c2151cd97c75c289ec37daca92af30fa42909453&">
+
+Endpoint: http://localhost:3000/tutores
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157116311541919754/image.png?ex=6517700a&is=65161e8a&hm=150275e4de46a17d9ceee335f222fe2545afa5244c79330822e11c537e135534&">
+
+Endpoint: http://localhost:3000/schedules
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157116756003921960/image.png?ex=65177074&is=65161ef4&hm=d0166930bbcc448fe861c134c167c595530aac8afa6f060f9d9d64d03951eefe&">
+
+Endpoint: http://localhost:3000/creditCards
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157116883615617074/image.png?ex=65177093&is=65161f13&hm=1f48418ce3e4285c6461c342c29da5ee2d1278ea00be834c37e9e27d76de0802&">
 
 
 ## 5.2.2.7 Software Deployment Evidence for Sprint Review
@@ -2643,12 +2732,17 @@ Posteriormente escogemos el directorio dist como la directorio de recursos para 
 
 Por otro lado, para el desarrollo del front-end de la aplicación, hemos usado un repositorio en GitHub en el cual, con la ayuda del flujo de trabajo Gitflow, hemos implementado en de manera grupal el desarrollo de nuestro front-end. Esto se evidencia en los diferentes commits realizados en el repositorio los cuales se pueden ver en las siguientes capturas de pantalla.
 
+Link del repositorio con la web application: https://github.com/Aplicaciones-Web-SW53-Grupo-1/Web-Application 
+
+
 <img src="https://media.discordapp.net/attachments/1143747947322941440/1157103112876728380/12312323.png?ex=651763c0&is=65161240&hm=973a66177a5c4d0740737da751d47d1a9a4941f6c892892ddd5b5c8230239c4e&=">
 
 <img src="https://media.discordapp.net/attachments/1143747947322941440/1157103174163906630/123123315.png?ex=651763ce&is=6516124e&hm=5a0aea30190aa434e39c451f3fc7d45e93dcd1565417735e6919d6a5d086bac2&=">
 
 ## Conclusiones
 
-<img src="https://media.discordapp.net/attachments/783068752958717972/1149880117959610441/image.png?width=596&height=559">
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117580025278474/image.png?ex=65177139&is=65161fb9&hm=16132f2cda32bc9277bd13f3cf815a9e2d2d6ad877549af447af01bc3cccf527&">
 
-<img src="https://media.discordapp.net/attachments/783068752958717972/1149880189598322729/image.png?width=694&height=559">
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117732307882055/image.png?ex=6517715d&is=65161fdd&hm=25b1a25d76ec9f049267c0d9f8164801231d38808c1fe75bc2a2447317214338&">
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117758476136599/image.png?ex=65177163&is=65161fe3&hm=7e783f9e8b5335a3565263b51ccdfa87dbb535e0e4551730cfa8121cb2e00bcc&">
