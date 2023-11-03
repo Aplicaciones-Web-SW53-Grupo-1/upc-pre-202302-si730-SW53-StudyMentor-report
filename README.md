@@ -2739,6 +2739,28 @@ Link del repositorio con la web application: https://github.com/Aplicaciones-Web
 
 <img src="https://media.discordapp.net/attachments/1143747947322941440/1157103174163906630/123123315.png?ex=651763ce&is=6516124e&hm=5a0aea30190aa434e39c451f3fc7d45e93dcd1565417735e6919d6a5d086bac2&=">
 
+## 5.2.3.7 Software Deployment Evidence for Sprint Review
+Para el despliegue de la versión final de nuestra aplicación web, se actualizó las dependencias de nuestro proyecto.
+
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1169757865809018970/image.png?ex=655690e8&is=65441be8&hm=a930e44242433022549ba74175694f0270cff00179beef509ac4918530cdc89f&=&width=1441&height=196">
+
+Posterior a la actualización de dependecias se desplegó nuevamente en el servicio creado en el anterior sprint para que nuestros usuarios puedan usar nuestra versión actualizada de la aplicación web.
+
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1169758434737012866/image.png?ex=6556916f&is=65441c6f&hm=1b8a86654fd6118f532b264d3c46fc9a61963dffbe397d111c6c82a2cb2f26c1&=&width=864&height=378">
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1169758459558891570/image.png?ex=65569175&is=65441c75&hm=290520db4fd1bebffe248f4586ae8b710341854e201911af1f4ba18cfb8b855f&=&width=957&height=361"/>
+
+Nuestra aplicación desplegada se encuentra en el URL: https://studymentor-aplicattionweb-v1.web.app/
+
+## 5.2.3.8 Team Collaboration insights during Sprint.
+
+Para el desarollo de nuestro backend hemos creado un repositorio dentro de nuesta organización, en el cual usamos el flujo de trabajo Gitflow. A continuación los commits realizados por cada uno de los integrantes de nuestra organización.
+
+Link de repositorio del backend:
+https://github.com/Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
+<img src="https://media.discordapp.net/attachments/736250121276096522/1169795034028187709/image.png?ex=6556b385&is=65443e85&hm=70e440dc9f3673753011dbfb51fc216a52ecdf573d7b503365c58cd19a42b14b&=&width=1245&height=676">
+<img src="https://media.discordapp.net/attachments/736250121276096522/1169795264584880209/image.png?ex=6556b3bc&is=65443ebc&hm=1dc784ea3b5eea75a57df8b8d19e253d5e99fc2c35f8805aaa74180a1ea56390&=&width=1058&height=676" />
+
+
 ## Conclusiones
 
 <img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117580025278474/image.png?ex=65177139&is=65161fb9&hm=16132f2cda32bc9277bd13f3cf815a9e2d2d6ad877549af447af01bc3cccf527&">
