@@ -2776,48 +2776,6 @@ Link del repositorio con la web application: https://github.com/Aplicaciones-Web
 | Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/score     | 64dd4fccc6cce81375144ca22732af90919732eb | feat(score): add api data for score                | Se añadio el servicio de scores                    | 2/11/23      |
 | Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/schedule  | 25a1ae8fd65c9f43ce691c371b2e29d82d460834 | feat: add schedule SQL, Controller, Domain         | Se añadio el servicio de schedule                  | 2/11/23      |
 
-## 5.3.1. Diseño de Entrevistas
-
-- User Goal: Como estudiante, quiero buscar asesores disponibles.
-
-- Descripcion: Flujo que seguira el usuario para saber si hay asesores disponibles. Inicia en el home, luego se dirije a students luego inicia sesion y se dirije a tutors.
-
-<img src="https://media.discordapp.net/attachments/624357489021943810/1169764981345103882/Blank_diagram.jpeg?ex=65569788&is=65442288&hm=cf46e388d3f859d00b750bba078b4ca81d42dcd5842a5bfb2fdaca68326af089&=&width=648&height=468">
-
-- User Goal: Como estudiante, quiero tener un historial de mis sesiones de tutoría anteriores para la opción de dejar comentarios y calificaciones.
-
-- Descripcion: El estudiante inicia sesion, se dijije a tutores y buscara las reviews o hara la review del profesor que llevo el curso.
-
-<img src="https://media.discordapp.net/attachments/624357489021943810/1169767446329163776/Blank_diagram_7.png?ex=655699d4&is=654424d4&hm=51616859fdcdfd111d9161f3babb4925c2b1b27940c39a868dd15a233ff75a31&=&width=606&height=468">
-
-- User Goal: Como estudiante, quiero reservar sesiones de tutoría con los asesores seleccionados para recibir confirmaciones de reserva.
-
-- Descripcion: Flujo que seguira el usuario para lograr reserva una tutoria y realizar los pasos necesarios para completar el pago.
-
-<img src ="https://media.discordapp.net/attachments/624357489021943810/1169769358071963700/Blank_diagram_8.png?ex=65569b9c&is=6544269c&hm=9bde30d88fb039c8064b101185fd529de0e6a57e1dce06522b696f20223cd304&=&width=427&height=468">
-
-## 5.3.2. Registro de Entrevistas
-
-- Nombres y Apellidos: Favio Rodriguez
-- Edad: 23 años 
-- Distrito: Lima
-- Evidencia de la reunión:
-
-<img src="https://media.discordapp.net/attachments/624357489021943810/1169770822156681236/image.png?ex=65569cf9&is=654427f9&hm=02c10149007111f86721a78ede6c35fb85a9d917a90b2b5c7fdbe75e9a6aec26&=&width=1025&height=394">
-
-- Url: https://youtu.be/yIZ6K5buJZQ 
-- Resumen: Favio nos da su opinion de ahora que esta casi terminada la applicacion y nos dice las diferencias landing page. Ademas, nos dice que se podria agregar o quitar en el diseño y estructura de la aplicacion.
-
-
-- Nombres y Apellidos: Alex Herrera
-- Edad: 22 años
-- Distrito: Lima
-- Evidencia de la reunión:
-
-<img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169812868166844456/image.png?ex=6556c421&is=65444f21&hm=f78c2606334d6b684d255628b048eebe098aa9277a62a67781f14d8b02b9b980&">
-
-- Url: https://youtu.be/-Rt0XwhlP8k
-- Resumen: Alex Herrera nos menciona que le gusto mucho la aplicacion que estamos implementando y menciona que esta muy ordenado,nos sugiere mejorar la visualizacion de profesores para poder ver donde estudiaron y su trayectoria.
 
 # 5.2.3.5 Execution Evidence for Sprint Review 
 En esta parte se mostrara las vistas que se han implementado para esta entrega
@@ -2873,6 +2831,50 @@ https://github.com/Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
 <img src="https://media.discordapp.net/attachments/736250121276096522/1169795034028187709/image.png?ex=6556b385&is=65443e85&hm=70e440dc9f3673753011dbfb51fc216a52ecdf573d7b503365c58cd19a42b14b&=&width=1245&height=676">
 <img src="https://media.discordapp.net/attachments/736250121276096522/1169795264584880209/image.png?ex=6556b3bc&is=65443ebc&hm=1dc784ea3b5eea75a57df8b8d19e253d5e99fc2c35f8805aaa74180a1ea56390&=&width=1058&height=676" />
 
+
+## 5.3 Validation Interviews
+## 5.3.1. Diseño de Entrevistas
+
+- User Goal: Como estudiante, quiero buscar asesores disponibles.
+
+- Descripcion: Flujo que seguira el usuario para saber si hay asesores disponibles. Inicia en el home, luego se dirije a students luego inicia sesion y se dirije a tutors.
+
+<img src="https://media.discordapp.net/attachments/624357489021943810/1169764981345103882/Blank_diagram.jpeg?ex=65569788&is=65442288&hm=cf46e388d3f859d00b750bba078b4ca81d42dcd5842a5bfb2fdaca68326af089&=&width=648&height=468">
+
+- User Goal: Como estudiante, quiero tener un historial de mis sesiones de tutoría anteriores para la opción de dejar comentarios y calificaciones.
+
+- Descripcion: El estudiante inicia sesion, se dijije a tutores y buscara las reviews o hara la review del profesor que llevo el curso.
+
+<img src="https://media.discordapp.net/attachments/624357489021943810/1169767446329163776/Blank_diagram_7.png?ex=655699d4&is=654424d4&hm=51616859fdcdfd111d9161f3babb4925c2b1b27940c39a868dd15a233ff75a31&=&width=606&height=468">
+
+- User Goal: Como estudiante, quiero reservar sesiones de tutoría con los asesores seleccionados para recibir confirmaciones de reserva.
+
+- Descripcion: Flujo que seguira el usuario para lograr reserva una tutoria y realizar los pasos necesarios para completar el pago.
+
+<img src ="https://media.discordapp.net/attachments/624357489021943810/1169769358071963700/Blank_diagram_8.png?ex=65569b9c&is=6544269c&hm=9bde30d88fb039c8064b101185fd529de0e6a57e1dce06522b696f20223cd304&=&width=427&height=468">
+
+## 5.3.2. Registro de Entrevistas
+
+- Nombres y Apellidos: Favio Rodriguez
+- Edad: 23 años 
+- Distrito: Lima
+- Evidencia de la reunión:
+
+<img src="https://media.discordapp.net/attachments/624357489021943810/1169770822156681236/image.png?ex=65569cf9&is=654427f9&hm=02c10149007111f86721a78ede6c35fb85a9d917a90b2b5c7fdbe75e9a6aec26&=&width=1025&height=394">
+
+- Url: https://youtu.be/yIZ6K5buJZQ 
+- Resumen: Favio nos da su opinion de ahora que esta casi terminada la applicacion y nos dice las diferencias landing page. Ademas, nos dice que se podria agregar o quitar en el diseño y estructura de la aplicacion.
+
+
+- Nombres y Apellidos: Alex Herrera
+- Edad: 22 años
+- Distrito: Lima
+- Evidencia de la reunión:
+
+<img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169812868166844456/image.png?ex=6556c421&is=65444f21&hm=f78c2606334d6b684d255628b048eebe098aa9277a62a67781f14d8b02b9b980&">
+
+- Url: https://youtu.be/-Rt0XwhlP8k
+- Resumen: Alex Herrera nos menciona que le gusto mucho la aplicacion que estamos implementando y menciona que esta muy ordenado,nos sugiere mejorar la visualizacion de profesores para poder ver donde estudiaron y su trayectoria.
 
 ## Conclusiones
 
