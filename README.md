@@ -2739,6 +2739,42 @@ Link del repositorio con la web application: https://github.com/Aplicaciones-Web
 
 <img src="https://media.discordapp.net/attachments/1143747947322941440/1157103174163906630/123123315.png?ex=651763ce&is=6516124e&hm=5a0aea30190aa434e39c451f3fc7d45e93dcd1565417735e6919d6a5d086bac2&=">
 
+## 5.2.3.3. Development Evidence for Sprint Review
+### Aplicaciones-Web-SW53-Grupo-1/Web-Application
+| Repository                                     | Branch           | Commit Id          | Commit Message                                   | Commit message body                              | Committed On |
+| ---------------------------------------------- | ----------------- | ------------------ | ----------------------------------------------- | ------------------------------------------------- | ------------ |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | develop           | 742ba8e0fb932132c420593eb9a7d079a189f767 | feat(selected-student): selected student component implemented | Se añadio el selected student componente           | 24/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/studentlist | fb3332827fb2a6ca88bb5c1fb35a3ebf9bcaca4a | feat(studentlist)::add studentlist component and view | Se añadio el componente y la vista de studentlist  | 29/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/tutorchat | 6444557336e51cebf553e8c0446be64d084a0a48 | feat(tutorchat): add tutorchat component and view | Se añadio el componente y la vista de tutorchat    | 29/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/develop | 2f0a4f08b84dc9eabf71edc42884572cd56c14d5 | feat(router): applied router dependencies      | Se añadio las dependencias de router               | 29/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feat/tutor-edit | 11f3341693f680f2b4e2e538d2a7a1d167df2fd7 | feat(tutor-edit)::add tutor-edit component and view | Se añadio el componente de tutoredit y la vista   | 30/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feat/tutor-profile | e8456478662c6ac82bf7422b0d2b0ffaddc8191f | feat(Tutro-Profile):add Tutor-Profile component and view | Se añadio la vista de tutor profile y la vista | 30/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/tutorhome | e8a5efa2848d969385f35a035720ddc7488582d1 | feat: add tutor-home and update calendarview   | Se añadio el tutor home component                   | 30/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/develop | 1a31f05a53c436c884751430cb6f3dc6be38a3e1 | fix: routes fixed                              | Se corrigió el routing                              | 31/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/tutorcalendar | 36ac00d0983e519bc845b6bd668af398154f76c8 | feat: add tutorcalendar                         | Se añadió el tutorcalendar component                | 31/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/develop | 29c9fb570cc7584057dc00848c16272e870f17b5 | fix: fixed Tutors structure and register tutor | Se corrigio la estructura de tutores y registro de tutores | 31/10/23 |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/tutorlist | 63c208b411c87ba3509da7ba1ccbedfb766eaabb | feat(tutorlist): modified tutorlist and tutorlistview | Se modifico el tutorlist component y su vista    | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feat/studentlist | c7512f0bc10face4a82bfef5d1ac7b574743e7a1 | feat(studentlist): modified studentlist and studentlistview | Se modifico el studentlist component y su vista | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feat/score       | b1cc0f258f9e68812ec03a751255e891f0d994c8 | feat(score): modified score and score view     | Se modifico el score component y su vista         | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/develop | be7a0e25c45408227b9379b2aaab362c14c9228c | fix: fixed routes in student list               | Se corrigio el routing en student list            | 1/11/23      |
+
+### Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
+| Repository                                     | Branch           | Commit Id          | Commit Message                                       | Commit message body                              | Committed On |
+| ---------------------------------------------- | ----------------- | ------------------ | --------------------------------------------------- | ------------------------------------------------- | ------------ |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | develop           | 942f303b8fb87b666ba33a642c2b040175a28510 | initial commit                                   | Se agrego el proyecto inicial                     | 30/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/payment   | 1c7961c2b4d0d0aafa508a72431c35a2d9d3d752 | added payment controller, domain and data     | Se agrego el payment controller, domain y data   | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/payment   | 3f3d587828bbf9fa48ca537ada361065559996eb | feat(payment)::added payment controller         | Se añadio el payment controller                    | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/payment   | 810a0c2e1b5c0312fde753a78de0e880f426280c | feat(payment):: added payment controller functionalities for domain. | Se añadio las funcionalidades del payment controller para domain | 1/11/23 |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/review    | 27878be7e8d3eb404397fa8a1d135f637219ab50 | feat(review)::added review dependencies for controller | Se añadio el review dependencie para controller  | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/review    | d0a2387bfd3e7b3b420db565c1ed17397e146634 | fix(review):: fixed privacy of data constructor  | Se corrigio el privacy del constructor de datos   | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/review    | 1f49bac294824510a9b173e3be8b7f99f5ba56ec | feat(review)::added review controller              | Se añadio el review controller                     | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/student   | cf709abfa524fc63abe03986b02bf6275a546a25 | feat: added Student service                        | Se añadió el student service                      | 2/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/student   | b320cd264d89d1a662a3a02d453d634162b4dd07 | feat: added Student controller and service       | Se añadio el controller del estudiante y servicio | 2/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/tutor     | 809ced5d861aedfe92435f02cf8b37ca68984108 | feat:add Tutor Controller and Service              | Se añadio el controller y servicio del tutor       | 2/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/reviews   | 2b5fbcde84998da9a431a76f87283d8f4ec55f56 | feature(reviews)::update API,DOMAIN & DATA layers for reviews | Se añadio el servicio de reviews                   | 2/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/reviews   | b1ae6a1d8bb8ee4c1d334d82b7ae6675475cf920 | feature(reviews):updated API,DOMAIN & DATA layer  | Se corrigio el servicio de reviews                  | 2/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/score     | 64dd4fccc6cce81375144ca22732af90919732eb | feat(score): add api data for score                | Se añadio el servicio de scores                    | 2/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/schedule  | 25a1ae8fd65c9f43ce691c371b2e29d82d460834 | feat: add schedule SQL, Controller, Domain         | Se añadio el servicio de schedule                  | 2/11/23      |
 
 ## 5.3.1. Diseño de Entrevistas
 
@@ -2772,6 +2808,16 @@ Link del repositorio con la web application: https://github.com/Aplicaciones-Web
 - Url: https://youtu.be/yIZ6K5buJZQ 
 - Resumen: Favio nos da su opinion de ahora que esta casi terminada la applicacion y nos dice las diferencias landing page. Ademas, nos dice que se podria agregar o quitar en el diseño y estructura de la aplicacion.
 
+
+- Nombres y Apellidos: Alex Herrera
+- Edad: 22 años
+- Distrito: Lima
+- Evidencia de la reunión:
+
+<img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169812868166844456/image.png?ex=6556c421&is=65444f21&hm=f78c2606334d6b684d255628b048eebe098aa9277a62a67781f14d8b02b9b980&">
+
+- Url: https://youtu.be/-Rt0XwhlP8k
+- Resumen: Alex Herrera nos menciona que le gusto mucho la aplicacion que estamos implementando y menciona que esta muy ordenado,nos sugiere mejorar la visualizacion de profesores para poder ver donde estudiaron y su trayectoria.
 
 # 5.2.3.5 Execution Evidence for Sprint Review 
 En esta parte se mostrara las vistas que se han implementado para esta entrega
