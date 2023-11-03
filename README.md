@@ -2779,3 +2779,107 @@ En esta parte se mostrara las vistas que se han implementado para esta entrega
 ### Reviews Tutor
 
 <img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169761961924370475/image.png?ex=655694b8&is=65441fb8&hm=a155ff5bd28f501fd03b9fa822235e2f37da4daa5fcb50af4bcc28cde8ab3cc5&">
+
+# 5.3.3 Evaluaciones segun heurísticas
+
+## Anexo D: Formato para Evaluación de User Experience según Heurísticas
+
+### UX Heuristics & Principles Evaluation
+*Usabilidad – Diseño Inclusivo – Arquitectura de Información*
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Aplicaciones Web  
+**SECCIÓN:** SW53  
+**PROFESORES:** Todos  
+**AUDITOR:** Evosoft  
+**CLIENTE(S):** Evosoft  
+**SITE o APP A EVALUAR:**  
+Nombre de la App: Study Mentor
+
+**TAREAS A EVALUAR:**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+1. Registro de un estudiante
+2. Chat 
+3. Búsqueda de un tutor
+4. Reviews de los tutores
+5. Cancelación de una reserva
+6. Agregar ítems a un pedido
+7. Pago de una clase
+8. Horario
+9. Registro de un tutor
+10. Horario
+
+*No están incluidas en esta versión de la evaluación las siguientes tareas:*
+1. Cambio de perfiles
+2. Otros medios de pago 
+3. Administrar alumnos
+4. Eliminar una publicación
+5. Borrado de cuenta 
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción                                                                                                         |
+|-------|----------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+## TABLA RESUMEN:
+
+| #   | Problema                                                                                                          | Escala de Severidad | Heurística/Principio Violado(o)               |
+| --- | ------------------------------------------------------------------------------------------------------------------ | ------------------- | --------------------------------------------- |
+| 1   | No hay una validación a la hora de crear los usuarios tanto como los estudiantes como los tutores               | 3                   | Usability: Prevención de errores               |
+| 2   | Hay un botón de chat pero no te lleva a ningún lado                                                               | 2                   | Usability: Consistencia y estándares           |
+| 3   | Hay chat pero no se puede escribir en él                                                                         | 3                   | Usability: Libertad y control del usuario       |
+| 4   | No hay algún botón para volver en la vista de calendario                                                          | 2                   | Usability: Consistencia y estándares           |
+| 5   | En el apartado review no se puede agregar una review                                                              | 3                   | Usability: Prevención de errores               |
+| 6   | A pesar de estar en estudiante me pone en las vistas de tutor                                                     | 2                   | Usability: Consistencia y estándares           |
+| 7   | No hay un botón de volver en calificaciones                                                                      | 1                   | Usability: Consistencia y estándares           |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS:
+
+### PROBLEMA #1: No hay una validación a la hora de crear usuarios, tanto estudiantes como tutores
+- **Severidad:** 3
+- **Heurística Violada:** Usabilidad - Prevención de errores
+- **Descripción:**
+Cuando los usuarios intentan crear una cuenta como estudiante o tutor, el sistema no realiza una validación adecuada de los datos ingresados. Esto permite la creación de cuentas con información incompleta o incorrecta, lo cual puede llevar a problemas de funcionalidad y comunicación en la plataforma. La falta de validación dificulta la experiencia del usuario y puede generar confusión y errores en el uso del sistema. Por ejemplo, los usuarios podrían ingresar correos electrónicos inválidos o contraseñas demasiado cortas sin recibir advertencias, lo que podría resultar en cuentas inutilizables.
+
+### PROBLEMA #2: Hay un botón de chat pero no redirige a ningún lado
+- **Severidad:** 2
+- **Heurística Violada:** Usabilidad - Consistencia y estándares
+- **Descripción:**
+En la plataforma, existe un botón de chat que, al hacer clic en él, no redirige a los usuarios a ninguna página o función específica. La falta de funcionalidad del botón de chat puede generar confusión entre los usuarios, ya que esperan ser llevados a una sección de chat o una ventana emergente para interactuar con otros usuarios o el soporte técnico. La falta de respuesta al hacer clic en el botón de chat puede resultar en una experiencia frustrante para los usuarios, ya que no pueden acceder a la función que esperan utilizar.
+
+### PROBLEMA #3: Existe un chat pero no se puede escribir en él
+- **Severidad:** 3
+- **Heurística Violada:** Usabilidad - Libertad y control del usuario
+- **Descripción:**
+A pesar de que hay una función de chat presente en la plataforma, los usuarios no pueden escribir mensajes en ella. Esta limitación restringe significativamente la capacidad de los usuarios para comunicarse entre sí, especialmente en contextos como la tutoría, donde la comunicación directa es esencial. La falta de funcionalidad del chat impide la interacción y frustra a los usuarios que intentan utilizar esta herramienta. La ausencia de la posibilidad de enviar mensajes en el chat limita la comunicación en tiempo real, lo que es crucial para la experiencia del usuario, especialmente en un entorno educativo o de colaboración.
+
+### PROBLEMA #4: Falta un botón para volver en la vista del calendario
+- **Severidad:** 2
+- **Heurística Violada:** Usabilidad - Consistencia y estándares
+- **Descripción:**
+En la vista del calendario, no hay un botón o función clara que permita a los usuarios volver a la página anterior o a la vista anterior del calendario. La falta de esta funcionalidad puede causar confusión, especialmente para los usuarios que deseen regresar a fechas anteriores o revisar eventos pasados en el calendario. La ausencia de un botón de "Volver" o una función similar dificulta la navegación del usuario y puede llevar a una experiencia desorientadora.
+
+### PROBLEMA #5: En el apartado de reviews no se puede agregar una review
+- **Severidad:** 3
+- **Heurística Violada:** Usabilidad - Prevención de errores
+- **Descripción:**
+A pesar de existir una sección dedicada a las reseñas (reviews) de los usuarios, no se permite agregar nuevas reseñas en esta área. Esta limitación impide a los usuarios compartir sus experiencias y opiniones sobre los tutores o las clases, lo que reduce la interactividad y la utilidad de esta función. La falta de funcionalidad para agregar nuevas reseñas frustra a los usuarios que desean expresar sus opiniones y limita la retroalimentación que otros usuarios pueden recibir para tomar decisiones informadas sobre los tutores.
+
+### PROBLEMA #6: A pesar de estar marcado como estudiante, se muestra contenido de tutor
+- **Severidad:** 2
+- **Heurística Violada:** Usabilidad - Consistencia y estándares
+- **Descripción:**
+A los usuarios marcados como estudiantes se les muestra contenido y funcionalidades asociadas a los tutores. Esto crea una discrepancia entre el rol designado y el acceso real del usuario, lo que puede generar confusión y desorientación. Los estudiantes podrían encontrarse interactuando con funciones destinadas a los tutores, lo que afecta negativamente su experiencia de usuario. La inconsistencia en la presentación del contenido y las funciones puede confundir a los usuarios sobre su rol y las acciones que pueden realizar en la plataforma.
+
+### PROBLEMA #7: No hay un botón de volver en la sección de calificaciones
+- **Severidad:** 1
+- **Heurística Violada:** Usabilidad - Consistencia y estándares
+- **Descripción:**
+En la sección de calificaciones, falta un botón o función para que los usuarios puedan regresar a la página anterior o a la vista anterior. La ausencia de esta funcionalidad puede parecer una omisión menor, pero puede afectar negativamente la experiencia del usuario, especialmente si están revisando múltiples calificaciones o desean volver atrás para comparar información. La falta de un botón de "Volver" puede llevar a una experiencia de usuario menos eficiente y más frustrante, ya que los
