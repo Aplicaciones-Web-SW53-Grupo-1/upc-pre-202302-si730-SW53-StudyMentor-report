@@ -2780,6 +2780,7 @@ En esta parte se mostrara las vistas que se han implementado para esta entrega
 
 <img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169761961924370475/image.png?ex=655694b8&is=65441fb8&hm=a155ff5bd28f501fd03b9fa822235e2f37da4daa5fcb50af4bcc28cde8ab3cc5&">
 
+
 # 5.3.3 Evaluaciones segun heurísticas
 
 ## Anexo D: Formato para Evaluación de User Experience según Heurísticas
@@ -2882,4 +2883,4 @@ A los usuarios marcados como estudiantes se les muestra contenido y funcionalida
 - **Severidad:** 1
 - **Heurística Violada:** Usabilidad - Consistencia y estándares
 - **Descripción:**
-En la sección de calificaciones, falta un botón o función para que los usuarios puedan regresar a la página anterior o a la vista anterior. La ausencia de esta funcionalidad puede parecer una omisión menor, pero puede afectar negativamente la experiencia del usuario, especialmente si están revisando múltiples calificaciones o desean volver atrás para comparar información. La falta de un botón de "Volver" puede llevar a una experiencia de usuario menos eficiente y más frustrante, ya que los
+En la sección de calificaciones, falta un botón o función para que los usuarios puedan regresar a la página anterior o a la vista anterior. La ausencia de esta funcionalidad puede parecer una omisión menor, pero puede afectar negativamente la experiencia del usuario, especialmente si están revisando múltiples calificaciones o desean volver atrás para comparar información. La falta de un botón de "Volver" puede llevar a una experiencia de usuario menos eficiente y más frustrante, ya que los usuarios deben depender del botón de retroceso del navegador o de otras formas de navegación para regresar a la página anterior.
