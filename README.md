@@ -2739,6 +2739,377 @@ Link del repositorio con la web application: https://github.com/Aplicaciones-Web
 
 <img src="https://media.discordapp.net/attachments/1143747947322941440/1157103174163906630/123123315.png?ex=651763ce&is=6516124e&hm=5a0aea30190aa434e39c451f3fc7d45e93dcd1565417735e6919d6a5d086bac2&=">
 
+## 5.2.3. Sprint 3
+## 5.2.3.1. Sprint Planning 3
+
+| **Sprint #** | **Sprint 3** |
+| --- | --- |
+| **Sprint Planning Background** |
+| **Date** | 24-10-2023 |
+| **Time** | 03:02 PM |
+| **Location** | Servidor de Discord del Equipo |
+| **Prepared By** | Curi Montero Jonatan Omar |
+| **Attendees** | Curi Montero Jonatan Omar/Rafael Arturo Luyo Ramirez/Kurt Matthews Puican Salas/Miguel Angel Ramirez Alfaro/Giovanni Andres Ramos Calderon|
+| **Sprint 2 Review Summary** | En el sprint anterior nos enfocamos en la realización de la aplicación web para el entorno del estudiante |
+| **Sprint 2 Retrospective Summary** | En el sprint anterior implementamos las vistas para el estudiantes en la aplicación web |
+| **Sprint Goal & User Stories**|
+| **Sprint 3 Goal** | La meta de este Sprint es el desarrollo del Web Application completo, con las vistas tanto para el estudiante como para el tutor |
+| **Sprint 3 Velocity** | 27 Velocity |
+| **Sum of Story Points** | 27 Story Points. |
+
+
+<img src="https://cdn.discordapp.com/attachments/634852324874911744/1169763757120028743/image.png?ex=65569664&is=65442164&hm=fb0b4e021b5cb2c09082d501007e50347636cff42a08defccf54bb3aae9cf504&">
+
+
+## 5.2.3.2. Sprint Backlog 3
+
+En este segundo Sprint, el objetivo fue implementar todas las vistas para el tutor y mejorar las vistas para el estudiante. Siendo el tutor capaz de establecer notas, visualizar a todos sus alumnos, etc. 
+
+| Historia de Usuario | Task | Título de la Tarea | Descripción de la Tarea | Estimación | Asignado a | Estado |
+|--------------------|------|--------------------|-------------------------|------------|-----------|--------|
+| US12 | T1 | Ver a Todos Mis Alumnos | Como tutor, quiero poder ver una lista de todos mis alumnos inscritos en mi perfil, para poder hacer un seguimiento eficiente de su progreso y estar al tanto de sus necesidades. | 3h | Rafael | Complete |
+| US13 | T1 | Poner Notas a Alumnos | Como tutor, quiero tener la capacidad de registrar y actualizar notas para mis alumnos, para evaluar su rendimiento y proporcionar retroalimentación educativa. | 5h | Kurt | Complete |
+| US14 | T1 | Visualizar Reseñas de Alumnos | Como tutor, quiero poder ver las reseñas y comentarios que mis alumnos han dejado en mi perfil, para conocer su opinión sobre mi desempeño y mejorar en áreas necesarias. | 3h | Giovanni | Complete |
+| US15 | T1 | Editar Perfil de Tutor | Como tutor, deseo poder editar y mantener actualizada mi información de perfil, incluyendo mi experiencia, habilidades, disponibilidad y fotografía, para atraer a más estudiantes y proporcionar información precisa. | 3h | Jonatan | Complete |
+| US16 | T1 | Establecer Clases en un Calendario | Como tutor, quiero poder establecer mi horario de disponibilidad y programar clases en un calendario, para asegurarme de que mis alumnos puedan reservar sesiones en los momentos que me resulten convenientes. | 8h | Miguel | Complete |
+| US17 | T1 | Chatear con Alumnos | Como tutor, deseo tener la capacidad de comunicarme con mis alumnos a través de un sistema de chat integrado en la plataforma, para responder a preguntas, proporcionar asistencia y establecer una comunicación efectiva en tiempo real. | 5h | Kurt | Complete |
+
+
+## 5.2.3.3. Development Evidence for Sprint Review
+### Aplicaciones-Web-SW53-Grupo-1/Web-Application
+| Repository                                     | Branch           | Commit Id          | Commit Message                                   | Commit message body                              | Committed On |
+| ---------------------------------------------- | ----------------- | ------------------ | ----------------------------------------------- | ------------------------------------------------- | ------------ |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | develop           | 742ba8e0fb932132c420593eb9a7d079a189f767 | feat(selected-student): selected student component implemented | Se añadio el selected student componente           | 24/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/studentlist | fb3332827fb2a6ca88bb5c1fb35a3ebf9bcaca4a | feat(studentlist)::add studentlist component and view | Se añadio el componente y la vista de studentlist  | 29/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/tutorchat | 6444557336e51cebf553e8c0446be64d084a0a48 | feat(tutorchat): add tutorchat component and view | Se añadio el componente y la vista de tutorchat    | 29/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/develop | 2f0a4f08b84dc9eabf71edc42884572cd56c14d5 | feat(router): applied router dependencies      | Se añadio las dependencias de router               | 29/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feat/tutor-edit | 11f3341693f680f2b4e2e538d2a7a1d167df2fd7 | feat(tutor-edit)::add tutor-edit component and view | Se añadio el componente de tutoredit y la vista   | 30/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feat/tutor-profile | e8456478662c6ac82bf7422b0d2b0ffaddc8191f | feat(Tutro-Profile):add Tutor-Profile component and view | Se añadio la vista de tutor profile y la vista | 30/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/tutorhome | e8a5efa2848d969385f35a035720ddc7488582d1 | feat: add tutor-home and update calendarview   | Se añadio el tutor home component                   | 30/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/develop | 1a31f05a53c436c884751430cb6f3dc6be38a3e1 | fix: routes fixed                              | Se corrigió el routing                              | 31/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/tutorcalendar | 36ac00d0983e519bc845b6bd668af398154f76c8 | feat: add tutorcalendar                         | Se añadió el tutorcalendar component                | 31/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/develop | 29c9fb570cc7584057dc00848c16272e870f17b5 | fix: fixed Tutors structure and register tutor | Se corrigio la estructura de tutores y registro de tutores | 31/10/23 |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/tutorlist | 63c208b411c87ba3509da7ba1ccbedfb766eaabb | feat(tutorlist): modified tutorlist and tutorlistview | Se modifico el tutorlist component y su vista    | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feat/studentlist | c7512f0bc10face4a82bfef5d1ac7b574743e7a1 | feat(studentlist): modified studentlist and studentlistview | Se modifico el studentlist component y su vista | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feat/score       | b1cc0f258f9e68812ec03a751255e891f0d994c8 | feat(score): modified score and score view     | Se modifico el score component y su vista         | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application | feature/develop | be7a0e25c45408227b9379b2aaab362c14c9228c | fix: fixed routes in student list               | Se corrigio el routing en student list            | 1/11/23      |
+
+### Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
+| Repository                                     | Branch           | Commit Id          | Commit Message                                       | Commit message body                              | Committed On |
+| ---------------------------------------------- | ----------------- | ------------------ | --------------------------------------------------- | ------------------------------------------------- | ------------ |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | develop           | 942f303b8fb87b666ba33a642c2b040175a28510 | initial commit                                   | Se agrego el proyecto inicial                     | 30/10/23     |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/payment   | 1c7961c2b4d0d0aafa508a72431c35a2d9d3d752 | added payment controller, domain and data     | Se agrego el payment controller, domain y data   | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/payment   | 3f3d587828bbf9fa48ca537ada361065559996eb | feat(payment)::added payment controller         | Se añadio el payment controller                    | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/payment   | 810a0c2e1b5c0312fde753a78de0e880f426280c | feat(payment):: added payment controller functionalities for domain. | Se añadio las funcionalidades del payment controller para domain | 1/11/23 |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/review    | 27878be7e8d3eb404397fa8a1d135f637219ab50 | feat(review)::added review dependencies for controller | Se añadio el review dependencie para controller  | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/review    | d0a2387bfd3e7b3b420db565c1ed17397e146634 | fix(review):: fixed privacy of data constructor  | Se corrigio el privacy del constructor de datos   | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/review    | 1f49bac294824510a9b173e3be8b7f99f5ba56ec | feat(review)::added review controller              | Se añadio el review controller                     | 1/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/student   | cf709abfa524fc63abe03986b02bf6275a546a25 | feat: added Student service                        | Se añadió el student service                      | 2/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/student   | b320cd264d89d1a662a3a02d453d634162b4dd07 | feat: added Student controller and service       | Se añadio el controller del estudiante y servicio | 2/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/tutor     | 809ced5d861aedfe92435f02cf8b37ca68984108 | feat:add Tutor Controller and Service              | Se añadio el controller y servicio del tutor       | 2/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/reviews   | 2b5fbcde84998da9a431a76f87283d8f4ec55f56 | feature(reviews)::update API,DOMAIN & DATA layers for reviews | Se añadio el servicio de reviews                   | 2/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/reviews   | b1ae6a1d8bb8ee4c1d334d82b7ae6675475cf920 | feature(reviews):updated API,DOMAIN & DATA layer  | Se corrigio el servicio de reviews                  | 2/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/score     | 64dd4fccc6cce81375144ca22732af90919732eb | feat(score): add api data for score                | Se añadio el servicio de scores                    | 2/11/23      |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/schedule  | 25a1ae8fd65c9f43ce691c371b2e29d82d460834 | feat: add schedule SQL, Controller, Domain         | Se añadio el servicio de schedule                  | 2/11/23      |
+
+## 5.2.3.4 Testing Suite Evidence for Sprint Review
+
+Evaluaremos las funcionalidades de nuestros servicios
+Por ejemplo en la creación del tutor:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169791538348425236/image.png?ex=6556b044&is=65443b44&hm=ac771014096f24cbfd4b1f5f3ee95f19c8d9f3e06331388f010423c68b984af5&">
+
+Dando como resultado la creación de un nuevo tutor:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169791577946861588/image.png?ex=6556b04d&is=65443b4d&hm=9d2ff5e52d68817cd644aec99d57fcf0eb86d19f5926302821c40654e2c7a082&">
+
+Y al momento de querer visualizar todos los tutores nos aparece el tutor que hemos ingresado:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169792277183463505/image.png?ex=6556b0f4&is=65443bf4&hm=e783f25b1ddec970ebd76af9f6be0eaf335f1b320a3d8b62eb2929e9776decf6&">
+
+En el caso del student, si queremos recopilar o visualizar la información de un estudiante segun su ID, nos devolvería la información del estudiante:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169793002030501958/image.png?ex=6556b1a1&is=65443ca1&hm=f05ccf737ef12a8ed7571e448b7a736566d25a10404fd11a829fe6910075b9c4&">
+
+Para el caso de las notas segun el ID del tutor, nos devolvería las notas que el tutor a impuesto y nos devolverá success:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169794412449120358/image.png?ex=6556b2f1&is=65443df1&hm=d662db1bedd47fbf092c3f01ad2f6ebf2737a23b9d9c4df091e88f88d8de7c4f&">
+
+
+# 5.2.3.5 Execution Evidence for Sprint Review 
+En esta parte se mostrara las vistas que se han implementado para esta entrega
+
+### Tutor Profile
+<img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169760191810637844/image.png?ex=65569312&is=65441e12&hm=88702605206811c39bfb1a07366d7369b1223a33881fc78569d6e0eeec31fc37&">
+
+### Editar Perfil de tutor
+
+<img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169760688927948881/image.png?ex=65569389&is=65441e89&hm=7aabeb580decd8699b2d694aaf3738fdb7a3df28c74d064538754e1df464fca4&">
+
+### Tutor home
+
+<img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169760986971000935/image.png?ex=655693d0&is=65441ed0&hm=ff94ecb0753d5140777e5a0165d21f17efc4ebaf73f6d30cd9f223604dcd32fd&">
+
+### Lista de estudiantes 
+
+<img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169761174766747739/image.png?ex=655693fd&is=65441efd&hm=3488c8d11f14bf62f5885e80faf8cb3b2707a76dd980aebce9095c1b8564aaa6&">
+
+### Seleccionar estudiante 
+
+<img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169761378224050356/image.png?ex=6556942d&is=65441f2d&hm=a6d02fe9e60a11592143c666e89fa8175f2d74855f1f166b1da65544e72d28f8&">
+
+### Chat tutor
+
+<img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169761598911549471/image.png?ex=65569462&is=65441f62&hm=82b41fa70ca6b3b98c975d5a33862b8597f5dd560034bd8cff7d28f7a0917fae&">
+
+### Horario
+<img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169761687356854363/image.png?ex=65569477&is=65441f77&hm=b13289a195b66f6791cfa9ffd055d0ec32e22bb955b0f7f1ec4ace3c01b60d58&">
+
+### Reviews Tutor
+
+<img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169761961924370475/image.png?ex=655694b8&is=65441fb8&hm=a155ff5bd28f501fd03b9fa822235e2f37da4daa5fcb50af4bcc28cde8ab3cc5&">
+
+
+## 5.2.3.6 Services Documentation Evidence for Sprint Review
+
+Implementamos los servicios para nuestra aplicación, los cuales son:
+
+Servicio de estudiantes:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169789888250523758/image.png?ex=6556aebb&is=654439bb&hm=742fff2a2846fc69b4c36c3d141fa016710a99f346f0b30793cf8fe64984677b&">
+
+Servicio de tutores:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169789907401723914/image.png?ex=6556aebf&is=654439bf&hm=d3d60cc4d5070a0621def277e851aa26f259a00eaca20a23a1a5fe1b7727666c&">
+
+Servicio de horarios:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595">
+
+Servicio de reviews:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169789847540609064/image.png?ex=6556aeb1&is=654439b1&hm=7e694c76c70a37ab69b0a2d07b5c0d70a70b163cb02249aa5bce77db3a92795c&">
+
+Servicio de pagos:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169789827357605918/image.png?ex=6556aeac&is=654439ac&hm=c8540411303c4fe5a59cb81eae7a27fbb1f2c4c0db2590b94144a35d787da4b7&">
+
+Servicio de calificaciones:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169789869434880090/image.png?ex=6556aeb6&is=654439b6&hm=6ac58ddabbb52b1ef1122af82c5dcba750ce33c2706e756e451651dd86f46d02&">
+
+## 5.2.3.7 Software Deployment Evidence for Sprint Review
+Para el despliegue de la versión final de nuestra aplicación web, se actualizó las dependencias de nuestro proyecto.
+
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1169757865809018970/image.png?ex=655690e8&is=65441be8&hm=a930e44242433022549ba74175694f0270cff00179beef509ac4918530cdc89f&=&width=1441&height=196">
+
+Posterior a la actualización de dependecias se desplegó nuevamente en el servicio creado en el anterior sprint para que nuestros usuarios puedan usar nuestra versión actualizada de la aplicación web.
+
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1169758434737012866/image.png?ex=6556916f&is=65441c6f&hm=1b8a86654fd6118f532b264d3c46fc9a61963dffbe397d111c6c82a2cb2f26c1&=&width=864&height=378">
+<img src="https://media.discordapp.net/attachments/1143747947322941440/1169758459558891570/image.png?ex=65569175&is=65441c75&hm=290520db4fd1bebffe248f4586ae8b710341854e201911af1f4ba18cfb8b855f&=&width=957&height=361"/>
+
+Nuestra aplicación desplegada se encuentra en el URL: https://studymentor-aplicattionweb-v1.web.app/
+
+## 5.2.3.8 Team Collaboration insights during Sprint.
+
+Para el desarollo de nuestro backend hemos creado un repositorio dentro de nuesta organización, en el cual usamos el flujo de trabajo Gitflow. A continuación los commits realizados por cada uno de los integrantes de nuestra organización.
+
+Link de repositorio del backend:
+https://github.com/Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
+<img src="https://media.discordapp.net/attachments/736250121276096522/1169795034028187709/image.png?ex=6556b385&is=65443e85&hm=70e440dc9f3673753011dbfb51fc216a52ecdf573d7b503365c58cd19a42b14b&=&width=1245&height=676">
+<img src="https://media.discordapp.net/attachments/736250121276096522/1169795264584880209/image.png?ex=6556b3bc&is=65443ebc&hm=1dc784ea3b5eea75a57df8b8d19e253d5e99fc2c35f8805aaa74180a1ea56390&=&width=1058&height=676" />
+
+
+## 5.3 Validation Interviews
+## 5.3.1. Diseño de Entrevistas
+
+- User Goal: Como estudiante, quiero buscar asesores disponibles.
+
+- Descripcion: Flujo que seguira el usuario para saber si hay asesores disponibles. Inicia en el home, luego se dirije a students luego inicia sesion y se dirije a tutors.
+
+<img src="https://media.discordapp.net/attachments/624357489021943810/1169764981345103882/Blank_diagram.jpeg?ex=65569788&is=65442288&hm=cf46e388d3f859d00b750bba078b4ca81d42dcd5842a5bfb2fdaca68326af089&=&width=648&height=468">
+
+- User Goal: Como estudiante, quiero tener un historial de mis sesiones de tutoría anteriores para la opción de dejar comentarios y calificaciones.
+
+- Descripcion: El estudiante inicia sesion, se dijije a tutores y buscara las reviews o hara la review del profesor que llevo el curso.
+
+<img src="https://media.discordapp.net/attachments/624357489021943810/1169767446329163776/Blank_diagram_7.png?ex=655699d4&is=654424d4&hm=51616859fdcdfd111d9161f3babb4925c2b1b27940c39a868dd15a233ff75a31&=&width=606&height=468">
+
+- User Goal: Como estudiante, quiero reservar sesiones de tutoría con los asesores seleccionados para recibir confirmaciones de reserva.
+
+- Descripcion: Flujo que seguira el usuario para lograr reserva una tutoria y realizar los pasos necesarios para completar el pago.
+
+<img src ="https://media.discordapp.net/attachments/624357489021943810/1169769358071963700/Blank_diagram_8.png?ex=65569b9c&is=6544269c&hm=9bde30d88fb039c8064b101185fd529de0e6a57e1dce06522b696f20223cd304&=&width=427&height=468">
+
+## 5.3.2. Registro de Entrevistas
+
+- Tiempo: 00:01 - 4:37
+- Resumen: En general, Alexis como tutor, encuentra la aplicación muy interesante y útil para los estudiantes. Además, nos da su opinión sobre el diseño y la estructura de la aplicación.
+- Nombres y Apellidos: Alexis Froggoziolo
+- Edad: 27 años 
+- Distrito: Lima
+- Evidencia de la reunión:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169786778471895111/image.png?ex=6556abd5&is=654436d5&hm=8a87e70cdbe86ec2675e1e1f79c0443bb181662a347315c0b03827a29031987f&">
+
+<br/>
+<br/>
+
+- Tiempo: 4:38 - 7:54
+- Resumen: Dora encuentra la aplicación sencilla de usar y disfruta de las funcionalidades que ofrece.
+- Nombres y Apellidos: Dora Villalobos
+- Edad: 40 años 
+- Distrito: Lima
+- Evidencia de la reunión:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169788251217874954/image.png?ex=6556ad34&is=65443834&hm=640fe0557cba5c5d09ad127897738f2806a8923554a6709c222c6097f2c45002&">
+
+<br/>
+<br/>
+
+- Tiempo: 7:55 - 13:40
+- Resumen: Sandro como estudiante encuentra que la aplicación puede mejorar en los aspectos de diseño y estructura. Asimismo, encuentra que la paleta de colores de la aplicación es solida y necesita más vida.
+- Nombres y Apellidos: Sandro
+- Edad: 23 años 
+- Distrito: Lima
+- Evidencia de la reunión:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169788521448476812/image.png?ex=6556ad75&is=65443875&hm=7938a95708335e1dfca4e0a273560de334a809289129b19d95371d44060df130&">
+
+<br/>
+<br/>
+
+- Tiempo: 13:42 - 18:37
+- Resumen: Favio nos da su opinion de ahora que esta casi terminada la applicacion y nos dice las diferencias landing page. Ademas, nos dice que se podria agregar o quitar en el diseño y estructura de la aplicacion.
+- Nombres y Apellidos: Favio Rodriguez
+- Edad: 23 años 
+- Distrito: Lima
+- Evidencia de la reunión:
+
+<img src="https://media.discordapp.net/attachments/624357489021943810/1169770822156681236/image.png?ex=65569cf9&is=654427f9&hm=02c10149007111f86721a78ede6c35fb85a9d917a90b2b5c7fdbe75e9a6aec26&=&width=1025&height=394">
+
+<br/>
+<br/>
+
+- Tiempo: 18:39 - 22:58
+- Resumen: Leonardo como estudiante de derecho encuentra nuestra aplicación de gran ayuda para los alumnos que necesiten resolver sus dudas de manera personalizada.
+- Nombres y Apellidos: Leonardo Honorio
+- Edad: 22 años 
+- Distrito: Lima
+- Evidencia de la reunión:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169798984806695053/image.png?ex=6556b733&is=65444233&hm=957c8f72d4c1663472f6a0393bdfa8f82f765373cf266fadddd9751cd3b5feaa&">
+
+<br/>
+<br/>
+
+Link de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201912404_upc_edu_pe/EaqCk67n_2BDtjBaa5M5j1oBmAtoRqF-Qwyfs3iadyYXZQ?e=pue9Sq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In0sInBsYXliYWNrT3B0aW9ucyI6e319
+
+
+# 5.3.3 Evaluaciones segun heurísticas
+
+## Anexo D: Formato para Evaluación de User Experience según Heurísticas
+
+### UX Heuristics & Principles Evaluation
+*Usabilidad – Diseño Inclusivo – Arquitectura de Información*
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Aplicaciones Web  
+**SECCIÓN:** SW53  
+**PROFESORES:** Todos  
+**AUDITOR:** Evosoft  
+**CLIENTE(S):** Evosoft  
+**SITE o APP A EVALUAR:**  
+Nombre de la App: Study Mentor
+
+**TAREAS A EVALUAR:**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+1. Registro de un estudiante
+2. Chat 
+3. Búsqueda de un tutor
+4. Reviews de los tutores
+5. Cancelación de una reserva
+6. Agregar ítems a un pedido
+7. Pago de una clase
+8. Horario
+9. Registro de un tutor
+10. Horario
+
+*No están incluidas en esta versión de la evaluación las siguientes tareas:*
+1. Cambio de perfiles
+2. Otros medios de pago 
+3. Administrar alumnos
+4. Eliminar una publicación
+5. Borrado de cuenta 
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción                                                                                                         |
+|-------|----------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+## TABLA RESUMEN:
+
+| #   | Problema                                                                                                          | Escala de Severidad | Heurística/Principio Violado(o)               |
+| --- | ------------------------------------------------------------------------------------------------------------------ | ------------------- | --------------------------------------------- |
+| 1   | No hay una validación a la hora de crear los usuarios tanto como los estudiantes como los tutores               | 3                   | Usability: Prevención de errores               |
+| 2   | Hay un botón de chat pero no te lleva a ningún lado                                                               | 2                   | Usability: Consistencia y estándares           |
+| 3   | Hay chat pero no se puede escribir en él                                                                         | 3                   | Usability: Libertad y control del usuario       |
+| 4   | No hay algún botón para volver en la vista de calendario                                                          | 2                   | Usability: Consistencia y estándares           |
+| 5   | En el apartado review no se puede agregar una review                                                              | 3                   | Usability: Prevención de errores               |
+| 6   | A pesar de estar en estudiante me pone en las vistas de tutor                                                     | 2                   | Usability: Consistencia y estándares           |
+| 7   | No hay un botón de volver en calificaciones                                                                      | 1                   | Usability: Consistencia y estándares           |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS:
+
+### PROBLEMA #1: No hay una validación a la hora de crear usuarios, tanto estudiantes como tutores
+- **Severidad:** 3
+- **Heurística Violada:** Usabilidad - Prevención de errores
+- **Descripción:**
+Cuando los usuarios intentan crear una cuenta como estudiante o tutor, el sistema no realiza una validación adecuada de los datos ingresados. Esto permite la creación de cuentas con información incompleta o incorrecta, lo cual puede llevar a problemas de funcionalidad y comunicación en la plataforma. La falta de validación dificulta la experiencia del usuario y puede generar confusión y errores en el uso del sistema. Por ejemplo, los usuarios podrían ingresar correos electrónicos inválidos o contraseñas demasiado cortas sin recibir advertencias, lo que podría resultar en cuentas inutilizables.
+
+### PROBLEMA #2: Hay un botón de chat pero no redirige a ningún lado
+- **Severidad:** 2
+- **Heurística Violada:** Usabilidad - Consistencia y estándares
+- **Descripción:**
+En la plataforma, existe un botón de chat que, al hacer clic en él, no redirige a los usuarios a ninguna página o función específica. La falta de funcionalidad del botón de chat puede generar confusión entre los usuarios, ya que esperan ser llevados a una sección de chat o una ventana emergente para interactuar con otros usuarios o el soporte técnico. La falta de respuesta al hacer clic en el botón de chat puede resultar en una experiencia frustrante para los usuarios, ya que no pueden acceder a la función que esperan utilizar.
+
+### PROBLEMA #3: Existe un chat pero no se puede escribir en él
+- **Severidad:** 3
+- **Heurística Violada:** Usabilidad - Libertad y control del usuario
+- **Descripción:**
+A pesar de que hay una función de chat presente en la plataforma, los usuarios no pueden escribir mensajes en ella. Esta limitación restringe significativamente la capacidad de los usuarios para comunicarse entre sí, especialmente en contextos como la tutoría, donde la comunicación directa es esencial. La falta de funcionalidad del chat impide la interacción y frustra a los usuarios que intentan utilizar esta herramienta. La ausencia de la posibilidad de enviar mensajes en el chat limita la comunicación en tiempo real, lo que es crucial para la experiencia del usuario, especialmente en un entorno educativo o de colaboración.
+
+### PROBLEMA #4: Falta un botón para volver en la vista del calendario
+- **Severidad:** 2
+- **Heurística Violada:** Usabilidad - Consistencia y estándares
+- **Descripción:**
+En la vista del calendario, no hay un botón o función clara que permita a los usuarios volver a la página anterior o a la vista anterior del calendario. La falta de esta funcionalidad puede causar confusión, especialmente para los usuarios que deseen regresar a fechas anteriores o revisar eventos pasados en el calendario. La ausencia de un botón de "Volver" o una función similar dificulta la navegación del usuario y puede llevar a una experiencia desorientadora.
+
+### PROBLEMA #5: En el apartado de reviews no se puede agregar una review
+- **Severidad:** 3
+- **Heurística Violada:** Usabilidad - Prevención de errores
+- **Descripción:**
+A pesar de existir una sección dedicada a las reseñas (reviews) de los usuarios, no se permite agregar nuevas reseñas en esta área. Esta limitación impide a los usuarios compartir sus experiencias y opiniones sobre los tutores o las clases, lo que reduce la interactividad y la utilidad de esta función. La falta de funcionalidad para agregar nuevas reseñas frustra a los usuarios que desean expresar sus opiniones y limita la retroalimentación que otros usuarios pueden recibir para tomar decisiones informadas sobre los tutores.
+
+### PROBLEMA #6: A pesar de estar marcado como estudiante, se muestra contenido de tutor
+- **Severidad:** 2
+- **Heurística Violada:** Usabilidad - Consistencia y estándares
+- **Descripción:**
+A los usuarios marcados como estudiantes se les muestra contenido y funcionalidades asociadas a los tutores. Esto crea una discrepancia entre el rol designado y el acceso real del usuario, lo que puede generar confusión y desorientación. Los estudiantes podrían encontrarse interactuando con funciones destinadas a los tutores, lo que afecta negativamente su experiencia de usuario. La inconsistencia en la presentación del contenido y las funciones puede confundir a los usuarios sobre su rol y las acciones que pueden realizar en la plataforma.
+
+### PROBLEMA #7: No hay un botón de volver en la sección de calificaciones
+- **Severidad:** 1
+- **Heurística Violada:** Usabilidad - Consistencia y estándares
+- **Descripción:**
+En la sección de calificaciones, falta un botón o función para que los usuarios puedan regresar a la página anterior o a la vista anterior. La ausencia de esta funcionalidad puede parecer una omisión menor, pero puede afectar negativamente la experiencia del usuario, especialmente si están revisando múltiples calificaciones o desean volver atrás para comparar información. La falta de un botón de "Volver" puede llevar a una experiencia de usuario menos eficiente y más frustrante, ya que los usuarios deben depender del botón de retroceso del navegador o de otras formas de navegación para regresar a la página anterior.
+
 ## Conclusiones
 
 <img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117580025278474/image.png?ex=65177139&is=65161fb9&hm=16132f2cda32bc9277bd13f3cf815a9e2d2d6ad877549af447af01bc3cccf527&">
