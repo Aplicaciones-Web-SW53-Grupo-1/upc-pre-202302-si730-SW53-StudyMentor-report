@@ -2739,6 +2739,39 @@ Link del repositorio con la web application: https://github.com/Aplicaciones-Web
 
 <img src="https://media.discordapp.net/attachments/1143747947322941440/1157103174163906630/123123315.png?ex=651763ce&is=6516124e&hm=5a0aea30190aa434e39c451f3fc7d45e93dcd1565417735e6919d6a5d086bac2&=">
 
+
+## 5.3.1. Diseño de Entrevistas
+
+- User Goal: Como estudiante, quiero buscar asesores disponibles.
+
+- Descripcion: Flujo que seguira el usuario para saber si hay asesores disponibles. Inicia en el home, luego se dirije a students luego inicia sesion y se dirije a tutors.
+
+<img src="https://media.discordapp.net/attachments/624357489021943810/1169764981345103882/Blank_diagram.jpeg?ex=65569788&is=65442288&hm=cf46e388d3f859d00b750bba078b4ca81d42dcd5842a5bfb2fdaca68326af089&=&width=648&height=468">
+
+- User Goal: Como estudiante, quiero tener un historial de mis sesiones de tutoría anteriores para la opción de dejar comentarios y calificaciones.
+
+- Descripcion: El estudiante inicia sesion, se dijije a tutores y buscara las reviews o hara la review del profesor que llevo el curso.
+
+<img src="https://media.discordapp.net/attachments/624357489021943810/1169767446329163776/Blank_diagram_7.png?ex=655699d4&is=654424d4&hm=51616859fdcdfd111d9161f3babb4925c2b1b27940c39a868dd15a233ff75a31&=&width=606&height=468">
+
+- User Goal: Como estudiante, quiero reservar sesiones de tutoría con los asesores seleccionados para recibir confirmaciones de reserva.
+
+- Descripcion: Flujo que seguira el usuario para lograr reserva una tutoria y realizar los pasos necesarios para completar el pago.
+
+<img src ="https://media.discordapp.net/attachments/624357489021943810/1169769358071963700/Blank_diagram_8.png?ex=65569b9c&is=6544269c&hm=9bde30d88fb039c8064b101185fd529de0e6a57e1dce06522b696f20223cd304&=&width=427&height=468">
+
+## 5.3.2. Registro de Entrevistas
+
+- Nombres y Apellidos: Favio Rodriguez
+- Edad: 23 años 
+- Distrito: Lima
+- Evidencia de la reunión:
+
+<img src="https://media.discordapp.net/attachments/624357489021943810/1169770822156681236/image.png?ex=65569cf9&is=654427f9&hm=02c10149007111f86721a78ede6c35fb85a9d917a90b2b5c7fdbe75e9a6aec26&=&width=1025&height=394">
+
+- Url: https://youtu.be/yIZ6K5buJZQ 
+- Resumen: Favio nos da su opinion de ahora que esta casi terminada la applicacion y nos dice las diferencias landing page. Ademas, nos dice que se podria agregar o quitar en el diseño y estructura de la aplicacion.
+
 ## Conclusiones
 
 <img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117580025278474/image.png?ex=65177139&is=65161fb9&hm=16132f2cda32bc9277bd13f3cf815a9e2d2d6ad877549af447af01bc3cccf527&">
