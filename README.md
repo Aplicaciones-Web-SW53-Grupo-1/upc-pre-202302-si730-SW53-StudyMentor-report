@@ -2739,6 +2739,42 @@ Link del repositorio con la web application: https://github.com/Aplicaciones-Web
 
 <img src="https://media.discordapp.net/attachments/1143747947322941440/1157103174163906630/123123315.png?ex=651763ce&is=6516124e&hm=5a0aea30190aa434e39c451f3fc7d45e93dcd1565417735e6919d6a5d086bac2&=">
 
+## 5.2.3. Sprint 3
+## 5.2.3.1. Sprint Planning 3
+
+| **Sprint #** | **Sprint 3** |
+| --- | --- |
+| **Sprint Planning Background** |
+| **Date** | 24-10-2023 |
+| **Time** | 03:02 PM |
+| **Location** | Servidor de Discord del Equipo |
+| **Prepared By** | Curi Montero Jonatan Omar |
+| **Attendees** | Curi Montero Jonatan Omar/Rafael Arturo Luyo Ramirez/Kurt Matthews Puican Salas/Miguel Angel Ramirez Alfaro/Giovanni Andres Ramos Calderon|
+| **Sprint 2 Review Summary** | En el sprint anterior nos enfocamos en la realización de la aplicación web para el entorno del estudiante |
+| **Sprint 2 Retrospective Summary** | En el sprint anterior implementamos las vistas para el estudiantes en la aplicación web |
+| **Sprint Goal & User Stories**|
+| **Sprint 3 Goal** | La meta de este Sprint es el desarrollo del Web Application completo, con las vistas tanto para el estudiante como para el tutor |
+| **Sprint 3 Velocity** | 27 Velocity |
+| **Sum of Story Points** | 27 Story Points. |
+
+
+<img src="https://cdn.discordapp.com/attachments/634852324874911744/1169763757120028743/image.png?ex=65569664&is=65442164&hm=fb0b4e021b5cb2c09082d501007e50347636cff42a08defccf54bb3aae9cf504&">
+
+
+## 5.2.3.2. Sprint Backlog 3
+
+En este segundo Sprint, el objetivo fue implementar todas las vistas para el tutor y mejorar las vistas para el estudiante. Siendo el tutor capaz de establecer notas, visualizar a todos sus alumnos, etc. 
+
+| Historia de Usuario | Task | Título de la Tarea | Descripción de la Tarea | Estimación | Asignado a | Estado |
+|--------------------|------|--------------------|-------------------------|------------|-----------|--------|
+| US12 | T1 | Ver a Todos Mis Alumnos | Como tutor, quiero poder ver una lista de todos mis alumnos inscritos en mi perfil, para poder hacer un seguimiento eficiente de su progreso y estar al tanto de sus necesidades. | 3h | Rafael | Complete |
+| US13 | T1 | Poner Notas a Alumnos | Como tutor, quiero tener la capacidad de registrar y actualizar notas para mis alumnos, para evaluar su rendimiento y proporcionar retroalimentación educativa. | 5h | Kurt | Complete |
+| US14 | T1 | Visualizar Reseñas de Alumnos | Como tutor, quiero poder ver las reseñas y comentarios que mis alumnos han dejado en mi perfil, para conocer su opinión sobre mi desempeño y mejorar en áreas necesarias. | 3h | Giovanni | Complete |
+| US15 | T1 | Editar Perfil de Tutor | Como tutor, deseo poder editar y mantener actualizada mi información de perfil, incluyendo mi experiencia, habilidades, disponibilidad y fotografía, para atraer a más estudiantes y proporcionar información precisa. | 3h | Jonatan | Complete |
+| US16 | T1 | Establecer Clases en un Calendario | Como tutor, quiero poder establecer mi horario de disponibilidad y programar clases en un calendario, para asegurarme de que mis alumnos puedan reservar sesiones en los momentos que me resulten convenientes. | 8h | Miguel | Complete |
+| US17 | T1 | Chatear con Alumnos | Como tutor, deseo tener la capacidad de comunicarme con mis alumnos a través de un sistema de chat integrado en la plataforma, para responder a preguntas, proporcionar asistencia y establecer una comunicación efectiva en tiempo real. | 5h | Kurt | Complete |
+
+
 ## 5.2.3.3. Development Evidence for Sprint Review
 ### Aplicaciones-Web-SW53-Grupo-1/Web-Application
 | Repository                                     | Branch           | Commit Id          | Commit Message                                   | Commit message body                              | Committed On |
@@ -2776,6 +2812,29 @@ Link del repositorio con la web application: https://github.com/Aplicaciones-Web
 | Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/score     | 64dd4fccc6cce81375144ca22732af90919732eb | feat(score): add api data for score                | Se añadio el servicio de scores                    | 2/11/23      |
 | Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | feature/schedule  | 25a1ae8fd65c9f43ce691c371b2e29d82d460834 | feat: add schedule SQL, Controller, Domain         | Se añadio el servicio de schedule                  | 2/11/23      |
 
+## 5.2.3.4 Testing Suite Evidence for Sprint Review
+
+Evaluaremos las funcionalidades de nuestros servicios
+Por ejemplo en la creación del tutor:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169791538348425236/image.png?ex=6556b044&is=65443b44&hm=ac771014096f24cbfd4b1f5f3ee95f19c8d9f3e06331388f010423c68b984af5&">
+
+Dando como resultado la creación de un nuevo tutor:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169791577946861588/image.png?ex=6556b04d&is=65443b4d&hm=9d2ff5e52d68817cd644aec99d57fcf0eb86d19f5926302821c40654e2c7a082&">
+
+Y al momento de querer visualizar todos los tutores nos aparece el tutor que hemos ingresado:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169792277183463505/image.png?ex=6556b0f4&is=65443bf4&hm=e783f25b1ddec970ebd76af9f6be0eaf335f1b320a3d8b62eb2929e9776decf6&">
+
+En el caso del student, si queremos recopilar o visualizar la información de un estudiante segun su ID, nos devolvería la información del estudiante:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169793002030501958/image.png?ex=6556b1a1&is=65443ca1&hm=f05ccf737ef12a8ed7571e448b7a736566d25a10404fd11a829fe6910075b9c4&">
+
+Para el caso de las notas segun el ID del tutor, nos devolvería las notas que el tutor a impuesto y nos devolverá success:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169794412449120358/image.png?ex=6556b2f1&is=65443df1&hm=d662db1bedd47fbf092c3f01ad2f6ebf2737a23b9d9c4df091e88f88d8de7c4f&">
+
 
 # 5.2.3.5 Execution Evidence for Sprint Review 
 En esta parte se mostrara las vistas que se han implementado para esta entrega
@@ -2810,6 +2869,34 @@ En esta parte se mostrara las vistas que se han implementado para esta entrega
 
 <img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169761961924370475/image.png?ex=655694b8&is=65441fb8&hm=a155ff5bd28f501fd03b9fa822235e2f37da4daa5fcb50af4bcc28cde8ab3cc5&">
 
+
+## 5.2.3.6 Services Documentation Evidence for Sprint Review
+
+Implementamos los servicios para nuestra aplicación, los cuales son:
+
+Servicio de estudiantes:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169789888250523758/image.png?ex=6556aebb&is=654439bb&hm=742fff2a2846fc69b4c36c3d141fa016710a99f346f0b30793cf8fe64984677b&">
+
+Servicio de tutores:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169789907401723914/image.png?ex=6556aebf&is=654439bf&hm=d3d60cc4d5070a0621def277e851aa26f259a00eaca20a23a1a5fe1b7727666c&">
+
+Servicio de horarios:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595">
+
+Servicio de reviews:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169789847540609064/image.png?ex=6556aeb1&is=654439b1&hm=7e694c76c70a37ab69b0a2d07b5c0d70a70b163cb02249aa5bce77db3a92795c&">
+
+Servicio de pagos:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169789827357605918/image.png?ex=6556aeac&is=654439ac&hm=c8540411303c4fe5a59cb81eae7a27fbb1f2c4c0db2590b94144a35d787da4b7&">
+
+Servicio de calificaciones:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169789869434880090/image.png?ex=6556aeb6&is=654439b6&hm=6ac58ddabbb52b1ef1122af82c5dcba750ce33c2706e756e451651dd86f46d02&">
 
 ## 5.2.3.7 Software Deployment Evidence for Sprint Review
 Para el despliegue de la versión final de nuestra aplicación web, se actualizó las dependencias de nuestro proyecto.
@@ -2856,6 +2943,44 @@ https://github.com/Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
 
 ## 5.3.2. Registro de Entrevistas
 
+- Tiempo: 00:01 - 4:37
+- Resumen: En general, Alexis como tutor, encuentra la aplicación muy interesante y útil para los estudiantes. Además, nos da su opinión sobre el diseño y la estructura de la aplicación.
+- Nombres y Apellidos: Alexis Froggoziolo
+- Edad: 27 años 
+- Distrito: Lima
+- Evidencia de la reunión:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169786778471895111/image.png?ex=6556abd5&is=654436d5&hm=8a87e70cdbe86ec2675e1e1f79c0443bb181662a347315c0b03827a29031987f&">
+
+<br/>
+<br/>
+
+- Tiempo: 4:38 - 7:54
+- Resumen: Dora encuentra la aplicación sencilla de usar y disfruta de las funcionalidades que ofrece.
+- Nombres y Apellidos: Dora Villalobos
+- Edad: 40 años 
+- Distrito: Lima
+- Evidencia de la reunión:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169788251217874954/image.png?ex=6556ad34&is=65443834&hm=640fe0557cba5c5d09ad127897738f2806a8923554a6709c222c6097f2c45002&">
+
+<br/>
+<br/>
+
+- Tiempo: 7:55 - 13:40
+- Resumen: Sandro como estudiante encuentra que la aplicación puede mejorar en los aspectos de diseño y estructura. Asimismo, encuentra que la paleta de colores de la aplicación es solida y necesita más vida.
+- Nombres y Apellidos: Sandro
+- Edad: 23 años 
+- Distrito: Lima
+- Evidencia de la reunión:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169788521448476812/image.png?ex=6556ad75&is=65443875&hm=7938a95708335e1dfca4e0a273560de334a809289129b19d95371d44060df130&">
+
+<br/>
+<br/>
+
+- Tiempo: 13:42 - 18:37
+- Resumen: Favio nos da su opinion de ahora que esta casi terminada la applicacion y nos dice las diferencias landing page. Ademas, nos dice que se podria agregar o quitar en el diseño y estructura de la aplicacion.
 - Nombres y Apellidos: Favio Rodriguez
 - Edad: 23 años 
 - Distrito: Lima
@@ -2863,27 +2988,23 @@ https://github.com/Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
 
 <img src="https://media.discordapp.net/attachments/624357489021943810/1169770822156681236/image.png?ex=65569cf9&is=654427f9&hm=02c10149007111f86721a78ede6c35fb85a9d917a90b2b5c7fdbe75e9a6aec26&=&width=1025&height=394">
 
-- Url: https://youtu.be/yIZ6K5buJZQ 
-- Resumen: Favio nos da su opinion de ahora que esta casi terminada la applicacion y nos dice las diferencias landing page. Ademas, nos dice que se podria agregar o quitar en el diseño y estructura de la aplicacion.
+<br/>
+<br/>
 
-
-- Nombres y Apellidos: Alex Herrera
-- Edad: 22 años
+- Tiempo: 18:39 - 22:58
+- Resumen: Leonardo como estudiante de derecho encuentra nuestra aplicación de gran ayuda para los alumnos que necesiten resolver sus dudas de manera personalizada.
+- Nombres y Apellidos: Leonardo Honorio
+- Edad: 22 años 
 - Distrito: Lima
 - Evidencia de la reunión:
 
-<img src="https://cdn.discordapp.com/attachments/1149190528756363337/1169812868166844456/image.png?ex=6556c421&is=65444f21&hm=f78c2606334d6b684d255628b048eebe098aa9277a62a67781f14d8b02b9b980&">
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1169798984806695053/image.png?ex=6556b733&is=65444233&hm=957c8f72d4c1663472f6a0393bdfa8f82f765373cf266fadddd9751cd3b5feaa&">
 
-- Url: https://youtu.be/-Rt0XwhlP8k
-- Resumen: Alex Herrera nos menciona que le gusto mucho la aplicacion que estamos implementando y menciona que esta muy ordenado,nos sugiere mejorar la visualizacion de profesores para poder ver donde estudiaron y su trayectoria.
+<br/>
+<br/>
 
-## Conclusiones
+Link de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201912404_upc_edu_pe/EaqCk67n_2BDtjBaa5M5j1oBmAtoRqF-Qwyfs3iadyYXZQ?e=pue9Sq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In0sInBsYXliYWNrT3B0aW9ucyI6e319
 
-<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117580025278474/image.png?ex=65177139&is=65161fb9&hm=16132f2cda32bc9277bd13f3cf815a9e2d2d6ad877549af447af01bc3cccf527&">
-
-<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117732307882055/image.png?ex=6517715d&is=65161fdd&hm=25b1a25d76ec9f049267c0d9f8164801231d38808c1fe75bc2a2447317214338&">
-
-<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117758476136599/image.png?ex=65177163&is=65161fe3&hm=7e783f9e8b5335a3565263b51ccdfa87dbb535e0e4551730cfa8121cb2e00bcc&">
 
 # 5.3.3 Evaluaciones segun heurísticas
 
@@ -2988,3 +3109,11 @@ A los usuarios marcados como estudiantes se les muestra contenido y funcionalida
 - **Heurística Violada:** Usabilidad - Consistencia y estándares
 - **Descripción:**
 En la sección de calificaciones, falta un botón o función para que los usuarios puedan regresar a la página anterior o a la vista anterior. La ausencia de esta funcionalidad puede parecer una omisión menor, pero puede afectar negativamente la experiencia del usuario, especialmente si están revisando múltiples calificaciones o desean volver atrás para comparar información. La falta de un botón de "Volver" puede llevar a una experiencia de usuario menos eficiente y más frustrante, ya que los usuarios deben depender del botón de retroceso del navegador o de otras formas de navegación para regresar a la página anterior.
+
+## Conclusiones
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117580025278474/image.png?ex=65177139&is=65161fb9&hm=16132f2cda32bc9277bd13f3cf815a9e2d2d6ad877549af447af01bc3cccf527&">
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117732307882055/image.png?ex=6517715d&is=65161fdd&hm=25b1a25d76ec9f049267c0d9f8164801231d38808c1fe75bc2a2447317214338&">
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117758476136599/image.png?ex=65177163&is=65161fe3&hm=7e783f9e8b5335a3565263b51ccdfa87dbb535e0e4551730cfa8121cb2e00bcc&">
