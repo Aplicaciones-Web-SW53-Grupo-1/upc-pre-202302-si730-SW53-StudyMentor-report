@@ -2920,6 +2920,29 @@ https://github.com/Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
 <img src="https://media.discordapp.net/attachments/736250121276096522/1169795264584880209/image.png?ex=6556b3bc&is=65443ebc&hm=1dc784ea3b5eea75a57df8b8d19e253d5e99fc2c35f8805aaa74180a1ea56390&=&width=1058&height=676" />
 
 
+## 5.2.4.3. Development Evidence for Sprint Review
+
+### Aplicaciones-Web-SW53-Grupo-1/Web-Application
+| Repository                                      | Branch         | Commit Id                                 | Commit Message                                       | Commit Message Body                                      | Committed On |
+|-------------------------------------------------|-----------------|-------------------------------------------|-------------------------------------------------------|----------------------------------------------------------|--------------|
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | fix/studentlist | 4b7810acd1fc55e649365cf62a2dee3bcee748b8  | fix(studentlist): fix studentlist and studenlistview   | Se corrigió la lista de estudiantes y la vista de la lista de estudiantes. | 15/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | fix/tutorlist    | 52edb77e8ece330e52f63e6db0c9a2daf496069f  | fix(tutorlist): made tutorlist and tutorlistview responsive | Se hizo la lista de tutores y la vista de la lista de tutores responsivas. | 15/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | feature/chat    | 6627964928b00623da0f251b491fd656a288d586  | fix(chat):fix chat component & make responsive         | Se corrigió el componente de chat y se hizo responsivo.   | 17/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | fix/score        | 8054f422c47814d3879031f641982f0363a5b03c  | fix(score): fix score, scoreview, routing and db.json   | Se corrigió el puntaje, la vista de puntaje, la ruta y el archivo db.json. | 17/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | fix/score        | d23a0bd1fb2c60ed47fc223ebd7ba3db314d1ad9  | fix(score): made responsive score                      | Se hizo responsivo el componente de puntaje.             | 17/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | fix/tutor-chat   | 5a17cf0af2186a09daf4d0b59e5a40fc8e265528  | fix(tutor-chat):fix tutor chat to be responsive       | Se corrigió el chat de tutor para que sea responsivo.    | 20/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | develop         | 5efee3999eaa66be5919f07cb109a808b72b812c  | feat(selectedstudent):fix scoreview routing          | Se añadió la característica de selección de estudiante y se corrigió la ruta de la vista de puntaje. | 20/11/23     |
+
+### Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
+| Repository                                       | Branch         | Commit Id                                 | Commit Message                                | Commit Message Body                         | Committed On |
+|--------------------------------------------------|-----------------|-------------------------------------------|-----------------------------------------------|---------------------------------------------|--------------|
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | fix/score       | 48ba2a7ac5571bd8919a4ebac2cb5836350d75ad  | fix(score): fix score                          | Se corrigió el puntaje.                      | 17/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | fix/scorerequest | 35e2867286696a7346ef9e587749e23538fd32cb | fix(scorerequest): fix score request and score response. | Se corrigió la solicitud y la respuesta de puntaje. | 17/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | fix/reviews     | c8615a83f499621a866e94b6045ef2c3026d0d99  | fix/reviews:fix review back                   | Se corrigió la retroalimentación.           | 19/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | fix/schedule    | d2d1e92f511f59398a3c852c6ff4315d0b17f6ba  | fix:update database and post                   | Se actualizó la base de datos y la publicación. | 19/11/23     |
+
+
+
 ## 5.3 Validation Interviews
 ## 5.3.1. Diseño de Entrevistas
 
