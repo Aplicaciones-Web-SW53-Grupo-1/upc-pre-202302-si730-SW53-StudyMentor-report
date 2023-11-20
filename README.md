@@ -2941,6 +2941,50 @@ https://github.com/Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
 | Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | fix/reviews     | c8615a83f499621a866e94b6045ef2c3026d0d99  | fix/reviews:fix review back                   | Se corrigió la retroalimentación.           | 19/11/23     |
 | Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | fix/schedule    | d2d1e92f511f59398a3c852c6ff4315d0b17f6ba  | fix:update database and post                   | Se actualizó la base de datos y la publicación. | 19/11/23     |
 
+## 5.2.4 Sprint 4
+## 5.2.4.1 Sprint Planning 4
+
+| **Sprint #** | **Sprint 4** |
+| --- | --- |
+| **Sprint Planning Background** |
+| **Date** | 10-11-2023 |
+| **Time** | 17:15 PM |
+| **Location** | Servidor de Discord del Equipo |
+| **Prepared By** | Ramos Calderon Giovanni Andres |
+| **Attendees** | Curi Montero Jonatan Omar/Rafael Arturo Luyo Ramirez/Kurt Matthews Puican Salas/Miguel Angel Ramirez Alfaro/Giovanni Andres Ramos Calderon|
+| **Sprint 3 Review Summary** | En el sprint anterior nos enfocamos en el desarrollo de nuestro API. |
+| **Sprint 3 Retrospective Summary** | En el sprint anterior implementamos las entidades y controladores necesarios para el funcionamiento del API |
+| **Sprint Goal & User Stories**|
+| **Sprint 4 Goal** | La meta de este Sprint es desarrollar la capa de seguridad de nuestro API, desplegarlo y conectarlo a nuestra aplicación web.r |
+| **Sprint 4 Velocity** | 24 Velocity |
+| **Sum of Story Points** | 24 Story Points. |
+
+## 5.2.4.2 Sprint Backlog 4
+
+Para este sprint, se considero las historias de usuario relacionadas
+al desarrollo e implementación de seguridad de nuestra API. Así mismo se toma en cuenta las tareas para generar la conexión con la aplicación web.
+
+
+| **Historia de usuario** | **Título** | **Descripción** | **Story points**|
+| --- | --- | --- | --- |
+| **US18** | Manejar información del estudiante | Como estudiante quiero poder registrarme para acceder a tutorías |4 |
+| **US19** | Manejar información del tutor | Como tutor quiero registrarme para ofrecer servicio de tutoría | 4|
+| **US20** | Crear horarios | Como estudiante quiero reservar un horario para recibir tutorías | 3|
+| **US21** | Crear reseñas sobre el servicio del tutor | Como estudiante quiero crear una reseña de un tutor para que los usuarios conozcan la calidad de su servicio. |3 |
+| **US22** | Realizar el pago de una tutoría | Como estudiante quiero realizar el pago de una tutoría para poder acceder a esta. |4|
+| **US23** | Calificar la nota de un estudiante | Como profesor quiero calificar la nota de un estudiante para evaluar su desempeño en las tutorías |3|
+| **US24** | Proteger mi cuenta | Como usuario quiero que mi información esté protegida, para que mis datos no sean de fácil acceso. |3|
+
+| Historia de Usuario | Task | Título de la Tarea | Descripción de la Tarea | Estimación | Asignado a | Estado |
+|--------------------|------|--------------------|-------------------------|------------|-----------|--------|
+| US18 | T1 | Implementar el servicio de estudiantes | Desarrollar los métodos GET, POST y PUT de la uri /api/students. Actualizar la aplicación web con la nueva uri. | 4h | Jonatan | Complete |
+| US19 | T1 | Implementar el servicio de tutores | Desarrollar los métodos GET, POST y PUT de la uri api/tutores. Actualizar las vistas necesarias para el uso de la aplicación web. | 4h | Rafael | Complete |
+| US20 | T1 | Implementar el servicio de horarios | Desarrollar el método POST de la uri api/schedule para agendar fechas en las que los estudiantes tienen clase con sus tutores. | 3h | Kurt | Complete |
+| US21 | T1 | Implementar el servicio de reviews | Desarrollar el método POST de la uri/reviews para que los estudiantes dejen comentarios sobre el servicio dado por un tutor. | 3h | Miguel | Complete |
+| US22 | T1 | Implementar el servicio de pagos | Desarrollar el método POST y GET para validar los pagos que realizan los estudiantes cuando | 4h | Giovanni | Complete |
+| US23 | T1 | Implementar el servicio de calificaciones | Desarrollar los métodos POST para que los tutores califiquen las notas de sus estudiantes. | 3h | Miguel | Complete |
+| US24 | T1 | Implementar seguridad | Desarrollar el uso de tokens para el uso de los servicios. | 3h | Jonatan | Complete |
+
 
 
 ## 5.3 Validation Interviews
