@@ -3198,3 +3198,21 @@ Ahora paso de ser solo un componente en estado de solo ser visual como en las en
 
 <img src="https://cdn.discordapp.com/attachments/1149190529200955454/1176360442042515467/image.png?ex=656e9609&is=655c2109&hm=866d4aa5988596b71cb791971773d4c6a6d88ac32adea075b248f65e8166f62b&">
 Como se puede apreciar en los dos casos tanto como estudiante como de tutor el chat ya funciona y deja de ser una apartado solo visual.
+
+## 5.2.4.7 Software Deployment Evidence for Sprint Review
+
+Para esta entrega logramos deployear nuestro backend.
+
+<img src="https://media.discordapp.net/attachments/624357483116232707/1176376796942438510/image.png?ex=656ea544&is=655c3044&hm=7848e7c36206225d56ff88df959372ed7540137648d3b38a977f21cec20095a2&=&width=979&height=468">
+
+Tambien nuestra base de datos en MySQL.
+
+<img src="https://media.discordapp.net/attachments/624357483116232707/1176376716873175140/image.png?ex=656ea531&is=655c3031&hm=9d5c007f943a9bfbcdd03f4562e01b2117b3ed83344a7d03b35d2b2f9ada4ffd&=&width=950&height=468">
+
+## 5.2.4.8 Team Collaboration Insights during Sprint
+
+Para realizar nuestro prototipo, hemos seguido las directrices de negocio como referencia para implementar los servicios web. Además, para la creación del back-end de la aplicación, hemos empleado un repositorio en GitHub. Gracias al flujo de trabajo Gitflow, hemos llevado a cabo el desarrollo de manera conjunta, evidenciado por los diversos commits registrados en el repositorio, los cuales están disponibles en las capturas de pantalla adjuntas.
+
+<img src="https://cdn.discordapp.com/attachments/624357483116232707/1176379385343905862/image.png?ex=656ea7ad&is=655c32ad&hm=0c7fe06f1e62d0a54c96a17a60955686724decd6450ab86818e639fa0f518e5a&">
+
+<img src ="https://cdn.discordapp.com/attachments/624357483116232707/1176379542881980436/image.png?ex=656ea7d3&is=655c32d3&hm=357ee4294b6bb2aa12bae7d2148f4481d90ea3d3ad6c1438516bc632d893a591&">
