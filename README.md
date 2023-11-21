@@ -127,11 +127,15 @@ Open Developers
 <br>
 
 # Student Outcome
-| Criterio específico | Acciones Realizadas | Conclusiones |
-|:--------------------|:-------------------:|:------------:|
-|Comunica oralmente con efectividad a diferentes rangos de audiencia|Tareas| Conclusion de Student Outcome|
-|Comunica por escrito con efectividad a diferentes rangos de audiencia|Tareas|Conclusion de Student Outcome|
-<br><br>
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1176416062674317332/image.png?ex=656ec9d6&is=655c54d6&hm=5a4b69d70a9bbbbd29a0e1498888394baeaba8dcdaf5675fa84edac2f39f8a2e&">
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1176414880018989067/image.png?ex=656ec8bc&is=655c53bc&hm=3397da2854a1b0513c0437bd74496ba7a434ad40ebba98154f69e98cc1d1acab&">
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1176416024162218014/image.png?ex=656ec9cc&is=655c54cc&hm=18a359bddabb167d0d31c025ddbb4dfca93488bba1d8062a931c6356a17dca54&">
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1176415010709327923/image.png?ex=656ec8db&is=655c53db&hm=5559cae804fff96ddba3c66b631b2ae6447c0a065e4638e73bd62531a5f85fbd&>
+
 
 # Capitulo 1: Introducción
 
@@ -2919,6 +2923,135 @@ https://github.com/Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
 <img src="https://media.discordapp.net/attachments/736250121276096522/1169795034028187709/image.png?ex=6556b385&is=65443e85&hm=70e440dc9f3673753011dbfb51fc216a52ecdf573d7b503365c58cd19a42b14b&=&width=1245&height=676">
 <img src="https://media.discordapp.net/attachments/736250121276096522/1169795264584880209/image.png?ex=6556b3bc&is=65443ebc&hm=1dc784ea3b5eea75a57df8b8d19e253d5e99fc2c35f8805aaa74180a1ea56390&=&width=1058&height=676" />
 
+## 5.2.4 Sprint 4
+## 5.2.4.1 Sprint Planning 4
+
+| **Sprint #** | **Sprint 4** |
+| --- | --- |
+| **Sprint Planning Background** |
+| **Date** | 10-11-2023 |
+| **Time** | 17:15 PM |
+| **Location** | Servidor de Discord del Equipo |
+| **Prepared By** | Ramos Calderon Giovanni Andres |
+| **Attendees** | Curi Montero Jonatan Omar/Rafael Arturo Luyo Ramirez/Kurt Matthews Puican Salas/Miguel Angel Ramirez Alfaro/Giovanni Andres Ramos Calderon|
+| **Sprint 3 Review Summary** | En el sprint anterior nos enfocamos en el desarrollo de nuestro API. |
+| **Sprint 3 Retrospective Summary** | En el sprint anterior implementamos las entidades y controladores necesarios para el funcionamiento del API |
+| **Sprint Goal & User Stories**|
+| **Sprint 4 Goal** | La meta de este Sprint es desarrollar la capa de seguridad de nuestro API, desplegarlo y conectarlo a nuestra aplicación web.r |
+| **Sprint 4 Velocity** | 24 Velocity |
+| **Sum of Story Points** | 24 Story Points. |
+
+## 5.2.4.2 Sprint Backlog 4
+
+Para este sprint, se considero las historias de usuario relacionadas
+al desarrollo e implementación de seguridad de nuestra API. Así mismo se toma en cuenta las tareas para generar la conexión con la aplicación web.
+
+
+| **Historia de usuario** | **Título** | **Descripción** | **Story points**|
+| --- | --- | --- | --- |
+| **US18** | Manejar información del estudiante | Como estudiante quiero poder registrarme para acceder a tutorías |4 |
+| **US19** | Manejar información del tutor | Como tutor quiero registrarme para ofrecer servicio de tutoría | 4|
+| **US20** | Crear horarios | Como estudiante quiero reservar un horario para recibir tutorías | 3|
+| **US21** | Crear reseñas sobre el servicio del tutor | Como estudiante quiero crear una reseña de un tutor para que los usuarios conozcan la calidad de su servicio. |3 |
+| **US22** | Realizar el pago de una tutoría | Como estudiante quiero realizar el pago de una tutoría para poder acceder a esta. |4|
+| **US23** | Calificar la nota de un estudiante | Como profesor quiero calificar la nota de un estudiante para evaluar su desempeño en las tutorías |3|
+| **US24** | Proteger mi cuenta | Como usuario quiero que mi información esté protegida, para que mis datos no sean de fácil acceso. |3|
+
+| Historia de Usuario | Task | Título de la Tarea | Descripción de la Tarea | Estimación | Asignado a | Estado |
+|--------------------|------|--------------------|-------------------------|------------|-----------|--------|
+| US18 | T1 | Implementar el servicio de estudiantes | Desarrollar los métodos GET, POST y PUT de la uri /api/students. Actualizar la aplicación web con la nueva uri. | 4h | Jonatan | Complete |
+| US19 | T1 | Implementar el servicio de tutores | Desarrollar los métodos GET, POST y PUT de la uri api/tutores. Actualizar las vistas necesarias para el uso de la aplicación web. | 4h | Rafael | Complete |
+| US20 | T1 | Implementar el servicio de horarios | Desarrollar el método POST de la uri api/schedule para agendar fechas en las que los estudiantes tienen clase con sus tutores. | 3h | Kurt | Complete |
+| US21 | T1 | Implementar el servicio de reviews | Desarrollar el método POST de la uri/reviews para que los estudiantes dejen comentarios sobre el servicio dado por un tutor. | 3h | Miguel | Complete |
+| US22 | T1 | Implementar el servicio de pagos | Desarrollar el método POST y GET para validar los pagos que realizan los estudiantes cuando | 4h | Giovanni | Complete |
+| US23 | T1 | Implementar el servicio de calificaciones | Desarrollar los métodos POST para que los tutores califiquen las notas de sus estudiantes. | 3h | Miguel | Complete |
+| US24 | T1 | Implementar seguridad | Desarrollar el uso de tokens para el uso de los servicios. | 3h | Jonatan | Complete |
+
+## 5.2.4.3. Development Evidence for Sprint Review
+
+### Aplicaciones-Web-SW53-Grupo-1/Web-Application
+| Repository                                      | Branch         | Commit Id                                 | Commit Message                                       | Commit Message Body                                      | Committed On |
+|-------------------------------------------------|-----------------|-------------------------------------------|-------------------------------------------------------|----------------------------------------------------------|--------------|
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | fix/studentlist | 4b7810acd1fc55e649365cf62a2dee3bcee748b8  | fix(studentlist): fix studentlist and studenlistview   | Se corrigió la lista de estudiantes y la vista de la lista de estudiantes. | 15/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | fix/tutorlist    | 52edb77e8ece330e52f63e6db0c9a2daf496069f  | fix(tutorlist): made tutorlist and tutorlistview responsive | Se hizo la lista de tutores y la vista de la lista de tutores responsivas. | 15/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | feature/chat    | 6627964928b00623da0f251b491fd656a288d586  | fix(chat):fix chat component & make responsive         | Se corrigió el componente de chat y se hizo responsivo.   | 17/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | fix/score        | 8054f422c47814d3879031f641982f0363a5b03c  | fix(score): fix score, scoreview, routing and db.json   | Se corrigió el puntaje, la vista de puntaje, la ruta y el archivo db.json. | 17/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | fix/score        | d23a0bd1fb2c60ed47fc223ebd7ba3db314d1ad9  | fix(score): made responsive score                      | Se hizo responsivo el componente de puntaje.             | 17/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | fix/tutor-chat   | 5a17cf0af2186a09daf4d0b59e5a40fc8e265528  | fix(tutor-chat):fix tutor chat to be responsive       | Se corrigió el chat de tutor para que sea responsivo.    | 20/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/Web-Application    | develop         | 5efee3999eaa66be5919f07cb109a808b72b812c  | feat(selectedstudent):fix scoreview routing          | Se añadió la característica de selección de estudiante y se corrigió la ruta de la vista de puntaje. | 20/11/23     |
+
+### Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
+| Repository                                       | Branch         | Commit Id                                 | Commit Message                                | Commit Message Body                         | Committed On |
+|--------------------------------------------------|-----------------|-------------------------------------------|-----------------------------------------------|---------------------------------------------|--------------|
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | fix/score       | 48ba2a7ac5571bd8919a4ebac2cb5836350d75ad  | fix(score): fix score                          | Se corrigió el puntaje.                      | 17/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | fix/scorerequest | 35e2867286696a7346ef9e587749e23538fd32cb | fix(scorerequest): fix score request and score response. | Se corrigió la solicitud y la respuesta de puntaje. | 17/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | fix/reviews     | c8615a83f499621a866e94b6045ef2c3026d0d99  | fix/reviews:fix review back                   | Se corrigió la retroalimentación.           | 19/11/23     |
+| Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend | fix/schedule    | d2d1e92f511f59398a3c852c6ff4315d0b17f6ba  | fix:update database and post                   | Se actualizó la base de datos y la publicación. | 19/11/23     |
+
+## 5.2.4.4 Testing Suite Evidence for Sprint Review
+
+Para esta entrega se realizaron los testeos tanto para la capa de Domain como para la capa Api, en los controladores.
+
+Obteniendo los siguientes resultados:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1176411543416606750/image.png?ex=656ec5a0&is=655c50a0&hm=b8d825179542b7a917ddf46f494dbd66674c298b040dcfd20060e83d1a3af03f&">
+
+Por ejemplo tenemos los siguientes test para el controlador de estudiantes:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1176411780327690240/image.png?ex=656ec5d9&is=655c50d9&hm=c5d7475f8c8870510c2391d7c95caebe9842a6cbe937abc4cc31e40ca135416c&">
+
+Asimismo para la capa de Domain:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1176412169152249906/image.png?ex=656ec635&is=655c5135&hm=38fe4362f12c2a501304779ca2fb3c9dbcfe4d4fdb029222b0ec82be050f5803&">
+
+## 5.2.4.5 Execution evidence for sprint review
+
+
+Para esta sección del informe vamos a mostrar los cambios que hicimos con respecto a nuestro front end para esta entrega, los cambios para esta entrega son los componentes de chat tutor como chat de estudiante
+
+<img src="https://cdn.discordapp.com/attachments/1149190529200955454/1176360376712048750/image.png?ex=656e95f9&is=655c20f9&hm=c175a372ee2476982bac762f719a5f02900af675b1ea4c96be4e9daa4a60720a&">
+Ahora paso de ser solo un componente en estado de solo ser visual como en las entregas anteriores a pasar a ser una vista responsive ahora se puede escribir y saldra el nombre del usuario como tambien la hora en la que el mensaje fue entregado el chat va creciendo conforme se vaya escribiendo en el.
+
+<img src="https://cdn.discordapp.com/attachments/1149190529200955454/1176360442042515467/image.png?ex=656e9609&is=655c2109&hm=866d4aa5988596b71cb791971773d4c6a6d88ac32adea075b248f65e8166f62b&">
+Como se puede apreciar en los dos casos tanto como estudiante como de tutor el chat ya funciona y deja de ser una apartado solo visual.
+
+## 5.2.4.6 Services Documentation Evidence for Sprint Review
+
+Para esta entrega se implementaron y mejoraron todos los servicio de la aplicación web:
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1176411045384962099/image.png?ex=656ec529&is=655c5029&hm=3b8e6bf275b65942db396479b53f4630fca3c8d1e84e1e8db3f31ef9ec31d01f&">
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1176411073209974865/image.png?ex=656ec530&is=655c5030&hm=67a80130d1212e140578d2202e7aa01cff92efd3f0941f2425c22dcc937c7fd0&">
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1176411112607064134/image.png?ex=656ec539&is=655c5039&hm=e2fd1deba1167c399e5a38f5406c83139f8428366dffa255e4fd48e890d2b7a6&">
+
+## 5.2.4.7 Software Deployment Evidence for Sprint Review
+
+Para esta entrega logramos nuestra base de datos en freemysqlhosting.
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1176409232497709118/image.png?ex=656ec379&is=655c4e79&hm=585e737a9f569edc426a8bac00e1f474f7bb1d31227c13de6c61a688dbfa4f26&">
+
+Asimismo el backend fue desplegado en Azure
+
+<img src="https://cdn.discordapp.com/attachments/752309071595569272/1176409651307364372/image.png?ex=656ec3dd&is=655c4edd&hm=0b04b8b9ea7b4d78509a6bad2fb3a16a9cffed7c86b71483820323e5cb54b918&">
+
+Por medio de github logramos ver que se desplegó con exito
+
+<img src="https://media.discordapp.net/attachments/752309071595569272/1176409818035134525/image.png?ex=656ec405&is=655c4f05&hm=0b6175193ba7b9f4938cfceac7cbeb02202a03deb07a121f44864ae8c3d51869&=&width=1200&height=369">
+
+## 5.2.4.8 Team Collaboration Insights during Sprint
+
+Para realizar nuestro prototipo, hemos seguido las directrices de negocio como referencia para implementar los servicios web. Además, para la creación del back-end de la aplicación, hemos empleado un repositorio en GitHub. Gracias al flujo de trabajo Gitflow, hemos llevado a cabo el desarrollo de manera conjunta, evidenciado por los diversos commits registrados en el repositorio, los cuales están disponibles en las capturas de pantalla adjuntas.
+
+<img src="https://cdn.discordapp.com/attachments/624357483116232707/1176379385343905862/image.png?ex=656ea7ad&is=655c32ad&hm=0c7fe06f1e62d0a54c96a17a60955686724decd6450ab86818e639fa0f518e5a&">
+
+<img src ="https://cdn.discordapp.com/attachments/624357483116232707/1176379542881980436/image.png?ex=656ea7d3&is=655c32d3&hm=357ee4294b6bb2aa12bae7d2148f4481d90ea3d3ad6c1438516bc632d893a591&">
+
+
+Link de repositorio del backend:
+https://github.com/Aplicaciones-Web-SW53-Grupo-1/study-mentor-backend
+
+Link de repositorio del frontend: https://github.com/Aplicaciones-Web-SW53-Grupo-1/Web-Application
 
 ## 5.3 Validation Interviews
 ## 5.3.1. Diseño de Entrevistas
@@ -3109,11 +3242,3 @@ A los usuarios marcados como estudiantes se les muestra contenido y funcionalida
 - **Heurística Violada:** Usabilidad - Consistencia y estándares
 - **Descripción:**
 En la sección de calificaciones, falta un botón o función para que los usuarios puedan regresar a la página anterior o a la vista anterior. La ausencia de esta funcionalidad puede parecer una omisión menor, pero puede afectar negativamente la experiencia del usuario, especialmente si están revisando múltiples calificaciones o desean volver atrás para comparar información. La falta de un botón de "Volver" puede llevar a una experiencia de usuario menos eficiente y más frustrante, ya que los usuarios deben depender del botón de retroceso del navegador o de otras formas de navegación para regresar a la página anterior.
-
-## Conclusiones
-
-<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117580025278474/image.png?ex=65177139&is=65161fb9&hm=16132f2cda32bc9277bd13f3cf815a9e2d2d6ad877549af447af01bc3cccf527&">
-
-<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117732307882055/image.png?ex=6517715d&is=65161fdd&hm=25b1a25d76ec9f049267c0d9f8164801231d38808c1fe75bc2a2447317214338&">
-
-<img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117758476136599/image.png?ex=65177163&is=65161fe3&hm=7e783f9e8b5335a3565263b51ccdfa87dbb535e0e4551730cfa8121cb2e00bcc&">
