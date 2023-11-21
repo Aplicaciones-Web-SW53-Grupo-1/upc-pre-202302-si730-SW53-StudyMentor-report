@@ -3184,3 +3184,17 @@ En la sección de calificaciones, falta un botón o función para que los usuari
 <img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117732307882055/image.png?ex=6517715d&is=65161fdd&hm=25b1a25d76ec9f049267c0d9f8164801231d38808c1fe75bc2a2447317214338&">
 
 <img src="https://cdn.discordapp.com/attachments/752309071595569272/1157117758476136599/image.png?ex=65177163&is=65161fe3&hm=7e783f9e8b5335a3565263b51ccdfa87dbb535e0e4551730cfa8121cb2e00bcc&">
+
+
+
+
+## 5.2.4.5 Execution evidence for sprint review
+
+
+Para esta sección del informe vamos a mostrar los cambios que hicimos con respecto a nuestro front end para esta entrega, los cambios para esta entrega son los componentes de chat tutor como chat de estudiante
+
+<img src="https://cdn.discordapp.com/attachments/1149190529200955454/1176360376712048750/image.png?ex=656e95f9&is=655c20f9&hm=c175a372ee2476982bac762f719a5f02900af675b1ea4c96be4e9daa4a60720a&">
+Ahora paso de ser solo un componente en estado de solo ser visual como en las entregas anteriores a pasar a ser una vista responsive ahora se puede escribir y saldra el nombre del usuario como tambien la hora en la que el mensaje fue entregado el chat va creciendo conforme se vaya escribiendo en el.
+
+<img src="https://cdn.discordapp.com/attachments/1149190529200955454/1176360442042515467/image.png?ex=656e9609&is=655c2109&hm=866d4aa5988596b71cb791971773d4c6a6d88ac32adea075b248f65e8166f62b&">
+Como se puede apreciar en los dos casos tanto como estudiante como de tutor el chat ya funciona y deja de ser una apartado solo visual.
